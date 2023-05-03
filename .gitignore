@@ -1,0 +1,6 @@
+.env/
+__pycache__/
+api/.DS_Store
+api/data/.DS_Store
+
+.webassets-cache

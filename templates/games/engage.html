@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% block content %}
+<!-- <div id="game-page-content"> -->
+    <div class="btn-group sub">
+        <div class="btn selected">Characters</div>
+        <div class="btn">Weapons</div>
+        <div class="btn">Items & Material</div>
+        <div class="btn">Ally Notebook</div>
+    </div>
+    <div class="search-input-wrapper" style="display: none;">
+        <input name="search" type="text">
+    </div>
+    
+    <div id="character-navbar" class="info-navbar">
+        {% for idx, character in enumerate(character_data) %}
+            {% set css = "btn" %}
+            {% if idx == 0 %}
+            {% set css = "btn selected" %}
+            {% endif %}
+            <div class="{{css}} character" name="{{character['name'].replace('\u00e9','e').lower()}}">{{ character["name"] }}</div>
+        {% endfor %}
+    </div>
+
+    <div id="character-content" class="info-content">
+
+    </div>
+    <!-- <div id="info-container">
+        <div id="character-navbar" class="info-navbar">
+            {% for idx, character in enumerate(character_data) %}
+                {% set css = "btn" %}
+                {% if idx == 0 %}
+                {% set css = "btn selected" %}
+                {% endif %}
+                <div class="{{css}} character" name="{{character['name'].replace('\u00e9','e').lower()}}">{{ character["name"] }}</div>
+            {% endfor %}
+        </div>
+
+        <div id="character-content" class="info-content">
+
+        </div>
+
+
+    </div> -->
+
+<!-- </div> -->
+{% endblock content %}
