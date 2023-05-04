@@ -10,18 +10,10 @@ $app-purple: rgb(137, 95, 255);
 
 body {
     margin: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    // font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     @media screen and (min-width: 768px) {
-        // position: absolute;
-        // top:0; 
-        // left: 0; 
-        // bottom: 0;
-        // right: 0;
-        // overflow-y: clip;
-        // height: 100vh;
-
-        // height: 100vh;
-        // overflow-y: auto;
+        height: 100vh;
     }
 }
 
@@ -82,43 +74,130 @@ a {
     justify-items: center;
     &.gm-page {
         color: #000;
-        // color: rgb(118, 118, 118)
     }
     &:hover {
         color: $emblem-blue;
     }
 }
 
-// #base-content {
-    
-//     margin-left: 1rem;
-//     margin-right: 1rem;
-// }
-
-// #game-page-content {
 #base-content {
     display: grid;
     margin-left: 1rem;
     margin-right: 1rem;
 
-    // #info-container {
-    //     display: grid;
-    //     grid-template-columns: max-content auto;
-    // }
-
+    @media screen and (min-width: 768px) {
+        position: absolute;
+        top: 62px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    @media screen and (min-width: 768px) {
+        .visuals-wrapper {
+            height: 100%;
+            display: grid;
+            grid-template-columns: max-content auto;
+            overflow-y: hidden;
+        }
         .info-navbar {
+            position: relative;
+            height: 90%;
+            overflow-y: scroll;
+            top: 0px;
+            width: max-content;
+            align-self: center;
             .btn {
-                color: $emblem-blue;
                 width: 90px;
-                &.selected, &:hover {
-                    background-color: $emblem-lightblue;
+            }
+        }
+        .info-content {
+            display: grid;
+            position: relative;
+            height: 90%;
+            overflow: clip;
+            top: 0;
+            align-self: center;
+            padding: 0 1rem;
+        }
+
+        #character-content {
+            display: grid;
+            grid-template-columns: auto;
+            #image-and-info {
+                display: grid;
+                grid-template-columns: max-content auto;
+                grid-template-rows: max-content;
+                #character-image {
+                    img {
+                        width: 200px;
+                        opacity: 0.3;
+                    }
                 }
+                #character-info {
+                    display: grid;
+                    grid-template-rows: auto auto;
+                    #name {
+                        font-size: 30px;
+                        justify-self: left;
+                        align-self: center;
+                    }
+                    #info {
+                        font-size: 20px;
+                        align-self: center;
+                        .lblval{
+                            display: grid;
+                            grid-template-columns: 100px auto;
+                            .lbl, .val {
+                                padding: 5px;
+                            }
+                            .lbl {
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                }
+                // #character-info {
+                //     display: grid;
+                //     grid-template-rows: max-content auto;
+                    
+                //     #character-name { 
+                //         font-size: 30px;
+                //         justify-self: center;
+                //     }
+                //     #base-stats {
+                //         display: grid;
+                //         grid-template-columns: max-content auto;
+                //         align-content: baseline;
+                //         .stat-col {
+                //             font-size: 12px;
+                //             display: grid;
+                //             grid-template-columns: max-content auto;
+                //             div {
+                //                 padding: 3px 5px;
+                //             }                            
+                //             div.lbl { font-weight: bold; }
+
+                //         }
+                //     }
+
+                // }
             }
         }
 
-        .info-content {
-            display: grid;
+    }
+
+    .info-navbar {
+        .btn {
+            color: $emblem-blue;
+            &.selected, &:hover {
+                background-color: $emblem-lightblue;
+            }
         }
+    }
+
+    .info-content {
+        display: grid;
+    }
 
 }
 

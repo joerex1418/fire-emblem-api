@@ -1,6 +1,11 @@
 body {
   margin: 0;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+    Geneva, Verdana, sans-serif; }
+  @media screen and (min-width: 768px) {
+    body {
+      height: 100vh;   }
+}
 
 a {
   color: unset;
@@ -55,9 +60,68 @@ a {
   display: grid;
   margin-left: 1rem;
   margin-right: 1rem; }
+  @media screen and (min-width: 768px) {
+    #base-content {
+      position: absolute;
+      top: 62px;
+      bottom: 0;
+      left: 0;
+      right: 0;   }
+}
+    @media screen and (min-width: 768px) {
+      #base-content .visuals-wrapper {
+        height: 100%;
+        display: grid;
+        grid-template-columns: max-content auto;
+        overflow-y: hidden;   }
+        #base-content .info-navbar {
+          position: relative;
+          height: 90%;
+          overflow-y: scroll;
+          top: 0px;
+          width: max-content;
+          align-self: center;   }
+          #base-content .info-navbar .btn {
+            width: 90px;   }
+      #base-content .info-content {
+        display: grid;
+        position: relative;
+        height: 90%;
+        overflow: clip;
+        top: 0;
+        align-self: center;
+        padding: 0 1rem;   }
+        #base-content #character-content {
+          display: grid;
+          grid-template-columns: auto;   }
+          #base-content #character-content #image-and-info {
+            display: grid;
+            grid-template-columns: max-content auto;
+            grid-template-rows: max-content;   }
+            #base-content #character-content #image-and-info #character-image img {
+              width: 200px;
+              opacity: 0.3;   }
+            #base-content #character-content #image-and-info #character-info {
+              display: grid;
+              grid-template-rows: auto auto;   }
+              #base-content #character-content #image-and-info #character-info #name {
+                font-size: 30px;
+                justify-self: left;
+                align-self: center;   }
+                #base-content #character-content #image-and-info #character-info #info {
+                  font-size: 20px;
+                  align-self: center;   }
+                  #base-content #character-content #image-and-info #character-info #info .lblval {
+                    display: grid;
+                    grid-template-columns: 100px auto;   }
+                    #base-content #character-content #image-and-info #character-info #info .lblval .lbl,
+                    #base-content #character-content #image-and-info #character-info #info .lblval .val {
+                      padding: 5px;   }
+                      #base-content #character-content #image-and-info #character-info #info .lblval .lbl {
+                        font-weight: bold;   }
+}
   #base-content .info-navbar .btn {
-    color: #0075dc;
-    width: 90px; }
+    color: #0075dc; }
     #base-content .info-navbar .btn.selected, #base-content .info-navbar .btn:hover {
       background-color: #c5e4ff; }
   #base-content .info-content {

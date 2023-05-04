@@ -5,6 +5,7 @@ ACCENT_E = '\u00e9'
 LONG_HYPHEN = '\u2014'
 
 CHARACTER_NAME_MAP = {
+    "Alear": "Alear",
     "Alcryst": "Alcryst",
     "Alfred": "Alfred",
     "Amber": "Amber",

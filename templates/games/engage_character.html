@@ -1,0 +1,58 @@
+{% set base = data['base'] %}
+{% set other = data['other'] %}
+<div id="image-and-info">
+    <div id="character-image">
+        <img src="{{data['image_path']}}" alt="">
+    </div>
+    <div id="character-info">
+        <div id="name">{{ CHARACTER_NAME_MAP[other["name"]] }}</div>
+        <div id="info">
+            <div class="lblval">
+                <div class="lbl">Gender</div>
+                <div class="val">{{ other["gender"] }}</div>
+            </div>
+            <div class="lblval">
+                <div class="lbl">Age</div>
+                <div class="val">{{ other["age"] }}</div>
+            </div>
+            <div class="lblval">
+                <div class="lbl">Birthday</div>
+                <div class="val">{{ other["birthday"] }}</div>
+            </div>
+        </div>
+    </div>
+    <!-- <div id="base-stats">
+        <div class="stat-col">
+            <div class="lbl">HP</div>
+            <div>{{ base['hp'] }}</div>
+
+            <div class="lbl">Bld</div>
+            <div>{{ base['bld'] }}</div>
+
+            <div class="lbl">Str</div>
+            <div>{{ base['str'] }}</div>
+
+            <div class="lbl">Mag</div>
+            <div>{{ base['mag'] }}</div>
+
+            <div class="lbl">Dex</div>
+            <div>{{ base['dex'] }}</div>
+
+            <div class="lbl">Spd</div>
+            <div>{{ base['spd'] }}</div>
+            
+            <div class="lbl">Def</div>
+            <div>{{ base['def'] }}</div>
+            
+            <div class="lbl">Res</div>
+            <div>{{ base['res'] }}</div>
+            
+            <div class="lbl">Lck</div>
+            <div>{{ base['lck'] }}</div>
+            
+            <div class="lbl">Mov</div>
+            <div>{{ base['mov'] }}</div>
+        </div>
+    </div> -->
+</div>
+

@@ -12,6 +12,7 @@ function characterSelect(e) {
         let name = element.getAttribute("name")
         if (selected_name == name) {
             element.classList.add("selected")
+            viewCharacterData(selected_name)
         } else {
             element.classList.remove("selected")
         }
@@ -19,8 +20,12 @@ function characterSelect(e) {
     });
 }
 
-function viewCharacterData(e) {
-    
+function viewCharacterData(selected_name) {
+    fetch("/api/engage?" + new URLSearchParams({
+        "get":"character_data","name":selected_name
+    })).then((response) => {return response.json();}).then(data => {
+        document.getElementById("character-content").innerHTML = data["html"]
+    })
 }
 
 // Add event listener
