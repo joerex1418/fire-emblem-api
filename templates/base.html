@@ -10,14 +10,12 @@
     <link rel="stylesheet" type="text/css" href="{{ ASSET_URL }}">
     {% endassets %}
     
-    <title>{{ title|default("Fire Emblem: Engage") }}</title>
+    <title>{{ title|default("Untitled FE app") }}</title>
 </head>
 <body>
-    {% include 'snippets/navbar.html' %}
+    {% block banner %}{% endblock banner %}
     <div id="base-content">
-    {% block content %}
-
-    {% endblock content %}
+        {% block content %}{% endblock content %}
     </div>
     <!-- Load static JavaScript files here -->
     <script src="{{ url_for('static', filename='main.js') }}"></script>

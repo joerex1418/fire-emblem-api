@@ -166,7 +166,8 @@ def _add_missing_keys(row_data:dict):
             
     return row_data
 
-class weapons:
+
+class Weapons:
     @staticmethod
     def swords() -> typing.List[typing.Dict]:
         r = requests.get("https://serenesforest.net/engage/weapons-items/swords/")
@@ -497,6 +498,371 @@ class weapons:
         return data
 
 
+def _weapon_data_fandom():
+    headers = {"user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/112.0"}
+    url = "https://fireemblem.fandom.com/wiki/List_of_weapons_in_Fire_Emblem_Engage"
+    
+    r = requests.get(url,headers=headers)
+    soup = bs4.BeautifulSoup(r.text,"html.parser")
+    
+    weapon_types = ("Swords","Lances","Axes","Bows","Magic","Knives","Arts","Staves","Special")
+    weapon_types_single = ("Sword","Lance","Axe","Bow","Magic","Knife","Art","Stave","Special")
+    
+    weapon_type_keys = {k:v for k,v in zip(weapon_types,weapon_types_single)}
+    
+    data = []
+    
+    for weapon_type in weapon_types:
+        span_tag = soup.find("span",attrs={"id":weapon_type})
+        table: bs4.Tag = span_tag.find_next("table")
+        tr:bs4.Tag
+        weapon_type_key = weapon_type_keys[weapon_type]
+        for tr_idx, tr in enumerate(table.find_all("tr")):
+            if tr_idx == 0: continue
+            children = tr.find_all("th") + tr.find_all("td")
+            
+            icon_url, icon_name = None, None
+            a_tag: bs4.Tag = children[0].find("a")
+            if isinstance(a_tag,bs4.Tag):
+                icon_url = a_tag.get("href")
+                
+                icon_name = a_tag.find("img").get("data-image-key","")
+                icon_name = icon_name.replace(".png","").strip()
+            
+            if weapon_type_key == "Stave":
+                name = children[1].text.strip()
+                rank = children[2].text.strip()
+                rng = children[3].text.strip()
+                uses = children[4].text.strip()
+                if not uses.isdigit():
+                    uses = "-"
+                wt = None
+                mt = children[5].text.strip()
+                hit = children[6].text.strip()
+                crit = None
+                price = children[7].text.strip()
+                effects = children[8].text.strip()
+            else:
+                name = children[1].text.strip()
+                rank = children[2].text.strip()
+                rng = children[3].text.strip()
+                uses = None
+                wt = children[4].text.strip()
+                mt = children[5].text.strip()
+                hit = children[6].text.strip()
+                crit = children[7].text.strip()
+                price = children[8].text.strip()
+                effects = children[9].text.strip()
+            
+            data.append({
+                "name": name,
+                "type": weapon_type_key,
+                "rank": rank,
+                "rng": rng,
+                "wt": wt,
+                "mt": mt,
+                "hit": hit,
+                "crit": crit,
+                "uses": uses,
+                "price": price,
+                "effect": effects,
+                "icon_name": icon_name,
+                "icon_url": icon_url,
+            })
+    
+    # Hliðskjálf
+    
+    for d in data:
+        icon_name:str = d["icon_name"]
+        icon_name = icon_name.replace(".png","")
+        icon_name = icon_name.replace("%26amp%3B","And")
+        icon_name = icon_name.replace("%C3%BA","u")
+        icon_name = icon_name.replace("%C3%B3","o")
+        icon_name = icon_name.replace("%C3%B0","o")
+        icon_name = icon_name.replace("%C3%89","E")
+        icon_name = icon_name.replace("%C3%A1","a")
+        icon_name = icon_name.replace("%C3%A9","e") 
+        icon_name = icon_name.replace("%27","")
+        icon_name = icon_name.replace("%21","")
+        icon_name = icon_name.replace("%2A","")
+        icon_name = icon_name.replace("FE17","")
+        icon_name = icon_name.replace("Sprite","")
+        icon_name = icon_name.strip()
+        if "%2B" in icon_name:
+            ct = icon_name.count("%2B")
+            icon_name = icon_name.replace("%2B","").strip()
+            icon_name = f"{icon_name}_{ct}"
+        
+        d["icon_name"] = icon_name
+        
+        effect = d["effect"]
+        d["effect"] = effect.replace("\u00a0"," ")
+    
+        for key in ("mt","hit","crit","wt","price"):
+            if str(d[key]).isdigit():
+                d[key] = int(d[key])
+    
+    return data
+
+def _skills_data_fandom():
+    headers = {"user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/112.0"}
+    url = "https://fireemblem.fandom.com/wiki/List_of_Skills_in_Fire_Emblem_Engage"
+    
+    r = requests.get(url,headers=headers)
+    soup = bs4.BeautifulSoup(r.text,"html.parser")
+    
+    skill_types = {0: "personal", 1: "class", 2: "emblem", 3: "sync", 4: "engage", 5: "engage_attacks", 6: "bond_ring", 7: "enemy"}
+    
+    skills = {}
+    personal_skills = []
+    class_skills = []
+    emblem_skills = []
+    sync_skills = []
+    engage_skills = []
+    engage_attacks = []
+    bond_ring_skills = []
+    enemy_skills = []
+    
+    table:bs4.Tag
+    for table_idx, table in enumerate(soup.find_all("table",class_="wikitable")):    
+        if table_idx == 0:
+            skill_type = skill_types.get(table_idx,"")
+            for tr in table.find_all("tr"):
+                if tr.find("th"): continue
+                
+                all_tds: typing.List[bs4.Tag] = tr.find_all("td")
+                icon_url = None
+                icon_name = None
+                if all_tds[0].find("a"):
+                    icon_url = all_tds[0].find("a").get("href").strip()
+                    icon_name = all_tds[0].find("a").find("img").get("data-image-key","")
+                    icon_name = icon_name.replace(".png","").replace("-","_").strip()
+                    icon_name = icon_name.replace("FE17","").replace("Icon","").strip("_").strip()
+                    
+                    skill_name = all_tds[1].text.strip()
+                    character = all_tds[2].text.strip()
+                    effect = all_tds[3].text.strip()
+                    
+                    personal_skills.append({
+                        "skill": skill_name,
+                        "character": character,
+                        "effect": effect,
+                        "type": skill_type,
+                        "icon_url": icon_url,
+                        "icon_name": icon_name
+                    })
+        elif table_idx == 1:
+            skill_type = skill_types.get(table_idx,"")
+            for tr in table.find_all("tr"):
+                if tr.find("th"): continue
+                
+                all_tds: typing.List[bs4.Tag] = tr.find_all("td")
+                icon_url = None
+                icon_name = None
+                if all_tds[0].find("a"):
+                    icon_url = all_tds[0].find("a").get("href").strip()
+                    icon_name = all_tds[0].find("a").find("img").get("data-image-key","")
+                    icon_name = icon_name.replace(".png","").replace("-","_")
+                    icon_name = icon_name.replace("FE17","").replace("Icon","").strip("_").strip()
+                    
+                    skill_name = all_tds[1].text.strip()
+                    class_name = all_tds[2].text.strip()
+                    effect = all_tds[3].text.strip()
+                    
+                    class_skills.append({
+                        "skill": skill_name,
+                        "class": class_name,
+                        "effect": effect,
+                        "type": skill_type,
+                        "icon_url": icon_url,
+                        "icon_name": f"{icon_name}.png"
+                    })
+        elif table_idx == 2:
+            skill_type = skill_types.get(table_idx,"")
+            for tr in table.find_all("tr"):
+                if tr.find("th"): continue
+                
+                all_tds: typing.List[bs4.Tag] = tr.find_all("td")
+                icon_url = None
+                icon_name = None
+                if all_tds[0].find("a"):
+                    icon_url = all_tds[0].find("a").get("href").strip()
+                    icon_name = all_tds[0].find("a").find("img").get("data-image-key","")
+                    icon_name = icon_name.replace(".png","").replace("-","_").strip()
+                    icon_name = icon_name.replace("FE17","").replace("Icon","").strip("_").strip()
+                    
+                    skill_name = all_tds[1].text.strip()
+                    emblem_name = all_tds[2].text.strip()
+                    effect = all_tds[3].text.strip()
+                    
+                    emblem_skills.append({
+                        "skill": skill_name,
+                        "emblem": emblem_name,
+                        "effect": effect,
+                        "type": skill_type,
+                        "icon_url": icon_url,
+                        "icon_name": f"{icon_name}.png"
+                    })
+        elif table_idx == 3:
+            skill_type = skill_types.get(table_idx,"")
+            for tr in table.find_all("tr"):
+                if tr.find("th"): continue
+                
+                all_tds: typing.List[bs4.Tag] = tr.find_all("td")
+                icon_url = None
+                icon_name = None
+                if all_tds[0].find("a"):
+                    icon_url = all_tds[0].find("a").get("href").strip()
+                    icon_name = all_tds[0].find("a").find("img").get("data-image-key","")
+                    icon_name = icon_name.replace(".png","").replace("-","_").strip()
+                    icon_name = icon_name.replace("FE17","").replace("Icon","").strip("_").strip()
+                    
+                    skill_name = all_tds[1].text.strip()
+                    emblem_name = all_tds[2].text.strip()
+                    effect = all_tds[3].text.strip()
+                    
+                    sync_skills.append({
+                        "skill": skill_name,
+                        "emblem": emblem_name,
+                        "effect": effect,
+                        "type": skill_type,
+                        "icon_url": icon_url,
+                        "icon_name": f"{icon_name}.png"
+                    })
+        elif table_idx == 4:
+            skill_type = skill_types.get(table_idx,"")
+            for tr in table.find_all("tr"):
+                if tr.find("th"): continue
+                
+                all_tds: typing.List[bs4.Tag] = tr.find_all("td")
+                icon_url = None
+                icon_name = None
+                if all_tds[0].find("a"):
+                    icon_url = all_tds[0].find("a").get("href").strip()
+                    icon_name = all_tds[0].find("a").find("img").get("data-image-key","")
+                    icon_name = icon_name.replace(".png","").replace("-","_").strip()
+                    icon_name = icon_name.replace("FE17","").replace("Icon","").strip("_").strip()
+                    
+                    skill_name = all_tds[1].text.strip()
+                    emblem_name = all_tds[2].text.strip()
+                    effect = all_tds[3].text.strip()
+                    
+                    engage_skills.append({
+                        "skill": skill_name,
+                        "emblem": emblem_name,
+                        "effect": effect,
+                        "type": skill_type,
+                        "icon_url": icon_url,
+                        "icon_name": f"{icon_name}.png"
+                    })
+        elif table_idx == 5:
+            skill_type = skill_types.get(table_idx,"")
+            for tr in table.find_all("tr"):
+                if tr.find("th"): continue
+                
+                all_tds: typing.List[bs4.Tag] = tr.find_all("td")
+                icon_url = None
+                icon_name = None
+                if all_tds[0].find("a"):
+                    icon_url = all_tds[0].find("a").get("href").strip()
+                    icon_name = all_tds[0].find("a").find("img").get("data-image-key","")
+                    icon_name = icon_name.replace(".png","").replace("-","_").strip()
+                    icon_name = icon_name.replace("FE17","").replace("Icon","").strip("_").strip()
+                    
+                    skill_name = all_tds[1].text.strip()
+                    emblem_name = all_tds[2].text.strip()
+                    effect = all_tds[3].text.strip()
+                    
+                    engage_attacks.append({
+                        "skill": skill_name,
+                        "emblem": emblem_name,
+                        "effect": effect,
+                        "type": skill_type,
+                        "icon_url": icon_url,
+                        "icon_name": f"{icon_name}.png"
+                    })
+        elif table_idx == 6:
+            skill_type = skill_types.get(table_idx,"")
+            for tr in table.find_all("tr"):
+                if tr.find("th"): continue
+                
+                all_tds: typing.List[bs4.Tag] = tr.find_all("td")
+                icon_url = None
+                icon_name = None
+                if all_tds[0].find("a"):
+                    icon_url = all_tds[0].find("a").get("href").strip()
+                    icon_name = all_tds[0].find("a").find("img").get("data-image-key","")
+                    icon_name = icon_name.replace(".png","").replace("-","_").strip()
+                    icon_name = icon_name.replace("FE17","").replace("Icon","").strip("_").strip()
+                    
+                    skill_name = all_tds[1].text.strip()
+                    bond_ring_name = all_tds[2].text.strip()
+                    effect = all_tds[3].text.strip()
+                    
+                    bond_ring_skills.append({
+                        "skill": skill_name,
+                        "bond_ring": bond_ring_name,
+                        "effect": effect,
+                        "type": skill_type,
+                        "icon_url": icon_url,
+                        "icon_name": f"{icon_name}.png"
+                    })
+        elif table_idx == 7:
+            skill_type = skill_types.get(table_idx,"")
+            for tr in table.find_all("tr"):
+                if tr.find("th"): continue
+                
+                all_tds: typing.List[bs4.Tag] = tr.find_all("td")
+                icon_url = None
+                icon_name = None
+                if all_tds[0].find("a"):
+                    icon_url = all_tds[0].find("a").get("href").strip()
+                    icon_name = all_tds[0].find("a").find("img").get("data-image-key","")
+                    icon_name = icon_name.replace(".png","").replace("-","_").strip()
+                    icon_name = icon_name.replace("FE17","").replace("Icon","").strip("_").strip()
+                    
+                    skill_name = all_tds[1].text.strip()
+                    effect = all_tds[2].text.strip()
+                    
+                    enemy_skills.append({
+                        "skill": skill_name,
+                        "effect": effect,
+                        "type": skill_type,
+                        "icon_url": icon_url,
+                        "icon_name": f"{icon_name}.png"
+                    })
+    
+    skills["personal"] = personal_skills
+    skills["class"] = class_skills
+    skills["emblem"] = emblem_skills
+    skills["sync"] = sync_skills
+    skills["engage"] = engage_skills
+    skills["engage_attacks"] = engage_attacks
+    skills["bond_ring"] = bond_ring_skills
+    skills["enemy"] = enemy_skills
+    
+    for key,val in skills.items():
+        for v in val:
+            icon_name:str = v["icon_name"]
+            icon_name = icon_name.replace(".png","")
+            icon_name = icon_name.replace("%26amp%3B","And")
+            icon_name = icon_name.replace("%27","")
+            icon_name = icon_name.replace("%21","")
+            icon_name = icon_name.replace("%2A","")
+            if "%2B" in icon_name:
+                ct = icon_name.count("%2B")
+                icon_name = icon_name.replace("%2B","").strip()
+                icon_name = f"{icon_name}_{ct}"
+            v["icon_name"] = icon_name
+                
+            effect:str = v["effect"]
+            v["effect"] = effect.replace("\u00a0"," ")
+    
+    return skills
+                    
+      
+
+
 def items() -> typing.List[typing.Dict]:
     r = requests.get("https://serenesforest.net/engage/weapons-items/items/")
     soup = bs4.BeautifulSoup(r.text,"html.parser")
@@ -752,3 +1118,10 @@ def _get_character_images():
             name = name.replace(ACCENT_E,"e")
             imgpath = datapath.joinpath("engage","images","characters",f"{name}.jpg")
             urllib.request.urlretrieve(url, imgpath)
+            
+
+            
+            
+        
+        
+    

@@ -1,4 +1,9 @@
-
+# %C3%89 # É
+# %C3%A1 # á
+# %C3%A9 # é
+# %C3%B0 # ð
+# %C3%B3 # ó
+# %C3%BA # ú 
 
 # '\u00e9' = 'é'
 ACCENT_E = '\u00e9'
@@ -42,6 +47,7 @@ CHARACTER_NAME_MAP = {
     "Veyle": "Veyle",
     "Yunaka": "Yunaka",
     "Zelkov": "Zelkov",
+    "Eve": "Ève",
 }
 
 CHARACTER_STATS = ["hp","str","mag","dex","spd","def","res","lck","bld","mov"]
@@ -64,3 +70,7 @@ STAT_MAP = {
     "rng": "Rng",
     "lvl": "Lvl",
 }
+
+
+
+

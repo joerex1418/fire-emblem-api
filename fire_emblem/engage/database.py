@@ -15,9 +15,8 @@ engage_datapath = pathlib.Path(__file__).parent.parent.joinpath("data","engage")
 def adapt_json(_json:typing.Union[list,dict]):
     return str(_json)
 def convert_json(s:bytes):
-    # s = repr(s.decode("utf-8"))
-    # s = s.replace("'",'"')
     s = s.decode("utf-8").replace("'",'"')
+    s = s.replace("None","null")
     return json.loads(s)
 sqlite3.register_adapter(dict, adapt_json)
 sqlite3.register_adapter(list, adapt_json)
@@ -76,12 +75,25 @@ def character_base_stats_table():
         
         conn.commit()
 
-def character_base_stats() -> typing.List[typed_rows._CharacterBaseStat]:
+def character_base_stats(character_name:str=None) -> typing.List[typed_rows._CharacterBaseStat]:
     """
     Get character base stats.
     """
     with db_connection() as conn:
-        c = conn.execute("SELECT * FROM CharacterBaseStats")
+        c = conn.cursor()
+        
+        querylist, values = [], []
+        
+        if character_name:
+            character_name = character_name.replace(ACCENT_E,"e")
+            querylist.append("name=?")
+            values.append(character_name.capitalize())
+        if len(querylist) > 0:
+            queries = " AND ".join(querylist)
+            c.execute(f"SELECT * FROM CharacterBaseStats WHERE {queries};",values)
+        else:
+            c = conn.execute("SELECT * FROM CharacterBaseStats")
+        
         return c.fetchall()
         
 
@@ -122,12 +134,25 @@ def character_growth_rates_table():
         
         conn.commit()
         
-def character_growth_rates() -> typing.List[typed_rows._CharacterGrowthRate]:
+def character_growth_rates(character_name:str=None) -> typing.List[typed_rows._CharacterGrowthRate]:
     """
     Get character growth rates. (Numbers should be added to the character base stats)
     """
     with db_connection() as conn:
-        c = conn.execute("SELECT * FROM CharacterGrowthRates")
+        c = conn.cursor()
+        
+        querylist, values = [], []
+        
+        if character_name:
+            character_name = character_name.replace(ACCENT_E,"e")
+            querylist.append("name=?")
+            values.append(character_name.capitalize())
+        if len(querylist) > 0:
+            queries = " AND ".join(querylist)
+            c.execute(f"SELECT * FROM CharacterGrowthRates WHERE {queries};",values)
+        else:
+            c = conn.execute("SELECT * FROM CharacterGrowthRates")
+        
         return c.fetchall()
 
 
@@ -163,12 +188,25 @@ def character_other_data_table():
         
         conn.commit()
 
-def character_other_data() -> typing.List[typed_rows._CharacterOtherData]:
+def character_other_data(character_name:str=None) -> typing.List[typed_rows._CharacterOtherData]:
     """
     Get additional details for each character
     """
     with db_connection() as conn:
-        c = conn.execute("SELECT * FROM CharacterOtherData")
+        c = conn.cursor()
+        
+        querylist, values = [], []
+        
+        if character_name:
+            character_name = character_name.replace(ACCENT_E,"e")
+            querylist.append("name=?")
+            values.append(character_name.capitalize())
+        if len(querylist) > 0:
+            queries = " AND ".join(querylist)
+            c.execute(f"SELECT * FROM CharacterOtherData WHERE {queries};",values)
+        else:
+            c = conn.execute("SELECT * FROM CharacterOtherData")
+        
         return c.fetchall()
         
         
@@ -214,14 +252,111 @@ def character_skills_table():
         
         conn.commit()
 
-def character_skills() -> typing.List[typed_rows._CharacterSkill]:
+def character_skills(character_name:str=None) -> typing.List[typed_rows._CharacterSkill]:
     """
     Get skill details for each character
     """
     with db_connection() as conn:
-        c = conn.execute("SELECT * FROM CharacterSkills")
+        c = conn.cursor()
+        
+        querylist, values = [], []
+        
+        if character_name:
+            character_name = character_name.replace(ACCENT_E,"e")
+            querylist.append("character=?")
+            values.append(character_name.capitalize())
+        if len(querylist) > 0:
+            queries = " AND ".join(querylist)
+            c.execute(f"SELECT * FROM CharacterSkills WHERE {queries};",values)
+        else:
+            c = conn.execute("SELECT * FROM CharacterSkills")
         return c.fetchall()
     
+
+
+def ally_notebook_table():
+    data = fetch.ally_notebook()
+    for d in data:
+        for key in typed_rows.initial.__annotations__.keys():
+            if isinstance(d["initial"][key],list):
+                d["initial"][key] = [s.replace("'",'"') for s in d["initial"][key]]
+            elif isinstance(d["initial"][key],str):
+                d["initial"][key] = d["initial"][key].replace("'",'"')
+        
+        for key in typed_rows.c_rank.__annotations__.keys():
+            if isinstance(d["c_rank"][key],list):
+                d["c_rank"][key] = [s.replace("'",'"') for s in d["c_rank"][key]]
+            elif isinstance(d["c_rank"][key],str):
+                d["c_rank"][key] = d["c_rank"][key].replace("'",'"')
+                
+        for key in typed_rows.b_rank.__annotations__.keys():
+            if isinstance(d["b_rank"][key],list):
+                d["b_rank"][key] = [s.replace("'",'"') for s in d["b_rank"][key]]
+            elif isinstance(d["b_rank"][key],str):
+                d["b_rank"][key] = d["b_rank"][key].replace("'",'"')
+                
+        for key in typed_rows.a_rank.__annotations__.keys():
+            if isinstance(d["a_rank"][key],list):
+                d["a_rank"][key] = [s.replace("'",'"') for s in d["a_rank"][key]]
+            elif isinstance(d["a_rank"][key],str):
+                d["a_rank"][key] = d["a_rank"][key].replace("'",'"')
+                
+        for key in typed_rows.s_rank.__annotations__.keys():
+            if isinstance(d["s_rank"][key],list):
+                d["s_rank"][key] = [s.replace("'",'"') for s in d["s_rank"][key]]
+            elif isinstance(d["s_rank"][key],str):
+                d["s_rank"][key] = d["s_rank"][key].replace("'",'"')
+    
+    with db_connection() as conn:
+        c = conn.cursor()
+        c.execute(
+            """
+            DROP TABLE IF EXISTS AllyNotebook
+            """
+        )
+        c.execute(
+            """
+            CREATE TABLE AllyNotebook (
+                name TEXT,
+                initial JSON,
+                c_rank JSON,
+                b_rank JSON,
+                a_rank JSON,
+                s_rank JSON
+            )
+            """
+        )
+        
+        column_labels = ",".join([c for c in data[0].keys()])
+        insert_labels = ",".join([f":{c}" for c in data[0].keys()])
+        
+        c.executemany(f"INSERT INTO AllyNotebook ({column_labels}) VALUES({insert_labels})",data)
+        
+        conn.commit()
+
+def ally_notebook(character_name:str=None) -> typing.List[typed_rows._AllyNotebookEntry]:
+    """
+    Get ally support data
+    """
+    with db_connection() as conn:
+        c = conn.cursor()
+        
+        querylist = []
+        values = []
+        if character_name:
+            character_name = character_name.replace(ACCENT_E,"e")
+            querylist.append("name=?")
+            values.append(character_name)
+            
+        if len(querylist) > 0:
+            queries = " AND ".join(querylist)
+            c.execute(f"SELECT * FROM AllyNotebook WHERE {queries};",values)
+        else:
+            c.execute("SELECT * FROM AllyNotebook;")
+        
+        return c.fetchall()
+    
+
 
 
 def learnable_skills_table():
@@ -341,7 +476,7 @@ def bond_rings(emblem:str=None,rank:str=None) -> typing.List[typed_rows._BondRin
 def weapons_table():
     data = []
     for funcname in ("swords","lances","axes","bows","knives","tomes","staves","arts"):
-        func = getattr(fetch.weapons,funcname)
+        func = getattr(fetch.Weapons,funcname)
         weapon_data = func()
         data.extend(weapon_data)
     
@@ -384,7 +519,7 @@ def weapons_table():
         
         conn.commit()
         
-def weapons(weapon_name:str=None,weapon_type:str=None,is_engage:bool=None) -> typing.List[typed_rows._Weapon]:
+def Weapons(weapon_name:str=None,weapon_type:str=None,is_engage:bool=None) -> typing.List[typed_rows._Weapon]:
     """
     Get weapon stats (includes engage weapons)
     """
@@ -497,84 +632,7 @@ def materials() -> typing.List[typed_rows._Material]:
     
 
 
-def ally_notebook_table():
-    data = fetch.ally_notebook()
-    for d in data:
-        for key in typed_rows.initial.__annotations__.keys():
-            if isinstance(d["initial"][key],list):
-                d["initial"][key] = [s.replace("'",'"') for s in d["initial"][key]]
-            elif isinstance(d["initial"][key],str):
-                d["initial"][key] = d["initial"][key].replace("'",'"')
-        
-        for key in typed_rows.c_rank.__annotations__.keys():
-            if isinstance(d["c_rank"][key],list):
-                d["c_rank"][key] = [s.replace("'",'"') for s in d["c_rank"][key]]
-            elif isinstance(d["c_rank"][key],str):
-                d["c_rank"][key] = d["c_rank"][key].replace("'",'"')
-                
-        for key in typed_rows.b_rank.__annotations__.keys():
-            if isinstance(d["b_rank"][key],list):
-                d["b_rank"][key] = [s.replace("'",'"') for s in d["b_rank"][key]]
-            elif isinstance(d["b_rank"][key],str):
-                d["b_rank"][key] = d["b_rank"][key].replace("'",'"')
-                
-        for key in typed_rows.a_rank.__annotations__.keys():
-            if isinstance(d["a_rank"][key],list):
-                d["a_rank"][key] = [s.replace("'",'"') for s in d["a_rank"][key]]
-            elif isinstance(d["a_rank"][key],str):
-                d["a_rank"][key] = d["a_rank"][key].replace("'",'"')
-                
-        for key in typed_rows.s_rank.__annotations__.keys():
-            if isinstance(d["s_rank"][key],list):
-                d["s_rank"][key] = [s.replace("'",'"') for s in d["s_rank"][key]]
-            elif isinstance(d["s_rank"][key],str):
-                d["s_rank"][key] = d["s_rank"][key].replace("'",'"')
     
-    with db_connection() as conn:
-        c = conn.cursor()
-        c.execute(
-            """
-            DROP TABLE IF EXISTS AllyNotebook
-            """
-        )
-        c.execute(
-            """
-            CREATE TABLE AllyNotebook (
-                name TEXT,
-                initial JSON,
-                c_rank JSON,
-                b_rank JSON,
-                a_rank JSON,
-                s_rank JSON
-            )
-            """
-        )
-        
-        column_labels = ",".join([c for c in data[0].keys()])
-        insert_labels = ",".join([f":{c}" for c in data[0].keys()])
-        
-        c.executemany(f"INSERT INTO AllyNotebook ({column_labels}) VALUES({insert_labels})",data)
-        
-        conn.commit()
-
-def ally_notebook(character_name:str=None) -> typing.List[typed_rows._AllyNotebookEntry]:
-    """
-    Get ally support data
-    """
-    character_name = character_name.replace(ACCENT_E,"e")
-    with db_connection() as conn:
-        c = conn.cursor()
-        
-        querylist = []
-        values = []
-        if character_name:
-            querylist.append("name=?")
-            values.append(character_name)
-            
-        if len(querylist) > 0:
-            queries = " AND ".join(querylist)
-            c.execute(f"SELECT * FROM AllyNotebook WHERE {queries};",values)
-        else:
-            c.execute("SELECT * FROM AllyNotebook;")
-        
-        return c.fetchall()
+    
+    
+    

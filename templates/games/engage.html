@@ -1,28 +1,51 @@
 {% extends 'base.html' %}
-{% block content %}
+{% block banner %}{% include 'snippets/banner.html' %}{% endblock banner %}
 
-<div class="btn-group sub">
+{% block content %}
+<div id="viewselect-btns" class="btn-group">
     <div class="btn selected">Characters</div>
     <div class="btn">Weapons</div>
-    <div class="btn">Items & Material</div>
     <div class="btn">Ally Notebook</div>
 </div>
-<div class="search-input-wrapper" style="display: none;">
-    <input name="search" type="text">
-</div>
 
-<div class="visuals-wrapper">
-    <div id="character-navbar" class="info-navbar">
-        {% for idx, character in enumerate(character_data) %}
-            {% set css = "btn" %}{% if idx == 0 %}{% set css = "btn selected" %}{% endif %}
-            <div class="{{css}} character" name="{{character['name'].replace('\u00e9','e').lower()}}">
-                <!-- {{ character["name"] }} -->
-                {{ CHARACTER_NAME_MAP[character["name"]] }}
-            </div>
+<div id="view">
+    <div id="item-scroller">
+        {% for d in characters %}
+            {% set css_class = "btn" %}
+            {% if loop.index == 1 %} {% set css_class = "btn selected" %}{% endif %}
+            <div class="{{css_class}}">{{ CHARACTER_NAME_MAP.get(d["name"],d["name"]) }}</div>
         {% endfor %}
     </div>
-    
-    <div id="character-content" class="info-content"></div>
+
+    <div id="item-viewer">
+        <div id="show-hide-btn">Hide</div>
+
+        <div id="character-name">
+            <div>{{CHARACTER_NAME_MAP["Chloe"]}}</div>
+        </div>
+        <div id="character-image">
+            <img src="{{url_for('static',filename='images/engage/characters/Chloe.png')}}" alt="">
+        </div>
+        <div id="character-bio">
+            <div class="bio-detail">
+                <div class="bio-key">Birthday</div>
+                <div class="bio-val">{{ ally_notebook[0]["initial"]["birthday"] }}</div>
+            </div>
+            <div class="bio-detail">
+                <div class="bio-key">Initial Class</div>
+                <div class="bio-val">{{ ally_notebook[0]["initial"]["class"] }}</div>
+            </div>
+            <div class="bio-detail">
+                <div class="bio-key">Proficiency</div>
+                <div class="bio-val">{{ character_other_data[0]["proficiency"] }}</div>
+            </div>
+            <div class="bio-detail">
+                <div class="bio-spread">
+                    {{ ally_notebook[0]["initial"]["basic_info"] }}
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 {% endblock content %}

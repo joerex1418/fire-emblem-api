@@ -4,3 +4,13 @@ api/.DS_Store
 api/data/.DS_Store
 
 .webassets-cache
+*.jpg
+fire_emblem/.DS_Store
+fire_emblem/data/.DS_Store
+fire_emblem/data/engage/.DS_Store
+fire_emblem/data/engage/images/.DS_Store
+fire_emblem/data/engage/images/characters/.DS_Store
+*.png
+*.webp
+*.jpg
+*.jpeg

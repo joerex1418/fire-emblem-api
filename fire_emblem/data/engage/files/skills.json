@@ -1,0 +1,3554 @@
+{
+    "personal": [{
+        "skill": "Divinely Inspiring",
+        "character": "Alear",
+        "effect": "Adjacent Allies deal +3 damage and take 1 less damage.",
+        "type": "personal",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/4/42/FE17_Divinely_Inspiring_Icon.png/revision/latest?cb=20230122190308",
+        "icon_name": "Divinely_Inspiring"
+    }, {
+        "skill": "Alabaster Duty",
+        "character": "Vander",
+        "effect": "If unit is adjacent to the Divine Dragon, grants Crit+5 during combat to both of them.",
+        "type": "personal",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/f/f0/FE17_Alabaster_Duty_Icon.png/revision/latest?cb=20230122192221",
+        "icon_name": "Alabaster_Duty"
+    }, {
+        "skill": "Verdant Faith",
+        "character": "Clanne",
+        "effect": "If unit is adjacent to the Divine Dragon, grants Hit+10 during combat to both of them.",
+        "type": "personal",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/7/7e/FE17_Verdant_Faith_Icon.png/revision/latest?cb=20230122190639",
+        "icon_name": "Verdant_Faith"
+    }, {
+        "skill": "Crimson Cheer",
+        "character": "Framme",
+        "effect": "If unit is adjacent to the Divine Dragon, grants Avo+10 during combat to both of them.",
+        "type": "personal",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/6/6c/FE17_Crimson_Cheer_Icon.png/revision/latest?cb=20230122191827",
+        "icon_name": "Crimson_Cheer"
+    }, {
+        "skill": "Self-Improver/Self-Defense",
+        "character": "Alfred",
+        "effect": "If unit uses Wait without attacking or using items, grants Str+2 for 1 turn.",
+        "type": "personal",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/e/eb/FE17_Self-Improver_Icon.png/revision/latest?cb=20230122190839",
+        "icon_name": "Self_Improver"
+    }, {
+        "skill": "Energized",
+        "character": "Etie",
+        "effect": "When unit recovers HP using an item, grants Str+2 for 1 turn.",
+        "type": "personal",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/a/ad/FE17_Energized_Icon.png/revision/latest?cb=20230122191914",
+        "icon_name": "Energized"
+    }, {
+        "skill": "Moved to Tears",
+        "character": "Boucheron",
+        "effect": "When an ally joins a chain attack in this unit's combat, unit deals +2 damage.",
+        "type": "personal",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/3/35/FE17_Moved_to_Tears_Icon.png/revision/latest?cb=20230122191041",
+        "icon_name": "Moved_to_Tears"
+    }, {
+        "skill": "Gentle Flower/Fierce Bloom",
+        "character": "C\u00e9line",
+        "effect": "Recovery items used by allies within 2 spaces heal +50% HP.",
+        "type": "personal",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/a/ad/FE17_Gentle_Flower_Icon.png/revision/latest?cb=20230122191228",
+        "icon_name": "Gentle_Flower"
+    }, {
+        "skill": "Admiration",
+        "character": "Louis",
+        "effect": "If two female allies are adjacent within 2 spaces, this unit takes 2 less damage during combat.",
+        "type": "personal",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/7/73/FE17_Admiration_Icon.png/revision/latest?cb=20230122192021",
+        "icon_name": "Admiration"
+    }, {
+        "skill": "Fairy-Tale Folk",
+        "character": "Chlo\u00e9",
+        "effect": "If a male and a female ally are adjacent within 2 spaces, unit deals +2 damage during combat.",
+        "type": "personal",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/1/1e/FE17_Fairy-Tale_Folk_Icon.png/revision/latest?cb=20230122191704",
+        "icon_name": "Fairy_Tale_Folk"
+    }, {
+        "skill": "Expertise",
+        "character": "Jean",
+        "effect": "Grants unit enhanced stat growth when leveling up.",
+        "type": "personal",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/e/ec/FE17_Expertise_Icon.png/revision/latest?cb=20230122192117",
+        "icon_name": "Expertise"
+    }, {
+        "skill": "Fair Fight/This Ends Here",
+        "character": "Diamant",
+        "effect": "If unit initiates combat, grants Hit+15 to unit and foe if foe is able to counterattack.",
+        "type": "personal",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/e/e9/FE17_Fair_Fight_Icon.png/revision/latest?cb=20230122190140",
+        "icon_name": "Fair_Fight"
+    }, {
+        "skill": "Aspiring Hero",
+        "character": "Amber",
+        "effect": "If no other units are within 1 space of unit or foe, grants Hit+20 at a cost of Avo-10 during combat.",
+        "type": "personal",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/c/c7/FE17_Aspiring_Hero_Icon.png/revision/latest?cb=20230122192330",
+        "icon_name": "Aspiring_Hero"
+    }, {
+        "skill": "Meditation",
+        "character": "Jade",
+        "effect": "If unit uses Wait without attacking or using items, grants Res+2 for 1 turn.",
+        "type": "personal",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/3/35/FE17_Meditation_Icon.png/revision/latest?cb=20230122192412",
+        "icon_name": "Meditation"
+    }, {
+        "skill": "Get Behind Me!/Show-Off",
+        "character": "Alcryst",
+        "effect": "When an ally within 2 spaces is attacked, grants Str+3 to unit for 1 turn.",
+        "type": "personal",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/6/60/FE17_Get_Behind_Me%21_Icon.png/revision/latest?cb=20230122191424",
+        "icon_name": "Get_Behind_Me"
+    }, {
+        "skill": "Generosity",
+        "character": "Citrinne",
+        "effect": "When this unit uses a healing item, adjacent allies also recover the same amount of HP.",
+        "type": "personal",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/9/9d/FE17_Generosity_Icon.png/revision/latest?cb=20230122192440",
+        "icon_name": "Generosity"
+    }, {
+        "skill": "Share Spoils",
+        "character": "Lapis",
+        "effect": "If there is an ally within 1 space, grants Hit/Avo+10 at a cost of Crit-10 to unit.",
+        "type": "personal",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/e/eb/FE17_Share_Spoils_Icon.png/revision/latest?cb=20230122191535",
+        "icon_name": "Share_Spoils"
+    }, {
+        "skill": "Trained to Kill",
+        "character": "Yunaka",
+        "effect": "While unit occupies terrain that provides Avo bonus, grants Crit+15.",
+        "type": "personal",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/4/45/FE17_Trained_to_Kill_Icon.png/revision/latest?cb=20230122192523",
+        "icon_name": "Trained_to_Kill"
+    }, {
+        "skill": "Will to Win",
+        "character": "Saphir",
+        "effect": "If unit's HP is 50% or less at start of combat, grants Hit/Avo+20 during combat.",
+        "type": "personal",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/4/4a/FE17_Will_to_Win_Icon.png/revision/latest?cb=20230122192630",
+        "icon_name": "Will_to_Win"
+    }, {
+        "skill": "Single-Minded/Final Say",
+        "character": "Ivy",
+        "effect": "During combat with a foe who was also unit's most recent opponent, grants Hit+20.",
+        "type": "personal",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/7/75/FE17_Single-Minded_Icon.png/revision/latest?cb=20230122192825",
+        "icon_name": "Single_Minded"
+    }, {
+        "skill": "Blinding Flash",
+        "character": "Kagetsu",
+        "effect": "If unit initiates combat, inflicts Avo-10 on foe during combat.",
+        "type": "personal",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/5/50/FE17_Blinding_Flash_Icon.png/revision/latest?cb=20230122192923",
+        "icon_name": "Blinding_Flash"
+    }, {
+        "skill": "Not *Quite*",
+        "character": "Zelkov",
+        "effect": "If foe initiates combat, inflicts Hit-10 on that foe during combat.",
+        "type": "personal",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/6/62/FE17_Not_%2AQuite%2A_Icon.png/revision/latest?cb=20230122192958",
+        "icon_name": "Not_Quite"
+    }, {
+        "skill": "Big Personality/Stealth Assist",
+        "character": "Hortensia",
+        "effect": "When unit uses a healing staff, grants range +1.",
+        "type": "personal",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/6/6d/FE17_Big_Personality_Icon.png/revision/latest?cb=20230122193042",
+        "icon_name": "Big_Personality"
+    }, {
+        "skill": "Stunning Smile",
+        "character": "Rosado",
+        "effect": "If foe is male, inflicts Avo-20 on that foe during combat.",
+        "type": "personal",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/8/8c/FE17_Stunning_Smile_Icon.png/revision/latest?cb=20230122193137",
+        "icon_name": "Stunning_Smile"
+    }, {
+        "skill": "Disarming Sigh",
+        "character": "Goldmary",
+        "effect": "If foe is male, inflicts Hit-20 on that foe during combat.",
+        "type": "personal",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/3/33/FE17_Disarming_Sigh_Icon.png/revision/latest?cb=20230122193215",
+        "icon_name": "Disarming_Sigh"
+    }, {
+        "skill": "Make a Killing",
+        "character": "Anna",
+        "effect": "May obtain 500G when unit defeats a foe. Trigger %=Lck.",
+        "type": "personal",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/7/73/FE17_Make_a_Killing_Icon.png/revision/latest?cb=20230122193301",
+        "icon_name": "Make_a_Killing"
+    }, {
+        "skill": "Weapon Insight",
+        "character": "Lindon",
+        "effect": "If unit is equipped with a weapon of lower level than foe's, grants Crit+20 during combat.",
+        "type": "personal",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/8/87/FE17_Weapon_Insight_Icon.png/revision/latest?cb=20230122193331",
+        "icon_name": "Weapon_Insight"
+    }, {
+        "skill": "Racket of Solm/Dignity of Solm",
+        "character": "Timerra",
+        "effect": "Inflicts Crit-5 on foes within 3 spaces.",
+        "type": "personal",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/0/0c/FE17_Racket_of_Solm_Icon.png/revision/latest?cb=20230122193416",
+        "icon_name": "Racket_of_Solm"
+    }, {
+        "skill": "Knightly Escort",
+        "character": "Merrin",
+        "effect": "When 2 or more female allies are within 2 spaces, grants Hit/Avo+5 to unit and those allies.",
+        "type": "personal",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/f/f4/FE17_Knightly_Escort_Icon.png/revision/latest?cb=20230122193700",
+        "icon_name": "Knightly_Escort"
+    }, {
+        "skill": "Blood Fury",
+        "character": "Panette",
+        "effect": "If unit's HP is not at max after combat, grants Crit+10 as long as unit's HP stays below max.",
+        "type": "personal",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/3/3b/FE17_Blood_Fury_Icon.png/revision/latest?cb=20230122193733",
+        "icon_name": "Blood_Fury"
+    }, {
+        "skill": "Charmer/Wear Down",
+        "character": "Fogado",
+        "effect": "During combat with a foe who was also unit's most recent opponent, inflicts Crit-10 on that foe.",
+        "type": "personal",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/0/0e/FE17_Charmer_Icon.png/revision/latest?cb=20230122193805",
+        "icon_name": "Charmer"
+    }, {
+        "skill": "Seconds?",
+        "character": "Bunet",
+        "effect": "On eating a packed lunch, unit may obtain another of the same item. Trigger %=Lck.",
+        "type": "personal",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/7/72/FE17_Seconds_Icon.png/revision/latest?cb=20230122193944",
+        "icon_name": "Seconds"
+    }, {
+        "skill": "Party Animal",
+        "character": "Pandreo",
+        "effect": "Grants a bonus to Hit and Avo equal to 3\u00d7 the number of allies and foes within 2 spaces.",
+        "type": "personal",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/4/44/FE17_Party_Animal_Icon.png/revision/latest?cb=20230122194016",
+        "icon_name": "Party_Animal"
+    }, {
+        "skill": "Curious Dance",
+        "character": "Seadall",
+        "effect": "At start of turn, allies within 2 spaces of unit recover 10% of their max HP.",
+        "type": "personal",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/8/83/FE17_Curious_Dance_Icon.png/revision/latest?cb=20230122194057",
+        "icon_name": "Curious_Dance"
+    }, {
+        "skill": "Fell Protection",
+        "character": "Veyle",
+        "effect": "Adjacent allies deal +1 damage and take 3 less damage.",
+        "type": "personal",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/9/97/FE17_Fell_Protection_Icon.png/revision/latest?cb=20230122194134",
+        "icon_name": "Fell_Protection"
+    }, {
+        "skill": "Contemplative",
+        "character": "Mauvier",
+        "effect": "If unit uses Wait without attacking or using items, grants Def+2 for 1 turn.",
+        "type": "personal",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/b/b9/FE17_Contemplative_Icon.png/revision/latest?cb=20230122194225",
+        "icon_name": "Contemplative"
+    }, {
+        "skill": "Protective",
+        "character": "Nel",
+        "effect": "If foe initiates combat against Nil/Rafal, grants Crit+10 to unit for 1 turn.",
+        "type": "personal",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/c/c5/FE17_Protective_Icon.png/revision/latest?cb=20230407220219",
+        "icon_name": "Protective"
+    }, {
+        "skill": "Wounded Pride",
+        "character": "Nil",
+        "effect": "When an ally within 2 spaces defeats a foe, grants Crit+10 to unit for 1 turn.",
+        "type": "personal",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/0/09/FE17_Wounded_Pride_Icon.png/revision/latest?cb=20230407220246",
+        "icon_name": "Wounded_Pride"
+    }, {
+        "skill": "Friendly Boost",
+        "character": "Zelestia",
+        "effect": "When unit defeats a foe, grants Hit+20 to allies within 2 spaces for 1 turn.",
+        "type": "personal",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/f/f0/FE17_Friendly_Boost_Icon.png/revision/latest?cb=20230407220304",
+        "icon_name": "Friendly_Boost"
+    }, {
+        "skill": "Survival Plan",
+        "character": "Gregory",
+        "effect": "When there are more foes than allies within 3 spaces, grants Avo+20.",
+        "type": "personal",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/9/9a/FE17_Survival_Plan_Icon.png/revision/latest?cb=20230407220320",
+        "icon_name": "Survival_Plan"
+    }, {
+        "skill": "Knightly Code",
+        "character": "Madeline",
+        "effect": "If foe initiates combat and unit is adjacent to an ally, unit takes 2 less damage.",
+        "type": "personal",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/3/3f/FE17_Knightly_Code_Icon.png/revision/latest?cb=20230407220336",
+        "icon_name": "Knightly_Code"
+    }, {
+        "skill": "Rivalry",
+        "character": "Rafal",
+        "effect": "When an ally within 2 spaces defeats a foe, grants Crit+10 to unit for 1 turn.",
+        "type": "personal",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/e/e0/FE17_Rivalry_Icon.png/revision/latest?cb=20230407220352",
+        "icon_name": "Rivalry"
+    }],
+    "class": [{
+        "skill": "Divine Spirit",
+        "class": "Divine Dragon",
+        "effect": "Unit's engage meter is shortened one step.",
+        "type": "class",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/8/89/FE17_Divine_Spirit_Icon.png/revision/latest?cb=20230122195224",
+        "icon_name": "Divine_Spirit"
+    }, {
+        "skill": "Golden Lotus",
+        "class": "Avenir",
+        "effect": "During combat, may prevent 50% of physical damage taken. Trigger %=Dex.",
+        "type": "class",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/e/ef/FE17_Golden_Lotus_Icon.png/revision/latest?cb=20230122195207",
+        "icon_name": "Golden_Lotus"
+    }, {
+        "skill": "Ignis",
+        "class": "Vidame",
+        "effect": "During combat, may add half of Str to magic damage or half of Mag to all other damage. Trigger %=Dex.",
+        "type": "class",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/b/b0/FE17_Ignis_Icon.png/revision/latest?cb=20230122195149",
+        "icon_name": "Ignis"
+    }, {
+        "skill": "Sol",
+        "class": "Successeur",
+        "effect": "Unit may recover HP=50% damage dealt. Trigger %=Dex.",
+        "type": "class",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/4/47/FE17_Sol_Icon.png/revision/latest?cb=20230122195132",
+        "icon_name": "Sol"
+    }, {
+        "skill": "Luna",
+        "class": "Tireur d'elite",
+        "effect": "While making an attack, may ignore half of foe's Def/Res. Trigger %=Dex.",
+        "type": "class",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/f/f1/FE17_Luna_Icon.png/revision/latest?cb=20230122195112",
+        "icon_name": "Luna"
+    }, {
+        "skill": "Grasping Void",
+        "class": "Lindwurm",
+        "effect": "When attacking with a tome, unit may deal extra damage = half of foe's Mag. Trigger %=Dex.",
+        "type": "class",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/9/97/FE17_Grasping_Void_Icon.png/revision/latest?cb=20230122195040",
+        "icon_name": "Grasping_Void"
+    }, {
+        "skill": "World Tree",
+        "class": "Sleipnir Rider",
+        "effect": "When unit uses a staff, may not consume a use. Trigger %=Dex.",
+        "type": "class",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/f/fa/FE17_World_Tree_Icon.png/revision/latest?cb=20230122194842",
+        "icon_name": "World_Tree"
+    }, {
+        "skill": "Sandstorm",
+        "class": "Picket",
+        "effect": "While making a physical attack, may calculate damage with 150% of Def instead of Str. Trigger %=Dex.",
+        "type": "class",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/e/eb/FE17_Sandstorm_Icon.png/revision/latest?cb=20230122194815",
+        "icon_name": "Sandstorm"
+    }, {
+        "skill": "Back at You",
+        "class": "Cupido",
+        "effect": "When countering, unit may deal extra damage = half of damage taken. Trigger %=Dex.",
+        "type": "class",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/d/db/FE17_Back_at_You_Icon.png/revision/latest?cb=20230122194745",
+        "icon_name": "Back_at_You"
+    }, {
+        "skill": "Special Dance",
+        "class": "Dancer",
+        "effect": "If unit uses Dance, grants Dex/Spd/Lck+3 to target for 1 turn.",
+        "type": "class",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/4/47/FE17_Special_Dance_Icon.png/revision/latest?cb=20230122194351",
+        "icon_name": "Special_Dance"
+    }, {
+        "skill": "Fell Spirit",
+        "class": "Fell Child (Veyle)",
+        "effect": "At the start of each turn, unit's engage meter is filled by 1.",
+        "type": "class",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/c/c9/FE17_Fell_Spirit_Icon.png/revision/latest?cb=20230122200518",
+        "icon_name": "Fell_Spirit"
+    }, {
+        "skill": "Resist Emblems",
+        "class": "Fell Child (Nel)",
+        "effect": "When attacked with an engage attack, prevents 20% of damage.",
+        "type": "class",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/c/cf/FE17_Resist_Emblems_Icon.png/revision/latest?cb=20230407220414",
+        "icon_name": "Resist_Emblems"
+    }, {
+        "skill": "Spur Emblems",
+        "class": "Fell Child (Rafal)",
+        "effect": "At start of player phase, fills adjacent allies' engage meters by 1.",
+        "type": "class",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/f/f0/FE17_Spur_Emblems_Icon.png/revision/latest?cb=20230407220435",
+        "icon_name": "Spur_Emblems"
+    }, {
+        "skill": "Soulblade",
+        "class": "Melusine",
+        "effect": "When attacking with a sword, damage is calculated using average of foe's Def and Res.",
+        "type": "class",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/5/52/FE17_Soulblade_Icon.png/revision/latest?cb=20230122194701",
+        "icon_name": "Soulblade"
+    }, {
+        "skill": "Pivot",
+        "class": "Paladin",
+        "effect": "Use to move to the opposite side of an adjacent ally.",
+        "type": "class",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/d/d3/FE17_Pivot_Icon.png/revision/latest?cb=20230122200011",
+        "icon_name": "Pivot"
+    }, {
+        "skill": "Hobble",
+        "class": "Wolf Knight",
+        "effect": "If unit initiates combat with a knife, inflicts Mov-2 on foe for 1 turn.",
+        "type": "class",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/e/e5/FE17_Hobble_Icon.png/revision/latest?cb=20230122195830",
+        "icon_name": "Hobble"
+    }, {
+        "skill": "Diffuse Healer",
+        "class": "Martial Master",
+        "effect": "When unit is healed by a staff, all adjacent allies also recover 50% of the HP that the unit recovered.",
+        "type": "class",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/4/4c/FE17_Diffuse_Healer_Icon.png/revision/latest?cb=20230122195405",
+        "icon_name": "Diffuse_Healer"
+    }, {
+        "skill": "Self-Healing",
+        "class": "High Priest",
+        "effect": "Unit can target itself with healing staves.",
+        "type": "class",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/0/08/FE17_Self-Healing_Icon.png/revision/latest?cb=20230122195248",
+        "icon_name": "Self_Healing"
+    }, {
+        "skill": "Spell Harmony",
+        "class": "Sage",
+        "effect": "If unit initiates combat with a tome, grants Atk equal to the number of adjacent allies with tomes.",
+        "type": "class",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/0/08/FE17_Spell_Harmony_Icon.png/revision/latest?cb=20230122195708",
+        "icon_name": "Spell_Harmony"
+    }, {
+        "skill": "Chaos Style",
+        "class": "Mage Knight",
+        "effect": "If unit initiates combat with a physical attack against a foe armed with magic or vice versa, grants Spd+3 during combat.",
+        "type": "class",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/9/91/FE17_Chaos_Style_Icon.png/revision/latest?cb=20230122195649",
+        "icon_name": "Chaos_Style"
+    }, {
+        "skill": "Brave Assist",
+        "class": "Hero",
+        "effect": "If unit's HP is at max while unit makes a chain attack, unit attacks twice.",
+        "type": "class",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/f/f4/FE17_Brave_Assist_Icon.png/revision/latest?cb=20230122200303",
+        "icon_name": "Brave_Assist"
+    }, {
+        "skill": "Run Through",
+        "class": "Swordmaster",
+        "effect": "Use to attack an adjacent foe, then move to the space opposite that foe.",
+        "type": "class",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/a/aa/FE17_Run_Through_Icon.png/revision/latest?cb=20230122200320",
+        "icon_name": "Run_Through"
+    }, {
+        "skill": "Pincer Attack",
+        "class": "Halberdier",
+        "effect": "If unit initiates combat while an ally is on the opposite side of the foe, always follow up (if weapon allows).",
+        "type": "class",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/4/41/FE17_Pincer_Attack_Icon.png/revision/latest?cb=20230122200245",
+        "icon_name": "Pincer_Attack"
+    }, {
+        "skill": "Reforge",
+        "class": "Royal Knight",
+        "effect": "If unit's HP is 11 or more and an adjacent ally is broken after combat, sacrifices 10 HP and removes the break status from that ally.",
+        "type": "class",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/3/39/FE17_Reforge_Icon.png/revision/latest?cb=20230122200228",
+        "icon_name": "Reforge"
+    }, {
+        "skill": "Smash+",
+        "class": "Berserker",
+        "effect": "When making a smash attack, push the target 2 spaces instead of 1.",
+        "type": "class",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/4/4c/FE17_Smash%2B_Icon.png/revision/latest?cb=20230122200211",
+        "icon_name": "Smash_1"
+    }, {
+        "skill": "Merciless",
+        "class": "Warrior",
+        "effect": "Unit deals +50% damage against broken foes.",
+        "type": "class",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/0/09/FE17_Merciless_Icon.png/revision/latest?cb=20230122200156",
+        "icon_name": "Merciless"
+    }, {
+        "skill": "No Distractions",
+        "class": "Sniper",
+        "effect": "Grants Crit+10 during combat with a foe that can't counter.",
+        "type": "class",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/d/d6/FE17_No_Distractions_Icon.png/revision/latest?cb=20230122200139",
+        "icon_name": "No_Distractions"
+    }, {
+        "skill": "Careful Aim",
+        "class": "Bow Knight",
+        "effect": "If unit initiates combat without moving first, grants Hit+40 during combat.",
+        "type": "class",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/0/0b/FE17_Careful_Aim_Icon.png/revision/latest?cb=20230122200122",
+        "icon_name": "Careful_Aim"
+    }, {
+        "skill": "Clear the Way",
+        "class": "Griffon Knight",
+        "effect": "Unit's space and adjacent spaces have a movement cost of 1 for allies.",
+        "type": "class",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/4/46/FE17_Clear_the_Way_Icon.png/revision/latest?cb=20230122195810",
+        "icon_name": "Clear_the_Way"
+    }, {
+        "skill": "Air Raid",
+        "class": "Wyvern Knight",
+        "effect": "If unit initiates combat from a space a foe cannot enter, grants Spd+5 during combat.",
+        "type": "class",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/f/fa/FE17_Air_Raid_Icon.png/revision/latest?cb=20230122195753",
+        "icon_name": "Air_Raid"
+    }, {
+        "skill": "Swap",
+        "class": "General",
+        "effect": "Use to switch places with an adjacent ally.",
+        "type": "class",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/a/a9/FE17_Swap_Icon.png/revision/latest?cb=20230122200105",
+        "icon_name": "Swap"
+    }, {
+        "skill": "Allied Defense",
+        "class": "Great Knight",
+        "effect": "If unit is between an ally and a foe, reduces damage to unit by 3 during combat with that foe.",
+        "type": "class",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/0/0d/FE17_Allied_Defense_Icon.png/revision/latest?cb=20230122200029",
+        "icon_name": "Allied_Defense"
+    }, {
+        "skill": "Pass",
+        "class": "Thief",
+        "effect": "Foes do not block this unit's movement.",
+        "type": "class",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/c/c6/FE17_Pass_Icon.png/revision/latest?cb=20230122195726",
+        "icon_name": "Pass"
+    }, {
+        "skill": "Dark Spirit",
+        "class": "Fell Monarch",
+        "effect": "Inflicts -1 to the engage meters of foes within 2 spaces at the start of the turn.",
+        "type": "class",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/c/c9/FE17_Fell_Spirit_Icon.png/revision/latest?cb=20230122200518",
+        "icon_name": "Fell_Spirit"
+    }, {
+        "skill": "Convoy",
+        "class": "Enchanter",
+        "effect": "Use to deposit or retrieve weapons and items.",
+        "type": "class",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/f/fc/FE17_Convoy_Icon.png/revision/latest?cb=20230215183401",
+        "icon_name": "Convoy"
+    }, {
+        "skill": "Let Fly",
+        "class": "Mage Cannoneer",
+        "effect": "Use to peform a guaranteed-hit, area-of-effect attack at the start of the next player phase. Unit loses equipped weapon.",
+        "type": "class",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/4/42/FE17_Let_Fly_Icon.png/revision/latest?cb=20230310233301",
+        "icon_name": "Let_Fly"
+    }, {
+        "skill": "Frost Domain",
+        "class": "Phantom Wyvern",
+        "effect": "At start of turn, applies frost to terrain within 2 spaces of unit.",
+        "type": "class",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/1/1d/FE17_Frost_Domain_Icon.png/revision/latest?cb=20230126103550",
+        "icon_name": "Frost_Domain"
+    }, {
+        "skill": "Pack Hunter",
+        "class": "Phantom Wolf",
+        "effect": "Allies of the same class as unit within 3 spaces participate in chain attacks.",
+        "type": "class",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/1/1d/FE17_Pack_Hunter_Icon.png/revision/latest?cb=20230310233402",
+        "icon_name": "Pack_Hunter"
+    }, {
+        "skill": "Miasma Domain",
+        "class": "Corrupted Wyvern",
+        "effect": "At start of turn, applies miasma to terrain within 2 spaces of unit.",
+        "type": "class",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/7/7b/FE17_Miasma_Domain_Icon.png/revision/latest?cb=20230407220454",
+        "icon_name": "Miasma_Domain"
+    }],
+    "emblem": [{
+        "skill": "Avoid +10",
+        "emblem": "Marth",
+        "effect": "Grants Avo+10.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/e/e9/FE17_Avoid_%2B10_Icon.png/revision/latest?cb=20230125041722",
+        "icon_name": "Avoid_10_1"
+    }, {
+        "skill": "Avoid +15",
+        "emblem": "Marth",
+        "effect": "Grants Avo+15.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/f/fa/FE17_Avoid_%2B15_Icon.png/revision/latest?cb=20230125065408",
+        "icon_name": "Avoid_15_1"
+    }, {
+        "skill": "Avoid +20",
+        "emblem": "Marth",
+        "effect": "Grants Avo+20.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/2/2f/FE17_Avoid_%2B20_Icon.png/revision/latest?cb=20230125072907",
+        "icon_name": "Avoid_20_1"
+    }, {
+        "skill": "Avoid +25",
+        "emblem": "Marth",
+        "effect": "Grants Avo+25.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/3/36/FE17_Avoid_%2B25_Icon.png/revision/latest?cb=20230125072835",
+        "icon_name": "Avoid_25_1"
+    }, {
+        "skill": "Avoid +30",
+        "emblem": "Marth",
+        "effect": "Grants Avo+30.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/4/4a/FE17_Avoid_%2B30_Icon.png/revision/latest?cb=20230125072757",
+        "icon_name": "Avoid_30_1"
+    }, {
+        "skill": "Sword Agility 1",
+        "emblem": "Marth",
+        "effect": "Grants Avo+10 at a cost of Crit-10 when using a sword.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/f/fd/FE17_Sword_Agility_1_Icon.png/revision/latest?cb=20230125072317",
+        "icon_name": "Sword_Agility_1"
+    }, {
+        "skill": "Sword Agility 2",
+        "emblem": "Marth",
+        "effect": "Grants Avo+15 at a cost of Crit-10 when using a sword.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/5/50/FE17_Sword_Agility_2_Icon.png/revision/latest?cb=20230125072245",
+        "icon_name": "Sword_Agility_2"
+    }, {
+        "skill": "Sword Agility 3",
+        "emblem": "Marth",
+        "effect": "Grants Avo+20 at a cost of Crit-10 when using a sword.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/8/8a/FE17_Sword_Agility_3_Icon.png/revision/latest?cb=20230125072226",
+        "icon_name": "Sword_Agility_3"
+    }, {
+        "skill": "Sword Agility 4",
+        "emblem": "Marth",
+        "effect": "Grants Avo+25 at a cost of Crit-10 when using a sword.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/0/0c/FE17_Sword_Agility_4_Icon.png/revision/latest?cb=20230125072209",
+        "icon_name": "Sword_Agility_4"
+    }, {
+        "skill": "Sword Agility 5",
+        "emblem": "Marth",
+        "effect": "Grants Avo+30 at a cost of Crit-10 when using a sword.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/5/54/FE17_Sword_Agility_5_Icon.png/revision/latest?cb=20230125072144",
+        "icon_name": "Sword_Agility_5"
+    }, {
+        "skill": "Magic +3",
+        "emblem": "Celica",
+        "effect": "Grants Mag+3.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/1/16/FE17_Magic_%2B3_Icon.png/revision/latest?cb=20230125081156",
+        "icon_name": "Magic_3_1"
+    }, {
+        "skill": "Magic +4",
+        "emblem": "Celica",
+        "effect": "Grants Mag+4.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/6/64/FE17_Magic_%2B4_Icon.png/revision/latest?cb=20230125075915",
+        "icon_name": "Magic_4_1"
+    }, {
+        "skill": "Magic +5",
+        "emblem": "Celica",
+        "effect": "Grants Mag+5.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/3/32/FE17_Magic_%2B5_Icon.png/revision/latest?cb=20230125075858",
+        "icon_name": "Magic_5_1"
+    }, {
+        "skill": "Tome Precision 1",
+        "emblem": "Celica",
+        "effect": "Grants Hit/Avo+3 when using a tome.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/4/44/FE17_Tome_Precision_1_Icon.png/revision/latest?cb=20230125065908",
+        "icon_name": "Tome_Precision_1"
+    }, {
+        "skill": "Tome Precision 2",
+        "emblem": "Celica",
+        "effect": "Grants Hit/Avo+5 when using a tome.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/5/51/FE17_Tome_Precision_2_Icon.png/revision/latest?cb=20230125065849",
+        "icon_name": "Tome_Precision_2"
+    }, {
+        "skill": "Tome Precision 3",
+        "emblem": "Celica",
+        "effect": "Grants Hit/Avo+7 when using a tome.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/1/13/FE17_Tome_Precision_3_Icon.png/revision/latest?cb=20230125065759",
+        "icon_name": "Tome_Precision_3"
+    }, {
+        "skill": "Tome Precision 4",
+        "emblem": "Celica",
+        "effect": "Grants Hit/Avo+10 when using a tome.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/4/43/FE17_Tome_Precision_4_Icon.png/revision/latest?cb=20230125065716",
+        "icon_name": "Tome_Precision_4"
+    }, {
+        "skill": "Tome Precision 5",
+        "emblem": "Celica",
+        "effect": "Grants Hit/Avo+15 when using a tome.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/3/3e/FE17_Tome_Precision_5_Icon.png/revision/latest?cb=20230125065657",
+        "icon_name": "Tome_Precision_5"
+    }, {
+        "skill": "Hit +10",
+        "emblem": "Sigurd",
+        "effect": "Grants Hit+10.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/2/2a/FE17_Hit_%2B10_Icon.png/revision/latest?cb=20230125072726",
+        "icon_name": "Hit_10_1"
+    }, {
+        "skill": "Hit +15",
+        "emblem": "Sigurd",
+        "effect": "Grants Hit+15.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/9/9b/FE17_Hit_%2B15_Icon.png/revision/latest?cb=20230125072657",
+        "icon_name": "Hit_15_1"
+    }, {
+        "skill": "Hit +20",
+        "emblem": "Sigurd",
+        "effect": "Grants Hit+20.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/9/96/FE17_Hit_%2B20_Icon.png/revision/latest?cb=20230125072635",
+        "icon_name": "Hit_20_1"
+    }, {
+        "skill": "Hit +25",
+        "emblem": "Sigurd",
+        "effect": "Grants Hit+25.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/7/7f/FE17_Hit_%2B25_Icon.png/revision/latest?cb=20230125072609",
+        "icon_name": "Hit_25_1"
+    }, {
+        "skill": "Hit +30",
+        "emblem": "Sigurd",
+        "effect": "Grants Hit+30.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/8/80/FE17_Hit_%2B30_Icon.png/revision/latest?cb=20230125072551",
+        "icon_name": "Hit_30_1"
+    }, {
+        "skill": "Lance Power 1",
+        "emblem": "Sigurd",
+        "effect": "Grants Atk+2 at a cost of Avo-10 when using a lance.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/7/7c/FE17_Lance_Power_1_Icon.png/revision/latest?cb=20230125071006",
+        "icon_name": "Lance_Power_1"
+    }, {
+        "skill": "Lance Power 2",
+        "emblem": "Sigurd",
+        "effect": "Grants Atk+4 at a cost of Avo-10 when using a lance.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/1/1d/FE17_Lance_Power_2_Icon.png/revision/latest?cb=20230125070941",
+        "icon_name": "Lance_Power_2"
+    }, {
+        "skill": "Lance Power 3",
+        "emblem": "Sigurd",
+        "effect": "Grants Atk+6 at a cost of Avo-10 when using a lance.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/d/d5/FE17_Lance_Power_3_Icon.png/revision/latest?cb=20230125070922",
+        "icon_name": "Lance_Power_3"
+    }, {
+        "skill": "Lance Power 4",
+        "emblem": "Sigurd",
+        "effect": "Grants Atk+8 at a cost of Avo-10 when using a lance.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/6/62/FE17_Lance_Power_4_Icon.png/revision/latest?cb=20230125070904",
+        "icon_name": "Lance_Power_4"
+    }, {
+        "skill": "Lance Power 5",
+        "emblem": "Sigurd",
+        "effect": "Grants Atk+10 at a cost of Avo-10 when using a lance.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/1/12/FE17_Lance_Power_5_Icon.png/revision/latest?cb=20230125070840",
+        "icon_name": "Lance_Power_5"
+    }, {
+        "skill": "Build +3",
+        "emblem": "Leif",
+        "effect": "Grants Bld+3.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/d/d8/FE17_Build_%2B3_Icon.png/revision/latest?cb=20230125075732",
+        "icon_name": "Build_3_1"
+    }, {
+        "skill": "Build +4",
+        "emblem": "Leif",
+        "effect": "Grants Bld+4.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/9/92/FE17_Build_%2B4_Icon.png/revision/latest?cb=20230125075713",
+        "icon_name": "Build_4_1"
+    }, {
+        "skill": "Build +5",
+        "emblem": "Leif",
+        "effect": "Grants Bld+5.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/5/57/FE17_Build_%2B5_Icon.png/revision/latest?cb=20230125075655",
+        "icon_name": "Build_5_1"
+    }, {
+        "skill": "Knife Precision 1",
+        "emblem": "Leif",
+        "effect": "Grants Hit/Avo+3 when using a knife.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/c/c2/FE17_Knife_Precision_1_Icon.png/revision/latest?cb=20230125070059",
+        "icon_name": "Knife_Precision_1"
+    }, {
+        "skill": "Knife Precision 2",
+        "emblem": "Leif",
+        "effect": "Grants Hit/Avo+5 when using a knife.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/8/81/FE17_Knife_Precision_2_Icon.png/revision/latest?cb=20230125070038",
+        "icon_name": "Knife_Precision_2"
+    }, {
+        "skill": "Knife Precision 3",
+        "emblem": "Leif",
+        "effect": "Grants Hit/Avo+7 when using a knife.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/a/a0/FE17_Knife_Precision_3_Icon.png/revision/latest?cb=20230125070006",
+        "icon_name": "Knife_Precision_3"
+    }, {
+        "skill": "Knife Precision 4",
+        "emblem": "Leif",
+        "effect": "Grants Hit/Avo+10 when using a knife.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/8/86/FE17_Knife_Precision_4_Icon.png/revision/latest?cb=20230125065948",
+        "icon_name": "Knife_Precision_4"
+    }, {
+        "skill": "Knife Precision 5",
+        "emblem": "Leif",
+        "effect": "Grants Hit/Avo+15 when using a knife.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/f/f1/FE17_Knife_Precision_5_Icon.png/revision/latest?cb=20230125065925",
+        "icon_name": "Knife_Precision_5"
+    }, {
+        "skill": "Strength +1",
+        "emblem": "Roy",
+        "effect": "Grants Str+1.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/5/5a/FE17_Strength_%2B1_Icon.png/revision/latest?cb=20230125082310",
+        "icon_name": "Strength_1_1"
+    }, {
+        "skill": "Strength +2",
+        "emblem": "Roy",
+        "effect": "Grants Str+2.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/0/0b/FE17_Strength_%2B2_Icon.png/revision/latest?cb=20230125082244",
+        "icon_name": "Strength_2_1"
+    }, {
+        "skill": "Strength +3",
+        "emblem": "Roy",
+        "effect": "Grants Str+3.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/3/3d/FE17_Strength_%2B3_Icon.png/revision/latest?cb=20230125082226",
+        "icon_name": "Strength_3_1"
+    }, {
+        "skill": "Strength +4",
+        "emblem": "Roy",
+        "effect": "Grants Str+4.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/c/c1/FE17_Strength_%2B4_Icon.png/revision/latest?cb=20230125082208",
+        "icon_name": "Strength_4_1"
+    }, {
+        "skill": "Strength +5",
+        "emblem": "Roy",
+        "effect": "Grants Str+5.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/f/f7/FE17_Strength_%2B5_Icon.png/revision/latest?cb=20230125082118",
+        "icon_name": "Strength_5_1"
+    }, {
+        "skill": "Strength +6",
+        "emblem": "Roy",
+        "effect": "Grants Str+6.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/6/6d/FE17_Strength_%2B6_Icon.png/revision/latest?cb=20230125082057",
+        "icon_name": "Strength_6_1"
+    }, {
+        "skill": "Sword Power 1",
+        "emblem": "Roy",
+        "effect": "Grants Atk+2 at a cost of Avo-10 when using a sword.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/7/79/FE17_Sword_Power_1_Icon.png/revision/latest?cb=20230125072126",
+        "icon_name": "Sword_Power_1"
+    }, {
+        "skill": "Sword Power 2",
+        "emblem": "Roy",
+        "effect": "Grants Atk+4 at a cost of Avo-10 when using a sword.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/5/59/FE17_Sword_Power_2_Icon.png/revision/latest?cb=20230125072109",
+        "icon_name": "Sword_Power_2"
+    }, {
+        "skill": "Sword Power 3",
+        "emblem": "Roy",
+        "effect": "Grants Atk+6 at a cost of Avo-10 when using a sword.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/1/19/FE17_Sword_Power_3_Icon.png/revision/latest?cb=20230125072050",
+        "icon_name": "Sword_Power_3"
+    }, {
+        "skill": "Sword Power 4",
+        "emblem": "Roy",
+        "effect": "Grants Atk+8 at a cost of Avo-10 when using a sword.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/0/0e/FE17_Sword_Power_4_Icon.png/revision/latest?cb=20230125072031",
+        "icon_name": "Sword_Power_4"
+    }, {
+        "skill": "Sword Power 5",
+        "emblem": "Roy",
+        "effect": "Grants Atk+10 at a cost of Avo-10 when using a sword.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/b/b9/FE17_Sword_Power_5_Icon.png/revision/latest?cb=20230125072010",
+        "icon_name": "Sword_Power_5"
+    }, {
+        "skill": "Speed +1",
+        "emblem": "Lyn",
+        "effect": "Grants Spd+1.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/5/50/FE17_Speed_%2B1_Icon.png/revision/latest?cb=20230125081844",
+        "icon_name": "Speed_1_1"
+    }, {
+        "skill": "Speed +2",
+        "emblem": "Lyn",
+        "effect": "Grants Spd+2.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/8/86/FE17_Speed_%2B2_Icon.png/revision/latest?cb=20230125081826",
+        "icon_name": "Speed_2_1"
+    }, {
+        "skill": "Speed +3",
+        "emblem": "Lyn",
+        "effect": "Grants Spd+3.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/d/d9/FE17_Speed_%2B3_Icon.png/revision/latest?cb=20230125081808",
+        "icon_name": "Speed_3_1"
+    }, {
+        "skill": "Speed +4",
+        "emblem": "Lyn",
+        "effect": "Grants Spd+4.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/0/04/FE17_Speed_%2B4_Icon.png/revision/latest?cb=20230125081751",
+        "icon_name": "Speed_4_1"
+    }, {
+        "skill": "Speed +5",
+        "emblem": "Lyn",
+        "effect": "Grants Spd+5.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/b/b2/FE17_Speed_%2B5_Icon.png/revision/latest?cb=20230125081733",
+        "icon_name": "Speed_5_1"
+    }, {
+        "skill": "Bow Focus 1",
+        "emblem": "Lyn",
+        "effect": "Grants Hit+10 at a cost of Ddg-10 when using a bow.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/9/9a/FE17_Bow_Focus_1_Icon.png/revision/latest?cb=20230125070421",
+        "icon_name": "Bow_Focus_1"
+    }, {
+        "skill": "Bow Focus 2",
+        "emblem": "Lyn",
+        "effect": "Grants Hit+15 at a cost of Ddg-10 when using a bow.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/9/9c/FE17_Bow_Focus_2_Icon.png/revision/latest?cb=20230125070403",
+        "icon_name": "Bow_Focus_2"
+    }, {
+        "skill": "Bow Focus 3",
+        "emblem": "Lyn",
+        "effect": "Grants Hit+20 at a cost of Ddg-10 when using a bow.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/1/19/FE17_Bow_Focus_3_Icon.png/revision/latest?cb=20230125070345",
+        "icon_name": "Bow_Focus_3"
+    }, {
+        "skill": "Bow Focus 4",
+        "emblem": "Lyn",
+        "effect": "Grants Hit+25 at a cost of Ddg-10 when using a bow.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/8/8d/FE17_Bow_Focus_4_Icon.png/revision/latest?cb=20230125070328",
+        "icon_name": "Bow_Focus_4"
+    }, {
+        "skill": "Bow Focus 5",
+        "emblem": "Lyn",
+        "effect": "Grants Hit+30 at a cost of Ddg-10 when using a bow.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/2/2f/FE17_Bow_Focus_5_Icon.png/revision/latest?cb=20230125070307",
+        "icon_name": "Bow_Focus_5"
+    }, {
+        "skill": "Dodge +10",
+        "emblem": "Eirika",
+        "effect": "Grants Ddg+10.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/c/cb/FE17_Dodge_%2B10_Icon.png/revision/latest?cb=20230125072524",
+        "icon_name": "Dodge_10_1"
+    }, {
+        "skill": "Dodge +15",
+        "emblem": "Eirika",
+        "effect": "Grants Ddg+15.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/b/bf/FE17_Dodge_%2B15_Icon.png/revision/latest?cb=20230125072505",
+        "icon_name": "Dodge_15_1"
+    }, {
+        "skill": "Dodge +20",
+        "emblem": "Eirika",
+        "effect": "Grants Ddg+20.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/5/5a/FE17_Dodge_%2B20_Icon.png/revision/latest?cb=20230125072449",
+        "icon_name": "Dodge_20_1"
+    }, {
+        "skill": "Dodge +25",
+        "emblem": "Eirika",
+        "effect": "Grants Ddg+25.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/c/c1/FE17_Dodge_%2B25_Icon.png/revision/latest?cb=20230125072427",
+        "icon_name": "Dodge_25_1"
+    }, {
+        "skill": "Dodge +30",
+        "emblem": "Eirika",
+        "effect": "Grants Ddg+30.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/b/be/FE17_Dodge_%2B30_Icon.png/revision/latest?cb=20230125072403",
+        "icon_name": "Dodge_30_1"
+    }, {
+        "skill": "Lance Agility 1",
+        "emblem": "Eirika",
+        "effect": "Grants Avo+10 at a cost of Crit-10 when using a lance.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/9/9c/FE17_Lance_Agility_1_Icon.png/revision/latest?cb=20230125071823",
+        "icon_name": "Lance_Agility_1"
+    }, {
+        "skill": "Lance Agility 2",
+        "emblem": "Eirika",
+        "effect": "Grants Avo+15 at a cost of Crit-10 when using a lance.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/0/02/FE17_Lance_Agility_2_Icon.png/revision/latest?cb=20230125071805",
+        "icon_name": "Lance_Agility_2"
+    }, {
+        "skill": "Lance Agility 3",
+        "emblem": "Eirika",
+        "effect": "Grants Avo+20 at a cost of Crit-10 when using a lance.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/b/b2/FE17_Lance_Agility_3_Icon.png/revision/latest?cb=20230125071746",
+        "icon_name": "Lance_Agility_3"
+    }, {
+        "skill": "Lance Agility 4",
+        "emblem": "Eirika",
+        "effect": "Grants Avo+25 at a cost of Crit-10 when using a lance.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/6/6b/FE17_Lance_Agility_4_Icon.png/revision/latest?cb=20230125071621",
+        "icon_name": "Lance_Agility_4"
+    }, {
+        "skill": "Lance Agility 5",
+        "emblem": "Eirika",
+        "effect": "Grants Avo+30 at a cost of Crit-10 when using a lance.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/b/b3/FE17_Lance_Agility_5_Icon.png/revision/latest?cb=20230125071027",
+        "icon_name": "Lance_Agility_5"
+    }, {
+        "skill": "Defense +1",
+        "emblem": "Ike",
+        "effect": "Grants Def+1.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/b/b4/FE17_Defense_%2B1_Icon.png/revision/latest?cb=20230125081426",
+        "icon_name": "Defense_1_1"
+    }, {
+        "skill": "Defense +2",
+        "emblem": "Ike",
+        "effect": "Grants Def+2.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/2/2a/FE17_Defense_%2B2_Icon.png/revision/latest?cb=20230125081404",
+        "icon_name": "Defense_2_1"
+    }, {
+        "skill": "Defense +3",
+        "emblem": "Ike",
+        "effect": "Grants Def+3.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/1/1c/FE17_Defense_%2B3_Icon.png/revision/latest?cb=20230125081317",
+        "icon_name": "Defense_3_1"
+    }, {
+        "skill": "Defense +4",
+        "emblem": "Ike",
+        "effect": "Grants Def+4.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/f/fb/FE17_Defense_%2B4_Icon.png/revision/latest?cb=20230125081258",
+        "icon_name": "Defense_4_1"
+    }, {
+        "skill": "Defense +5",
+        "emblem": "Ike",
+        "effect": "Grants Def+5.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/a/ad/FE17_Defense_%2B5_Icon.png/revision/latest?cb=20230125081239",
+        "icon_name": "Defense_5_1"
+    }, {
+        "skill": "Axe Power 1",
+        "emblem": "Ike",
+        "effect": "Grants Atk+2 at a cost of Avo-10 when using an axe.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/9/93/FE17_Axe_Power_1_Icon.png/revision/latest?cb=20230125070800",
+        "icon_name": "Axe_Power_1"
+    }, {
+        "skill": "Axe Power 2",
+        "emblem": "Ike",
+        "effect": "Grants Atk+4 at a cost of Avo-10 when using an axe.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/2/29/FE17_Axe_Power_2_Icon.png/revision/latest?cb=20230125070736",
+        "icon_name": "Axe_Power_2"
+    }, {
+        "skill": "Axe Power 3",
+        "emblem": "Ike",
+        "effect": "Grants Atk+6 at a cost of Avo-10 when using an axe.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/2/2c/FE17_Axe_Power_3_Icon.png/revision/latest?cb=20230125070713",
+        "icon_name": "Axe_Power_3"
+    }, {
+        "skill": "Axe Power 4",
+        "emblem": "Ike",
+        "effect": "Grants Atk+8 at a cost of Avo-10 when using an axe.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/5/5d/FE17_Axe_Power_4_Icon.png/revision/latest?cb=20230125070655",
+        "icon_name": "Axe_Power_4"
+    }, {
+        "skill": "Axe Power 5",
+        "emblem": "Ike",
+        "effect": "Grants Atk+10 at a cost of Avo-10 when using an axe.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/d/dd/FE17_Axe_Power_5_Icon.png/revision/latest?cb=20230125070635",
+        "icon_name": "Axe_Power_5"
+    }, {
+        "skill": "Resistance +2",
+        "emblem": "Micaiah",
+        "effect": "Grants Res+2.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/1/14/FE17_Resistance_%2B2_Icon.png/revision/latest?cb=20230125075842",
+        "icon_name": "Resistance_2_1"
+    }, {
+        "skill": "Resistance +3",
+        "emblem": "Micaiah",
+        "effect": "Grants Res+3.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/5/54/FE17_Resistance_%2B3_Icon.png/revision/latest?cb=20230125075823",
+        "icon_name": "Resistance_3_1"
+    }, {
+        "skill": "Resistance +4",
+        "emblem": "Micaiah",
+        "effect": "Grants Res+4.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/0/0a/FE17_Resistance_%2B4_Icon.png/revision/latest?cb=20230125075806",
+        "icon_name": "Resistance_4_1"
+    }, {
+        "skill": "Resistance +5",
+        "emblem": "Micaiah",
+        "effect": "Grants Res+5.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/e/e8/FE17_Resistance_%2B5_Icon.png/revision/latest?cb=20230125075748",
+        "icon_name": "Resistance_5_1"
+    }, {
+        "skill": "Staff Mastery 1",
+        "emblem": "Micaiah",
+        "effect": "Grants Hit+10 when using a staff. Staves also heal an additional 3 HP.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/5/51/FE17_Staff_Mastery_1_Icon.png/revision/latest?cb=20230125065639",
+        "icon_name": "Staff_Mastery_1"
+    }, {
+        "skill": "Staff Mastery 2",
+        "emblem": "Micaiah",
+        "effect": "Grants Hit+15 when using a staff. Staves also heal an additional 5 HP.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/a/a2/FE17_Staff_Mastery_2_Icon.png/revision/latest?cb=20230125065620",
+        "icon_name": "Staff_Mastery_2"
+    }, {
+        "skill": "Staff Mastery 3",
+        "emblem": "Micaiah",
+        "effect": "Grants Hit+20 when using a staff. Staves also heal an additional 7 HP.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/a/ab/FE17_Staff_Mastery_3_Icon.png/revision/latest?cb=20230125065502",
+        "icon_name": "Staff_Mastery_3"
+    }, {
+        "skill": "Staff Mastery 4",
+        "emblem": "Micaiah",
+        "effect": "Grants Hit+25 when using a staff. Staves also heal an additional 10 HP.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/e/eb/FE17_Staff_Mastery_4_Icon.png/revision/latest?cb=20230125065446",
+        "icon_name": "Staff_Mastery_4"
+    }, {
+        "skill": "Staff Mastery 5",
+        "emblem": "Micaiah",
+        "effect": "Grants Hit+30 when using a staff. Staves also heal an additional 15 HP.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/f/fd/FE17_Staff_Mastery_5_Icon.png/revision/latest?cb=20230125065428",
+        "icon_name": "Staff_Mastery_5"
+    }, {
+        "skill": "Dexterity +1",
+        "emblem": "Lucina",
+        "effect": "Grants Dex+1.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/a/ad/FE17_Dexterity_%2B1_Icon.png/revision/latest?cb=20230125082039",
+        "icon_name": "Dexterity_1_1"
+    }, {
+        "skill": "Dexterity +2",
+        "emblem": "Lucina",
+        "effect": "Grants Dex+2.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/e/e0/FE17_Dexterity_%2B2_Icon.png/revision/latest?cb=20230125082020",
+        "icon_name": "Dexterity_2_1"
+    }, {
+        "skill": "Dexterity +3",
+        "emblem": "Lucina",
+        "effect": "Grants Dex+3.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/f/fe/FE17_Dexterity_%2B3_Icon.png/revision/latest?cb=20230125082003",
+        "icon_name": "Dexterity_3_1"
+    }, {
+        "skill": "Dexterity +4",
+        "emblem": "Lucina",
+        "effect": "Grants Dex+4.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/7/78/FE17_Dexterity_%2B4_Icon.png/revision/latest?cb=20230125081944",
+        "icon_name": "Dexterity_4_1"
+    }, {
+        "skill": "Dexterity +5",
+        "emblem": "Lucina",
+        "effect": "Grants Dex+5.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/2/29/FE17_Dexterity_%2B5_Icon.png/revision/latest?cb=20230125081921",
+        "icon_name": "Dexterity_5_1"
+    }, {
+        "skill": "Bow Agility 1",
+        "emblem": "Lucina",
+        "effect": "Grants Avo+10 at a cost of Crit-10 when using a bow.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/d/d1/FE17_Bow_Agility_1_Icon.png/revision/latest?cb=20230125070614",
+        "icon_name": "Bow_Agility_1"
+    }, {
+        "skill": "Bow Agility 2",
+        "emblem": "Lucina",
+        "effect": "Grants Avo+15 at a cost of Crit-10 when using a bow.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/2/2a/FE17_Bow_Agility_2_Icon.png/revision/latest?cb=20230125070551",
+        "icon_name": "Bow_Agility_2"
+    }, {
+        "skill": "Bow Agility 3",
+        "emblem": "Lucina",
+        "effect": "Grants Avo+20 at a cost of Crit-10 when using a bow.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/c/c2/FE17_Bow_Agility_3_Icon.png/revision/latest?cb=20230125070518",
+        "icon_name": "Bow_Agility_3"
+    }, {
+        "skill": "Bow Agility 4",
+        "emblem": "Lucina",
+        "effect": "Grants Avo+25 at a cost of Crit-10 when using a bow.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/d/db/FE17_Bow_Agility_4_Icon.png/revision/latest?cb=20230125070458",
+        "icon_name": "Bow_Agility_4"
+    }, {
+        "skill": "Bow Agility 5",
+        "emblem": "Lucina",
+        "effect": "Grants Avo+30 at a cost of Crit-10 when using a bow.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/5/57/FE17_Bow_Agility_5_Icon.png/revision/latest?cb=20230125070440",
+        "icon_name": "Bow_Agility_5"
+    }, {
+        "skill": "HP +5",
+        "emblem": "Corrin",
+        "effect": "Grants max HP+5.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/1/1f/FE17_HP_%2B5_Icon.png/revision/latest?cb=20230125082447",
+        "icon_name": "HP_5_1"
+    }, {
+        "skill": "HP +7",
+        "emblem": "Corrin",
+        "effect": "Grants max HP+7.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/4/40/FE17_HP_%2B7_Icon.png/revision/latest?cb=20230125082429",
+        "icon_name": "HP_7_1"
+    }, {
+        "skill": "HP +10",
+        "emblem": "Corrin",
+        "effect": "Grants max HP+10.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/5/52/FE17_HP_%2B10_Icon.png/revision/latest?cb=20230125082406",
+        "icon_name": "HP_10_1"
+    }, {
+        "skill": "HP +12",
+        "emblem": "Corrin",
+        "effect": "Grants max HP+12.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/f/f9/FE17_HP_%2B12_Icon.png/revision/latest?cb=20230125082350",
+        "icon_name": "HP_12_1"
+    }, {
+        "skill": "HP +15",
+        "emblem": "Corrin",
+        "effect": "Grants max HP+15.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/b/b8/FE17_HP_%2B15_Icon.png/revision/latest?cb=20230125082331",
+        "icon_name": "HP_15_1"
+    }, {
+        "skill": "Sword Focus 1",
+        "emblem": "Corrin",
+        "effect": "Grants Hit+10 at a cost of Ddg-10 when using a sword.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/7/7b/FE17_Sword_Focus_1_Icon.png/revision/latest?cb=20230125071951",
+        "icon_name": "Sword_Focus_1"
+    }, {
+        "skill": "Sword Focus 2",
+        "emblem": "Corrin",
+        "effect": "Grants Hit+15 at a cost of Ddg-10 when using a sword.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/2/28/FE17_Sword_Focus_2_Icon.png/revision/latest?cb=20230125071934",
+        "icon_name": "Sword_Focus_2"
+    }, {
+        "skill": "Sword Focus 3",
+        "emblem": "Corrin",
+        "effect": "Grants Hit+20 at a cost of Ddg-10 when using a sword.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/6/65/FE17_Sword_Focus_3_Icon.png/revision/latest?cb=20230125071916",
+        "icon_name": "Sword_Focus_3"
+    }, {
+        "skill": "Sword Focus 4",
+        "emblem": "Corrin",
+        "effect": "Grants Hit+25 at a cost of Ddg-10 when using a sword.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/8/89/FE17_Sword_Focus_4_Icon.png/revision/latest?cb=20230125071900",
+        "icon_name": "Sword_Focus_4"
+    }, {
+        "skill": "Sword Focus 5",
+        "emblem": "Corrin",
+        "effect": "Grants Hit+30 at a cost of Ddg-10 when using a sword.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/a/a0/FE17_Sword_Focus_5_Icon.png/revision/latest?cb=20230125071841",
+        "icon_name": "Sword_Focus_5"
+    }, {
+        "skill": "Luck +2",
+        "emblem": "Byleth",
+        "effect": "Grants Lck+2.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/7/7e/FE17_Luck_%2B2_Icon.png/revision/latest?cb=20230125081715",
+        "icon_name": "Luck_2_1"
+    }, {
+        "skill": "Luck +4",
+        "emblem": "Byleth",
+        "effect": "Grants Lck+4.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/4/4d/FE17_Luck_%2B4_Icon.png/revision/latest?cb=20230125081656",
+        "icon_name": "Luck_4_1"
+    }, {
+        "skill": "Luck +6",
+        "emblem": "Byleth",
+        "effect": "Grants Lck+6.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/6/6f/FE17_Luck_%2B6_Icon.png/revision/latest?cb=20230125081637",
+        "icon_name": "Luck_6_1"
+    }, {
+        "skill": "Luck +8",
+        "emblem": "Byleth",
+        "effect": "Grants Lck+8.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/6/6c/FE17_Luck_%2B8_Icon.png/revision/latest?cb=20230125081618",
+        "icon_name": "Luck_8_1"
+    }, {
+        "skill": "Luck +10",
+        "emblem": "Byleth",
+        "effect": "Grants Lck+10.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/e/e9/FE17_Luck_%2B10_Icon.png/revision/latest?cb=20230125081516",
+        "icon_name": "Luck_10_1"
+    }, {
+        "skill": "Luck +12",
+        "emblem": "Byleth",
+        "effect": "Grants Lck+12.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/4/45/FE17_Luck_%2B12_Icon.png/revision/latest?cb=20230125081445",
+        "icon_name": "Luck_12_1"
+    }, {
+        "skill": "Art Focus 1",
+        "emblem": "Byleth",
+        "effect": "Grants Hit+10 at a cost of Ddg-10 when using an art.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/b/b9/FE17_Art_Focus_1_Icon.png/revision/latest?cb=20230125070238",
+        "icon_name": "Art_Focus_1"
+    }, {
+        "skill": "Art Focus 2",
+        "emblem": "Byleth",
+        "effect": "Grants Hit+15 at a cost of Ddg-10 when using an art.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/9/9d/FE17_Art_Focus_2_Icon.png/revision/latest?cb=20230125070218",
+        "icon_name": "Art_Focus_2"
+    }, {
+        "skill": "Art Focus 3",
+        "emblem": "Byleth",
+        "effect": "Grants Hit+20 at a cost of Ddg-10 when using an art.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/d/d0/FE17_Art_Focus_3_Icon.png/revision/latest?cb=20230125070200",
+        "icon_name": "Art_Focus_3"
+    }, {
+        "skill": "Art Focus 4",
+        "emblem": "Byleth",
+        "effect": "Grants Hit+25 at a cost of Ddg-10 when using an art.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/1/1a/FE17_Art_Focus_4_Icon.png/revision/latest?cb=20230125070140",
+        "icon_name": "Art_Focus_4"
+    }, {
+        "skill": "Art Focus 5",
+        "emblem": "Byleth",
+        "effect": "Grants Hit+30 at a cost of Ddg-10 when using an art.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/f/f5/FE17_Art_Focus_5_Icon.png/revision/latest?cb=20230125070122",
+        "icon_name": "Art_Focus_5"
+    }, {
+        "skill": "HP/Lck +2",
+        "emblem": "Tiki",
+        "effect": "Grants HP+2 and Lck+2.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/4/4e/FE17_HP_Lck_%2B2_Icon.png/revision/latest?cb=20230126100503",
+        "icon_name": "HP_Lck_2_1"
+    }, {
+        "skill": "HP/Lck +4",
+        "emblem": "Tiki",
+        "effect": "Grants HP+4 and Lck+4.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/8/8b/FE17_HP_Lck_%2B4_Icon.png/revision/latest?cb=20230126100636",
+        "icon_name": "HP_Lck_4_1"
+    }, {
+        "skill": "HP/Lck +6",
+        "emblem": "Tiki",
+        "effect": "Grants HP+6 and Lck+6.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/3/3d/FE17_HP_Lck_%2B6_Icon.png/revision/latest?cb=20230126100859",
+        "icon_name": "HP_Lck_6_1"
+    }, {
+        "skill": "HP/Lck +8",
+        "emblem": "Tiki",
+        "effect": "Grants HP+8 and Lck+8.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/0/09/FE17_HP_Lck_%2B8_Icon.png/revision/latest?cb=20230126101242",
+        "icon_name": "HP_Lck_8_1"
+    }, {
+        "skill": "HP/Lck +10",
+        "emblem": "Tiki",
+        "effect": "Grants HP+10 and Lck+10.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/5/51/FE17_HP_Lck_%2B10_Icon.png/revision/latest?cb=20230126101340",
+        "icon_name": "HP_Lck_10_1"
+    }, {
+        "skill": "Special Guard 1",
+        "emblem": "Tiki",
+        "effect": "If foe is equipped with a special attack, unit takes 1 less damage during combat.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/3/3c/FE17_Special_Guard_1_Icon.png/revision/latest?cb=20230126100601",
+        "icon_name": "Special_Guard_1"
+    }, {
+        "skill": "Special Guard 2",
+        "emblem": "Tiki",
+        "effect": "If foe is equipped with a special attack, unit takes 2 less damage during combat.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/0/07/FE17_Special_Guard_2.png/revision/latest?cb=20230126100748",
+        "icon_name": "Special_Guard_2"
+    }, {
+        "skill": "Special Guard 3",
+        "emblem": "Tiki",
+        "effect": "If foe is equipped with a special attack, unit takes 3 less damage during combat.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/e/e8/FE17_Special_Guard_3_Icon.png/revision/latest?cb=20230126100942",
+        "icon_name": "Special_Guard_3"
+    }, {
+        "skill": "Special Guard 4",
+        "emblem": "Tiki",
+        "effect": "If foe is equipped with a special attack, unit takes 4 less damage during combat.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/4/46/FE17_Special_Guard_4_Icon.png/revision/latest?cb=20230126101651",
+        "icon_name": "Special_Guard_4"
+    }, {
+        "skill": "Special Guard 5",
+        "emblem": "Tiki",
+        "effect": "If foe is equipped with a special attack, unit takes 5 less damage during combat.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/2/2c/FE17_Special_Guard_5_Icon.png/revision/latest?cb=20230126101716",
+        "icon_name": "Special_Guard_5"
+    }, {
+        "skill": "Assembly Gambit",
+        "emblem": "Edelgard, Dimitri, Claude",
+        "effect": "Use to attack an adjacent foe, then move 1 space away after combat. Target foe moves to unit\u2019s previous space.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/e/ef/FE17_Gambit_Icon.png/revision/latest?cb=20230126104339",
+        "icon_name": "Gambit"
+    }, {
+        "skill": "Str/Dex +1",
+        "emblem": "Edelgard, Dimitri, Claude",
+        "effect": "Grants Str+1 and Dex+1.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/2/21/FE17_Str_Dex_%2B1_Icon.png/revision/latest?cb=20230126104027",
+        "icon_name": "Str_Dex_1_1"
+    }, {
+        "skill": "Str/Dex +2",
+        "emblem": "Edelgard, Dimitri, Claude",
+        "effect": "Grants Str+2 and Dex+2.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/3/3e/FE17_Str_Dex_%2B2_Icon.png/revision/latest?cb=20230126103959",
+        "icon_name": "Str_Dex_2_1"
+    }, {
+        "skill": "Str/Dex +3",
+        "emblem": "Edelgard, Dimitri, Claude",
+        "effect": "Grants Str+3 and Dex+3.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/b/b9/FE17_Str_Dex_%2B3_Icon.png/revision/latest?cb=20230126103927",
+        "icon_name": "Str_Dex_3_1"
+    }, {
+        "skill": "Str/Dex +4",
+        "emblem": "Edelgard, Dimitri, Claude",
+        "effect": "Grants Str+4 and Dex+4.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/8/8b/FE17_Str_Dex_%2B4_Icon.png/revision/latest?cb=20230126103901",
+        "icon_name": "Str_Dex_4_1"
+    }, {
+        "skill": "Str/Dex +5",
+        "emblem": "Edelgard, Dimitri, Claude",
+        "effect": "Grants Str+5 and Dex+5.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/0/01/FE17_Str_Dex_%2B5_Icon.png/revision/latest?cb=20230126103832",
+        "icon_name": "Str_Dex_5_1"
+    }, {
+        "skill": "Bow Guard 1",
+        "emblem": "Edelgard, Dimitri, Claude",
+        "effect": "If foe is equipped with a bow, unit takes 1 less damage during combat.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/c/cb/FE17_Bow_Guard_1_Icon.png/revision/latest?cb=20230126103730",
+        "icon_name": "Bow_Guard_1"
+    }, {
+        "skill": "Bow Guard 2",
+        "emblem": "Edelgard, Dimitri, Claude",
+        "effect": "If foe is equipped with a bow, unit takes 2 less damage during combat.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/d/d3/FE17_Bow_Guard_2_Icon.png/revision/latest?cb=20230126103713",
+        "icon_name": "Bow_Guard_2"
+    }, {
+        "skill": "Bow Guard 3",
+        "emblem": "Edelgard, Dimitri, Claude",
+        "effect": "If foe is equipped with a bow, unit takes 3 less damage during combat.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/a/a3/FE17_Bow_Guard_3_Icon.png/revision/latest?cb=20230126103646",
+        "icon_name": "Bow_Guard_3"
+    }, {
+        "skill": "Bow Guard 4",
+        "emblem": "Edelgard, Dimitri, Claude",
+        "effect": "If foe is equipped with a bow, unit takes 4 less damage during combat.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/a/a8/FE17_Bow_Guard_4_Icon.png/revision/latest?cb=20230126103629",
+        "icon_name": "Bow_Guard_4"
+    }, {
+        "skill": "Bow Guard 5",
+        "emblem": "Edelgard, Dimitri, Claude",
+        "effect": "If foe is equipped with a bow, unit takes 5 less damage during combat.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/e/ee/FE17_Bow_Guard_5_Icon.png/revision/latest?cb=20230126103611",
+        "icon_name": "Bow_Guard_5"
+    }, {
+        "skill": "Str/Def +1",
+        "emblem": "Hector",
+        "effect": "Grants Str+1 and Def+1.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/e/e6/FE17_Str_Def_%2B1_Icon.png/revision/latest?cb=20230215181126",
+        "icon_name": "Str_Def_1_1"
+    }, {
+        "skill": "Str/Def +2",
+        "emblem": "Hector",
+        "effect": "Grants Str+2 and Def+2.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/b/b5/FE17_Str_Def_%2B2_Icon.png/revision/latest?cb=20230215175959",
+        "icon_name": "Str_Def_2_1"
+    }, {
+        "skill": "Str/Def +3",
+        "emblem": "Hector",
+        "effect": "Grants Str+3 and Def+3.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/1/14/FE17_Str_Def_%2B3_Icon.png/revision/latest?cb=20230215183839",
+        "icon_name": "Str_Def_3_1"
+    }, {
+        "skill": "Str/Def +4",
+        "emblem": "Hector",
+        "effect": "Grants Str+4 and Def+4.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/1/1a/FE17_Str_Def_%2B4_Icon.png/revision/latest?cb=20230215180407",
+        "icon_name": "Str_Def_4_1"
+    }, {
+        "skill": "Str/Def +5",
+        "emblem": "Hector",
+        "effect": "Grants Str+5 and Def+5.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/2/23/FE17_Str_Def_%2B5_Icon.png/revision/latest?cb=20230215184004",
+        "icon_name": "Str_Def_5_1"
+    }, {
+        "skill": "Axe Guard 1",
+        "emblem": "Hector",
+        "effect": "If foe is equipped with an axe, unit takes 1 less damage during combat.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/9/9b/FE17_Axe_Guard_1_Icon.png/revision/latest?cb=20230215183943",
+        "icon_name": "Axe_Guard_1"
+    }, {
+        "skill": "Axe Guard 2",
+        "emblem": "Hector",
+        "effect": "If foe is equipped with an axe, unit takes 2 less damage during combat.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/f/f7/FE17_Axe_Guard_2_Icon.png/revision/latest?cb=20230215180821",
+        "icon_name": "Axe_Guard_2"
+    }, {
+        "skill": "Axe Guard 3",
+        "emblem": "Hector",
+        "effect": "If foe is equipped with an axe, unit takes 3 less damage during combat.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/1/1e/FE17_Axe_Guard_3_Icon.png/revision/latest?cb=20230215181050",
+        "icon_name": "Axe_Guard_3"
+    }, {
+        "skill": "Axe Guard 4",
+        "emblem": "Hector",
+        "effect": "If foe is equipped with an axe, unit takes 4 less damage during combat.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/d/dd/FE17_Axe_Guard_4_Icon.png/revision/latest?cb=20230215180249",
+        "icon_name": "Axe_Guard_4"
+    }, {
+        "skill": "Axe Guard 5",
+        "emblem": "Hector",
+        "effect": "If foe is equipped with an axe, unit takes 5 less damage during combat.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/9/9e/FE17_Axe_Guard_5_Icon.png/revision/latest?cb=20230215183618",
+        "icon_name": "Axe_Guard_5"
+    }, {
+        "skill": "Mag/Res +1",
+        "emblem": "Soren",
+        "effect": "Grants Mag+1 and Res+1.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/2/20/FE17_Mag_Res_%2B1_Icon.png/revision/latest?cb=20230215184155",
+        "icon_name": "Mag_Res_1_1"
+    }, {
+        "skill": "Mag/Res +2",
+        "emblem": "Soren",
+        "effect": "Grants Mag+2 and Res+2.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/1/19/FE17_Mag_Res_%2B2_Icon.png/revision/latest?cb=20230215180946",
+        "icon_name": "Mag_Res_2_1"
+    }, {
+        "skill": "Mag/Res +3",
+        "emblem": "Soren",
+        "effect": "Grants Mag+3 and Res+3.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/f/f4/FE17_Mag_Res_%2B3_Icon.png/revision/latest?cb=20230215183322",
+        "icon_name": "Mag_Res_3_1"
+    }, {
+        "skill": "Mag/Res +4",
+        "emblem": "Soren",
+        "effect": "Grants Mag+4 and Res+4.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/2/26/FE17_Mag_Res_%2B4_Icon.png/revision/latest?cb=20230215181259",
+        "icon_name": "Mag_Res_4_1"
+    }, {
+        "skill": "Mag/Res +5",
+        "emblem": "Soren",
+        "effect": "Grants Mag+5 and Res+5.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/1/13/FE17_Mag_Res_%2B5_Icon.png/revision/latest?cb=20230215180347",
+        "icon_name": "Mag_Res_5_1"
+    }, {
+        "skill": "Magic Guard 1",
+        "emblem": "Soren",
+        "effect": "If foe is equipped with a tome, unit takes 1 less damage during combat.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/5/55/FE17_Magic_Guard_1_Icon.png/revision/latest?cb=20230215184136",
+        "icon_name": "Magic_Guard_1"
+    }, {
+        "skill": "Magic Guard 2",
+        "emblem": "Soren",
+        "effect": "If foe is equipped with a tome, unit takes 2 less damage during combat.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/e/eb/FE17_Magic_Guard_2_Icon.png/revision/latest?cb=20230215180325",
+        "icon_name": "Magic_Guard_2"
+    }, {
+        "skill": "Magic Guard 3",
+        "emblem": "Soren",
+        "effect": "If foe is equipped with a tome, unit takes 3 less damage during combat.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/1/19/FE17_Magic_Guard_3_Icon.png/revision/latest?cb=20230215181339",
+        "icon_name": "Magic_Guard_3"
+    }, {
+        "skill": "Magic Guard 4",
+        "emblem": "Soren",
+        "effect": "If foe is equipped with a tome, unit takes 4 less damage during combat.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/9/96/FE17_Magic_Guard_4_Icon.png/revision/latest?cb=20230215183500",
+        "icon_name": "Magic_Guard_4"
+    }, {
+        "skill": "Magic Guard 5",
+        "emblem": "Soren",
+        "effect": "If foe is equipped with a tome, unit takes 5 less damage during combat.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/e/e5/FE17_Magic_Guard_5_Icon.png/revision/latest?cb=20230215180132",
+        "icon_name": "Magic_Guard_5"
+    }, {
+        "skill": "Spd/Res +1",
+        "emblem": "Camilla",
+        "effect": "Grants Spd+1 and Res+1.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/8/89/FE17_Spd_Res_%2B1_Icon.png/revision/latest?cb=20230215183745",
+        "icon_name": "Spd_Res_1_1"
+    }, {
+        "skill": "Spd/Res +2",
+        "emblem": "Camilla",
+        "effect": "Grants Spd+2 and Res+2.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/4/43/FE17_Spd_Res_%2B2_Icon.png/revision/latest?cb=20230215184028",
+        "icon_name": "Spd_Res_2_1"
+    }, {
+        "skill": "Spd/Res +3",
+        "emblem": "Camilla",
+        "effect": "Grants Spd+3 and Res+3.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/5/5e/FE17_Spd_Res_%2B3_Icon.png/revision/latest?cb=20230215183640",
+        "icon_name": "Spd_Res_3_1"
+    }, {
+        "skill": "Spd/Res +4",
+        "emblem": "Camilla",
+        "effect": "Grants Spd+4 and Res+4.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/6/60/FE17_Spd_Res_%2B4_Icon.png/revision/latest?cb=20230215181143",
+        "icon_name": "Spd_Res_4_1"
+    }, {
+        "skill": "Spd/Res +5",
+        "emblem": "Camilla",
+        "effect": "Grants Spd+5 and Res+5.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/c/c9/FE17_Spd_Res_%2B5_Icon.png/revision/latest?cb=20230215183343",
+        "icon_name": "Spd_Res_5_1"
+    }, {
+        "skill": "Lance Guard 1",
+        "emblem": "Camilla",
+        "effect": "If foe is equipped with a lance, unit takes 1 less damage during combat.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/3/31/FE17_Lance_Guard_1_Icon.png/revision/latest?cb=20230215180500",
+        "icon_name": "Lance_Guard_1"
+    }, {
+        "skill": "Lance Guard 2",
+        "emblem": "Camilla",
+        "effect": "If foe is equipped with a lance, unit takes 2 less damage during combat.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/d/df/FE17_Lance_Guard_2_Icon.png/revision/latest?cb=20230215180150",
+        "icon_name": "Lance_Guard_2"
+    }, {
+        "skill": "Lance Guard 3",
+        "emblem": "Camilla",
+        "effect": "If foe is equipped with a lance, unit takes 3 less damage during combat.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/8/81/FE17_Lance_Guard_3_Icon.png/revision/latest?cb=20230215183518",
+        "icon_name": "Lance_Guard_3"
+    }, {
+        "skill": "Lance Guard 4",
+        "emblem": "Camilla",
+        "effect": "If foe is equipped with a lance, unit takes 4 less damage during combat.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/3/34/FE17_Lance_Guard_4_Icon.png/revision/latest?cb=20230215184219",
+        "icon_name": "Lance_Guard_4"
+    }, {
+        "skill": "Lance Guard 5",
+        "emblem": "Camilla",
+        "effect": "If foe is equipped with a lance, unit takes 5 less damage during combat.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/2/29/FE17_Lance_Guard_5_Icon.png/revision/latest?cb=20230215180842",
+        "icon_name": "Lance_Guard_5"
+    }, {
+        "skill": "Spd/Dex +1",
+        "emblem": "Chrom, Robin",
+        "effect": "Grants Spd+1 and Dex+1.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/8/81/FE17_Spd_Dex_%2B1_Icon.png/revision/latest?cb=20230310234154",
+        "icon_name": "Spd_Dex_1_1"
+    }, {
+        "skill": "Spd/Dex +2",
+        "emblem": "Chrom, Robin",
+        "effect": "Grants Spd+2 and Dex+2.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/6/60/FE17_Spd_Dex_%2B2_Icon.png/revision/latest?cb=20230310234217",
+        "icon_name": "Spd_Dex_2_1"
+    }, {
+        "skill": "Spd/Dex +3",
+        "emblem": "Chrom, Robin",
+        "effect": "Grants Spd+3 and Dex+3.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/0/07/FE17_Spd_Dex_%2B3_Icon.png/revision/latest?cb=20230310234234",
+        "icon_name": "Spd_Dex_3_1"
+    }, {
+        "skill": "Spd/Dex +4",
+        "emblem": "Chrom, Robin",
+        "effect": "Grants Spd+4 and Dex+4.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/4/42/FE17_Spd_Dex_%2B4_Icon.png/revision/latest?cb=20230310234315",
+        "icon_name": "Spd_Dex_4_1"
+    }, {
+        "skill": "Spd/Dex +5",
+        "emblem": "Chrom, Robin",
+        "effect": "Grants Spd+5 and Dex+5.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/8/8f/FE17_Spd_Dex_%2B5_Icon.png/revision/latest?cb=20230310234335",
+        "icon_name": "Spd_Dex_5_1"
+    }, {
+        "skill": "Sword Guard 1",
+        "emblem": "Chrom, Robin",
+        "effect": "If foe is equipped with a sword, unit takes 1 less damage during combat.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/a/ab/FE17_Sword_Guard_1_Icon.png/revision/latest?cb=20230310234353",
+        "icon_name": "Sword_Guard_1"
+    }, {
+        "skill": "Sword Guard 2",
+        "emblem": "Chrom, Robin",
+        "effect": "If foe is equipped with a sword, unit takes 2 less damage during combat.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/0/06/FE17_Sword_Guard_2_Icon.png/revision/latest?cb=20230310234411",
+        "icon_name": "Sword_Guard_2"
+    }, {
+        "skill": "Sword Guard 3",
+        "emblem": "Chrom, Robin",
+        "effect": "If foe is equipped with a sword, unit takes 3 less damage during combat.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/8/83/FE17_Sword_Guard_3_Icon.png/revision/latest?cb=20230310234428",
+        "icon_name": "Sword_Guard_3"
+    }, {
+        "skill": "Sword Guard 4",
+        "emblem": "Chrom, Robin",
+        "effect": "If foe is equipped with a sword, unit takes 4 less damage during combat.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/1/12/FE17_Sword_Guard_4_Icon.png/revision/latest?cb=20230310234448",
+        "icon_name": "Sword_Guard_4"
+    }, {
+        "skill": "Sword Guard 5",
+        "emblem": "Chrom, Robin",
+        "effect": "If foe is equipped with a sword, unit takes 5 less damage during combat.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/7/7c/FE17_Sword_Guard_5_Icon.png/revision/latest?cb=20230310234506",
+        "icon_name": "Sword_Guard_5"
+    }, {
+        "skill": "Mag/Dex +1",
+        "emblem": "Veronica",
+        "effect": "Grants Mag+1 and Dex+1.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/e/ec/FE17_Mag_Dex_%2B1_Icon.png/revision/latest?cb=20230310234522",
+        "icon_name": "Mag_Dex_1_1"
+    }, {
+        "skill": "Mag/Dex +2",
+        "emblem": "Veronica",
+        "effect": "Grants Mag+2 and Dex+2.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/c/cb/FE17_Mag_Dex_%2B2_Icon.png/revision/latest?cb=20230310234538",
+        "icon_name": "Mag_Dex_2_1"
+    }, {
+        "skill": "Mag/Dex +3",
+        "emblem": "Veronica",
+        "effect": "Grants Mag+3 and Dex+3.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/2/29/FE17_Mag_Dex_%2B3_Icon.png/revision/latest?cb=20230310234557",
+        "icon_name": "Mag_Dex_3_1"
+    }, {
+        "skill": "Mag/Dex +4",
+        "emblem": "Veronica",
+        "effect": "Grants Mag+4 and Dex+4.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/7/7e/FE17_Mag_Dex_%2B4_Icon.png/revision/latest?cb=20230310234616",
+        "icon_name": "Mag_Dex_4_1"
+    }, {
+        "skill": "Mag/Dex +5",
+        "emblem": "Veronica",
+        "effect": "Grants Mag+5 and Dex+5.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/3/36/FE17_Mag_Dex_%2B5_Icon.png/revision/latest?cb=20230310234632",
+        "icon_name": "Mag_Dex_5_1"
+    }, {
+        "skill": "Knife Guard 1",
+        "emblem": "Veronica",
+        "effect": "If foe is equipped with a knife, unit takes 1 less damage during combat.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/a/a2/FE17_Knife_Guard_1_Icon.png/revision/latest?cb=20230310234650",
+        "icon_name": "Knife_Guard_1"
+    }, {
+        "skill": "Knife Guard 2",
+        "emblem": "Veronica",
+        "effect": "If foe is equipped with a knife, unit takes 2 less damage during combat.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/1/10/FE17_Knife_Guard_2_Icon.png/revision/latest?cb=20230310234705",
+        "icon_name": "Knife_Guard_2"
+    }, {
+        "skill": "Knife Guard 3",
+        "emblem": "Veronica",
+        "effect": "If foe is equipped with a knife, unit takes 3 less damage during combat.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/e/e1/FE17_Knife_Guard_3_Icon.png/revision/latest?cb=20230310234722",
+        "icon_name": "Knife_Guard_3"
+    }, {
+        "skill": "Knife Guard 4",
+        "emblem": "Veronica",
+        "effect": "If foe is equipped with a knife, unit takes 4 less damage during combat.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/a/a1/FE17_Knife_Guard_4_Icon.png/revision/latest?cb=20230310234738",
+        "icon_name": "Knife_Guard_4"
+    }, {
+        "skill": "Knife Guard 5",
+        "emblem": "Veronica",
+        "effect": "If foe is equipped with a knife, unit takes 5 less damage during combat.",
+        "type": "emblem",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/e/ed/FE17_Knife_Guard_5_Icon.png/revision/latest?cb=20230310234754",
+        "icon_name": "Knife_Guard_5"
+    }],
+    "sync": [{
+        "skill": "Perceptive",
+        "emblem": "Marth",
+        "effect": "If the unit initiates combat, grants Avo+15 during combat. Avo increases with high Spd.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/6/6c/FE17_Perceptive_Icon.png/revision/latest?cb=20230125041643",
+        "icon_name": "Perceptive"
+    }, {
+        "skill": "Perceptive+",
+        "emblem": "Marth",
+        "effect": "If the unit initiates combat, grants Avo+30 during combat. Avo increases with high Spd.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/e/e4/FE17_Perceptive%2B_Icon.png/revision/latest?cb=20230125065130",
+        "icon_name": "Perceptive_1"
+    }, {
+        "skill": "Break Defenses",
+        "emblem": "Marth",
+        "effect": "If unit\u2019s attack breaks foe, unit makes an extra attack at 50% damage.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/f/f3/FE17_Break_Defenses_Icon.png/revision/latest?cb=20230125065101",
+        "icon_name": "Break_Defenses"
+    }, {
+        "skill": "Unyielding",
+        "emblem": "Marth",
+        "effect": "At start of player phase, if HP is 20% or less, restores 20% of unit\u2019s max HP.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/6/65/FE17_Unyielding_Icon.png/revision/latest?cb=20230125065040",
+        "icon_name": "Unyielding"
+    }, {
+        "skill": "Unyielding+",
+        "emblem": "Marth",
+        "effect": "At start of player phase, if HP is 30% or less, restores 30% of unit\u2019s max HP.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/6/6f/FE17_Unyielding%2B_Icon.png/revision/latest?cb=20230125065021",
+        "icon_name": "Unyielding_1"
+    }, {
+        "skill": "Unyielding++",
+        "emblem": "Marth",
+        "effect": "At start of player phase, if HP is 40% or less, restores 40% of unit\u2019s max HP.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/e/ed/FE17_Unyielding%2B%2B_Icon.png/revision/latest?cb=20230125064954",
+        "icon_name": "Unyielding_2"
+    }, {
+        "skill": "Holy Stance",
+        "emblem": "Celica",
+        "effect": "If a Corrupted attacks unit, deals 10% of damage taken back to foe.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/7/7b/FE17_Holy_Stance_Icon.png/revision/latest?cb=20230122203138",
+        "icon_name": "Holy_Stance"
+    }, {
+        "skill": "Holy Stance+",
+        "emblem": "Celica",
+        "effect": "If a Corrupted attacks unit, deals 30% of damage taken back to foe.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/6/65/FE17_Holy_Stance%2B_Icon.png/revision/latest?cb=20230125062610",
+        "icon_name": "Holy_Stance_1"
+    }, {
+        "skill": "Holy Stance++",
+        "emblem": "Celica",
+        "effect": "If a Corrupted attacks unit, deals 50% of damage taken back to foe.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/7/71/FE17_Holy_Stance%2B%2B_Icon.png/revision/latest?cb=20230125062510",
+        "icon_name": "Holy_Stance_2"
+    }, {
+        "skill": "Unholy Stance",
+        "emblem": "Dark Celica",
+        "effect": "If a non-Corrupted foe attacks unit, deals 50% of damage taken back to foe.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/7/7b/FE17_Holy_Stance_Icon.png/revision/latest?cb=20230122203138",
+        "icon_name": "Holy_Stance"
+    }, {
+        "skill": "Resonance",
+        "emblem": "Celica",
+        "effect": "When equipped with a tome, if unit\u2019s HP is 2 or more, unit loses 1 HP at start of combat and deals +2 damage during combat.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/2/22/FE17_Resonance_Icon.png/revision/latest?cb=20230125062418",
+        "icon_name": "Resonance"
+    }, {
+        "skill": "Resonance+",
+        "emblem": "Celica",
+        "effect": "When equipped with a tome, if unit\u2019s HP is 2 or more, unit loses 1 HP at start of combat and deals +3 damage during combat.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/6/6f/FE17_Resonance%2B_Icon.png/revision/latest?cb=20230125062245",
+        "icon_name": "Resonance_1"
+    }, {
+        "skill": "Favorite Food",
+        "emblem": "Celica",
+        "effect": "When unit eats a packed lunch, its engage meter is maxed out.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/5/5d/FE17_Favorite_Food_Icon.png/revision/latest?cb=20230125062150",
+        "icon_name": "Favorite_Food"
+    }, {
+        "skill": "Canter",
+        "emblem": "Sigurd",
+        "effect": "Unit can move 2 spaces after acting.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/0/07/FE17_Canter_Icon.png/revision/latest?cb=20230125063309",
+        "icon_name": "Canter"
+    }, {
+        "skill": "Canter+",
+        "emblem": "Sigurd",
+        "effect": "Unit can move 3 spaces after acting.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/8/8c/FE17_Canter%2B_Icon.png/revision/latest?cb=20230125063249",
+        "icon_name": "Canter_1"
+    }, {
+        "skill": "Momentum",
+        "emblem": "Sigurd",
+        "effect": "Grants Atk+1 to first attack during combat for each space unit moved before attacking. (Max +10)",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/8/8b/FE17_Momentum_Icon.png/revision/latest?cb=20230125063231",
+        "icon_name": "Momentum"
+    }, {
+        "skill": "Momentum+",
+        "emblem": "Sigurd",
+        "effect": "Grants Atk+1 to first attack during combat for each space unit moved before attacking.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/3/30/FE17_Momentum%2B_Icon.png/revision/latest?cb=20230125063213",
+        "icon_name": "Momentum_1"
+    }, {
+        "skill": "Headlong Rush",
+        "emblem": "Sigurd",
+        "effect": "Grants immunity to freeze.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/8/8c/FE17_Headlong_Rush_Icon.png/revision/latest?cb=20230125063155",
+        "icon_name": "Headlong_Rush"
+    }, {
+        "skill": "Arms Shield",
+        "emblem": "Leif",
+        "effect": "When unit has weapon advantage, unit takes 3 less damage.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/6/65/FE17_Arms_Shield_Icon.png/revision/latest?cb=20230125061241",
+        "icon_name": "Arms_Shield"
+    }, {
+        "skill": "Arms Shield+",
+        "emblem": "Leif",
+        "effect": "When unit has weapon advantage, unit takes 5 less damage.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/2/28/FE17_Arms_Shield%2B_Icon.png/revision/latest?cb=20230125061215",
+        "icon_name": "Arms_Shield_1"
+    }, {
+        "skill": "Arms Shield++",
+        "emblem": "Leif",
+        "effect": "When unit has weapon advantage, unit takes 7 less damage.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/b/b2/FE17_Arms_Shield%2B%2B_Icon.png/revision/latest?cb=20230125061136",
+        "icon_name": "Arms_Shield_2"
+    }, {
+        "skill": "Vantage",
+        "emblem": "Leif",
+        "effect": "If unit\u2019s HP is 25% or less and foe initiates combat, unit can counter before foe\u2019s first attack.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/b/b5/FE17_Vantage_Icon.png/revision/latest?cb=20230125061109",
+        "icon_name": "Vantage"
+    }, {
+        "skill": "Vantage+",
+        "emblem": "Leif",
+        "effect": "If unit\u2019s HP is 50% or less and foe initiates combat, unit can counter before foe\u2019s first attack.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/3/3f/FE17_Vantage%2B_Icon.png/revision/latest?cb=20230125061042",
+        "icon_name": "Vantage_1"
+    }, {
+        "skill": "Vantage++",
+        "emblem": "Leif",
+        "effect": "If unit\u2019s HP is 75% or less and foe initiates combat, unit can counter before foe\u2019s first attack.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/4/48/FE17_Vantage%2B%2B_Icon.png/revision/latest?cb=20230125061017",
+        "icon_name": "Vantage_2"
+    }, {
+        "skill": "Hold Out",
+        "emblem": "Roy",
+        "effect": "If unit had 30% HP or more at start of combat, unit always survives combat with at least 1 HP.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/6/60/FE17_Hold_Out_Icon.png/revision/latest?cb=20230125061633",
+        "icon_name": "Hold_Out"
+    }, {
+        "skill": "Hold Out+",
+        "emblem": "Roy",
+        "effect": "If unit had 20% HP or more at start of combat, unit always survives combat with at least 1 HP.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/6/6a/FE17_Hold_Out%2B_Icon.png/revision/latest?cb=20230125061556",
+        "icon_name": "Hold_Out_1"
+    }, {
+        "skill": "Hold Out++",
+        "emblem": "Roy",
+        "effect": "If unit had 10% HP or more at start of combat, unit always survives combat with at least 1 HP.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/8/83/FE17_Hold_Out%2B%2B_Icon.png/revision/latest?cb=20230125061526",
+        "icon_name": "Hold_Out_2"
+    }, {
+        "skill": "Hold Out+++",
+        "emblem": "Roy",
+        "effect": "If unit had 2 HP or more at start of combat, unit always survives combat with at least 1 HP.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/1/1e/FE17_Hold_Out%2B%2B%2B_Icon.png/revision/latest?cb=20230125061449",
+        "icon_name": "Hold_Out_3"
+    }, {
+        "skill": "Advance",
+        "emblem": "Roy",
+        "effect": "Use to move 1 space toward a foe that is 2 spaces away and attack.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/1/1a/FE17_Advance_Icon.png/revision/latest?cb=20230125061414",
+        "icon_name": "Advance"
+    }, {
+        "skill": "Alacrity",
+        "emblem": "Lyn",
+        "effect": "If unit initiates combat with a Spd advantage of 9 or more, unit\u2019s follow-up (if possible) occurs before foe can counterattack.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/2/2a/FE17_Alacrity_Icon.png/revision/latest?cb=20230125060427",
+        "icon_name": "Alacrity"
+    }, {
+        "skill": "Alacrity+",
+        "emblem": "Lyn",
+        "effect": "If unit initiates combat with a Spd advantage of 7 or more, unit\u2019s follow-up (if possible) occurs before foe can counterattack.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/9/9d/FE17_Alacrity%2B_Icon.png/revision/latest?cb=20230125060322",
+        "icon_name": "Alacrity_1"
+    }, {
+        "skill": "Alacrity++",
+        "emblem": "Lyn",
+        "effect": "If unit initiates combat with a Spd advantage of 5 or more, unit\u2019s follow-up (if possible) occurs before foe can counterattack.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/d/dc/FE17_Alacrity%2B%2B_Icon.png/revision/latest?cb=20230125055732",
+        "icon_name": "Alacrity_2"
+    }, {
+        "skill": "Speedtaker",
+        "emblem": "Lyn",
+        "effect": "Grants a stacking Spd+2 each time unit initiates combat and defeats a foe. Bonus lasts for the rest of the battle. (Max +10)",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/7/72/FE17_Speedtaker_Icon.png/revision/latest?cb=20230125055703",
+        "icon_name": "Speedtaker"
+    }, {
+        "skill": "Lunar Brace",
+        "emblem": "Eirika",
+        "effect": "If unit initiates combat with a physical attack, deals extra damage=20% of foe\u2019s Def. Useable when Eirika is active.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/2/2d/FE17_Lunar_Brace_Icon.png/revision/latest?cb=20230125051421",
+        "icon_name": "Lunar_Brace"
+    }, {
+        "skill": "Lunar Brace+",
+        "emblem": "Eirika",
+        "effect": "If unit initiates combat with a physical attack, deals extra damage=30% of foe\u2019s Def. Useable when Eirika is active.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/e/ea/FE17_Lunar_Brace%2B_Icon.png/revision/latest?cb=20230125051240",
+        "icon_name": "Lunar_Brace_1"
+    }, {
+        "skill": "Solar Brace",
+        "emblem": "Eirika",
+        "effect": "If unit initiates combat, unit recovers HP=30% of damage dealt. Useable when Ephraim is active.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/a/a0/FE17_Solar_Brace_Icon.png/revision/latest?cb=20230125051351",
+        "icon_name": "Solar_Brace"
+    }, {
+        "skill": "Solar Brace+",
+        "emblem": "Eirika",
+        "effect": "If unit initiates combat, unit recovers HP=50% of damage dealt. Useable when Ephraim is active.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/3/3b/FE17_Solar_Brace%2B_Icon.png/revision/latest?cb=20230125051157",
+        "icon_name": "Solar_Brace_1"
+    }, {
+        "skill": "Eclipse Brace",
+        "emblem": "Eirika",
+        "effect": "If unit initiates combat, unit deals extra damage=20% of foe\u2019s Def with physical attacks and recovers HP=30% of damage dealt. Only useable when Engaged. Replaces Lunar Brace and Solar Brace.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/3/36/FE17_Eclipse_Brace_Icon.png/revision/latest?cb=20230125051320",
+        "icon_name": "Eclipse_Brace"
+    }, {
+        "skill": "Eclipse Brace+",
+        "emblem": "Eirika",
+        "effect": "If unit initiates combat, unit deals extra damage=30% of foe\u2019s Def with physical attacks and recovers HP=50% of damage dealt. Only useable when Engaged. Replaces Lunar Brace and Solar Brace.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/c/c1/FE17_Eclipse_Brace%2B_Icon.png/revision/latest?cb=20230125050353",
+        "icon_name": "Eclipse_Brace_1"
+    }, {
+        "skill": "Night and Day",
+        "emblem": "Eirika",
+        "effect": "Use to switch Emblems and swap between Lunar Brace/Gentility and Solar Brace/Bravery for all allies.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/6/6e/FE17_Night_and_Day_Icon.png/revision/latest?cb=20230125051444",
+        "icon_name": "Night_and_Day"
+    }, {
+        "skill": "Gentility",
+        "emblem": "Eirika",
+        "effect": "Unit takes 3 less damage. Useable when Eirika is active.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/5/56/FE17_Gentility_Icon.png/revision/latest?cb=20230125050258",
+        "icon_name": "Gentility"
+    }, {
+        "skill": "Gentility+",
+        "emblem": "Eirika",
+        "effect": "Unit takes 5 less damage. Useable when Eirika is active.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/9/93/FE17_Gentility%2B_Icon.png/revision/latest?cb=20230125045013",
+        "icon_name": "Gentility_1"
+    }, {
+        "skill": "Bravery",
+        "emblem": "Eirika",
+        "effect": "Unit deals +3 damage. Useable when Ephraim is active.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/8/81/FE17_Bravery_Icon.png/revision/latest?cb=20230125050217",
+        "icon_name": "Bravery"
+    }, {
+        "skill": "Bravery+",
+        "emblem": "Eirika",
+        "effect": "Unit deals +5 damage. Useable when Ephraim is active.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/4/41/FE17_Bravery%2B_Icon.png/revision/latest?cb=20230125044352",
+        "icon_name": "Bravery_1"
+    }, {
+        "skill": "Blue Skies",
+        "emblem": "Eirika",
+        "effect": "Unit takes 3 less damage and deals +3 damage. Only useable when Engaged. Replaces Gentility and Bravery.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/f/fa/FE17_Blue_Skies_Icon.png/revision/latest?cb=20230125045926",
+        "icon_name": "Blue_Skies"
+    }, {
+        "skill": "Blue Skies+",
+        "emblem": "Eirika",
+        "effect": "Unit takes 5 less damage and deals +5 damage. Only useable when Engaged. Replaces Gentility and Bravery.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/2/27/FE17_Blue_Skies%2B_Icon.png/revision/latest?cb=20230125044318",
+        "icon_name": "Blue_Skies_1"
+    }, {
+        "skill": "Demolish",
+        "emblem": "Ike",
+        "effect": "Break destructible terrain in a single blow when using Destroy.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/5/5b/FE17_Demolish_Icon.png/revision/latest?cb=20230125054617",
+        "icon_name": "Demolish"
+    }, {
+        "skill": "Resolve",
+        "emblem": "Ike",
+        "effect": "If unit\u2019s HP is 75% or less after combat, grants Def/Res+5 as long as unit\u2019s HP stays below 75%.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/b/b3/FE17_Resolve_Icon.png/revision/latest?cb=20230125054413",
+        "icon_name": "Resolve"
+    }, {
+        "skill": "Resolve+",
+        "emblem": "Ike",
+        "effect": "If unit\u2019s HP is 75% or less after combat, grants Def/Res+7 as long as unit\u2019s HP stays below 75%.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/9/90/FE17_Resolve%2B_Icon.png/revision/latest?cb=20230125054041",
+        "icon_name": "Resolve_1"
+    }, {
+        "skill": "Reposition",
+        "emblem": "Ike",
+        "effect": "Use to move an adjacent ally to the opposite side of unit.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/e/ea/FE17_Reposition_Icon.png/revision/latest?cb=20230125054538",
+        "icon_name": "Reposition"
+    }, {
+        "skill": "Wrath",
+        "emblem": "Ike",
+        "effect": "At start of combat, for each HP the unit has lost, grants Crit+1 during combat. (Max +30)",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/c/c3/FE17_Wrath_Icon.png/revision/latest?cb=20230125054501",
+        "icon_name": "Wrath"
+    }, {
+        "skill": "Cleric",
+        "emblem": "Micaiah",
+        "effect": "Unit can equip staves up to level C.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/1/15/FE17_Cleric_Icon.png/revision/latest?cb=20230125062006",
+        "icon_name": "Cleric"
+    }, {
+        "skill": "Cleric+",
+        "emblem": "Micaiah",
+        "effect": "Unit can equip staves up to level B.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/7/7d/FE17_Cleric%2B_Icon.png/revision/latest?cb=20230125061937",
+        "icon_name": "Cleric_1"
+    }, {
+        "skill": "Cleric++",
+        "emblem": "Micaiah",
+        "effect": "Unit can equip staves up to level A.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/c/c8/FE17_Cleric%2B%2B_Icon.png/revision/latest?cb=20230125061906",
+        "icon_name": "Cleric_2"
+    }, {
+        "skill": "Healing Light",
+        "emblem": "Micaiah",
+        "effect": "When unit heals an ally with a staff, unit also recovers HP=50% of the amount healed.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/9/95/FE17_Healing_Light_Icon.png/revision/latest?cb=20230125061801",
+        "icon_name": "Healing_Light"
+    }, {
+        "skill": "Silence Ward",
+        "emblem": "Micaiah",
+        "effect": "Grants immunity to silence.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/0/09/FE17_Silence_Ward_Icon.png/revision/latest?cb=20230125061835",
+        "icon_name": "Silence_Ward"
+    }, {
+        "skill": "Dual Strike",
+        "emblem": "Lucina",
+        "effect": "Unit participates in chain attacks as if it were a backup unit.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/2/29/FE17_Dual_Strike_Icon.png/revision/latest?cb=20230125060736",
+        "icon_name": "Dual_Strike"
+    }, {
+        "skill": "Dual Assist",
+        "emblem": "Lucina",
+        "effect": "If unit is able to chain attack, unit will do so when allies attack foes unit could reach by moving. Trigger %=35.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/7/71/FE17_Dual_Assist_Icon.png/revision/latest?cb=20230125060703",
+        "icon_name": "Dual_Assist"
+    }, {
+        "skill": "Dual Assist+",
+        "emblem": "Lucina",
+        "effect": "If unit is able to chain attack, unit will do so when allies attack foes unit could reach by moving. Trigger %=70.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/9/9e/FE17_Dual_Assist%2B_Icon.png/revision/latest?cb=20230125060627",
+        "icon_name": "Dual_Assist_1"
+    }, {
+        "skill": "Dual Support",
+        "emblem": "Lucina",
+        "effect": "Grants a bonus to Avo that increases with unit\u2019s support level with adjacent allies. (Max +90)",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/b/b4/FE17_Dual_Support_Icon.png/revision/latest?cb=20230125060558",
+        "icon_name": "Dual_Support"
+    }, {
+        "skill": "Dragon Vein",
+        "emblem": "Corrin, Camilla",
+        "effect": "Use to add a special effect to certain spaces.\nDragon: Choose any Vein effect.\nBackup: Creates stone pillars that increase Def/Res.\nCavalry: Creates water that decreases Avo.\nCovert: Creates fog that increases Avo. (Corrin)\nCovert: Creates smoke that decreases Def/Avo. (Camilla)\nArmored: Creates vines that grant immunity to break.\nFlying: Creates healing glow that restores HP.\nMystical: Creates flames that inflict damage.\nQi Adept: Creates ice pillars that hinder movement. (Corrin)\nQi Adept: Creates ice floor that increases movement. (Camilla)",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/1/19/FE17_Dragon_Vein_Icon.png/revision/latest?cb=20230125052525",
+        "icon_name": "Dragon_Vein"
+    }, {
+        "skill": "Quality Time",
+        "emblem": "Corrin",
+        "effect": "After unit acts or waits, restores 5 HP to adjacent allies and slightly increases support with them.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/0/0f/FE17_Quality_Time_Icon.png/revision/latest?cb=20230125052325",
+        "icon_name": "Quality_Time"
+    }, {
+        "skill": "Quality Time+",
+        "emblem": "Corrin",
+        "effect": "After unit acts or waits, restores 10 HP to adjacent allies and slightly increases support with them.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/9/9f/FE17_Quality_Time%2B_Icon.png/revision/latest?cb=20230125052301",
+        "icon_name": "Quality_Time_1"
+    }, {
+        "skill": "Draconic Hex",
+        "emblem": "Corrin",
+        "effect": "If unit initiates combat, inflicts -4 to all of foe\u2019s basic stats after combat. (Penalties shrink by 1 each turn.)",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/7/7c/FE17_Draconic_Hex_Icon.png/revision/latest?cb=20230125052456",
+        "icon_name": "Draconic_Hex"
+    }, {
+        "skill": "Pair Up",
+        "emblem": "Corrin",
+        "effect": "Prevents damage from foes\u2019 chain attacks against unit.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/c/cc/FE17_Pair_Up_Icon.png/revision/latest?cb=20230125052426",
+        "icon_name": "Pair_Up"
+    }, {
+        "skill": "Divine Pulse",
+        "emblem": "Byleth",
+        "effect": "May turn a missed attack into a hit. Trigger %=30. Chance increases with high Lck.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/3/35/FE17_Divine_Pulse_Icon.png/revision/latest?cb=20230125053920",
+        "icon_name": "Divine_Pulse"
+    }, {
+        "skill": "Divine Pulse+",
+        "emblem": "Byleth",
+        "effect": "May turn a missed attack into a hit. Trigger %=50. Chance increases with high Lck.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/2/26/FE17_Divine_Pulse%2B_Icon.png/revision/latest?cb=20230125053843",
+        "icon_name": "Divine_Pulse_1"
+    }, {
+        "skill": "Mentorship",
+        "emblem": "Byleth",
+        "effect": "Grants 1.2\u00d7 EXP modifier to unit and adjacent allies.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/2/2f/FE17_Mentorship_Icon.png/revision/latest?cb=20230125053813",
+        "icon_name": "Mentorship"
+    }, {
+        "skill": "Lost & Found",
+        "emblem": "Byleth",
+        "effect": "If unit finishes an action or waits next to an ally, may find an item and increase support with that ally. Trigger %=Lck.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/5/59/FE17_Lost_%26_Found_Icon.png/revision/latest?cb=20230125053736",
+        "icon_name": "Lost_And_Found"
+    }, {
+        "skill": "Holy Aura",
+        "emblem": "Alear",
+        "effect": "Unit is Effective: Fell Dragon. Allies within 2 spaces with Effective: Dragon gain Effective: Fell Dragon.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/0/06/FE17_Holy_Aura_Icon.png/revision/latest?cb=20230125044134",
+        "icon_name": "Holy_Aura"
+    }, {
+        "skill": "Bond Forger",
+        "emblem": "Alear",
+        "effect": "Grants Hit/Avo+20 to unit and allies within 2 spaces that are synced or engaged with an Emblem.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/4/46/FE17_Bond_Forger_Icon.png/revision/latest?cb=20230125043755",
+        "icon_name": "Bond_Forger"
+    }, {
+        "skill": "Bond Forger+",
+        "emblem": "Alear",
+        "effect": "Grants Hit/Avo+30 to unit and allies within 2 spaces that are synced or engaged with an Emblem.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/5/50/FE17_Bond_Forger%2B_Icon.png/revision/latest?cb=20230125043726",
+        "icon_name": "Bond_Forger_1"
+    }, {
+        "skill": "Holy Shield",
+        "emblem": "Alear",
+        "effect": "Neutralizes Effective against this unit.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/4/4b/FE17_Holy_Shield_Icon.png/revision/latest?cb=20230125044110",
+        "icon_name": "Holy_Shield"
+    }, {
+        "skill": "Boon of Elyos",
+        "emblem": "Alear",
+        "effect": "If unit initiates combat, grants bonus to Crit and Ddg equal to 2\u00d7 the number of allies who have acted this turn.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/9/91/FE17_Boon_of_Elyos_Icon.png/revision/latest?cb=20230125043649",
+        "icon_name": "Boon_of_Elyos"
+    }, {
+        "skill": "Starsphere",
+        "emblem": "Tiki",
+        "effect": "Grants unit enhanced stat growth when leveling up. [Adds +15% to final growth rates.]",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/f/f6/FE17_Starsphere_Icon.png/revision/latest?cb=20230126100006",
+        "icon_name": "Starsphere"
+    }, {
+        "skill": "Geosphere",
+        "emblem": "Tiki",
+        "effect": "At start of player phase, if there are allies adjacent to unit, grants Def/Res+3 to unit and those allies for 1 turn.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/d/d3/FE17_Geosphere_Icon.png/revision/latest?cb=20230126100535",
+        "icon_name": "Geosphere"
+    }, {
+        "skill": "Geosphere+",
+        "emblem": "Tiki",
+        "effect": "At start of player phase, if there are allies adjacent to unit, grants Def/Res+5 to unit and those allies for 1 turn.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/f/ff/FE17_Geosphere%2B_Icon.png/revision/latest?cb=20230126101841",
+        "icon_name": "Geosphere_1"
+    }, {
+        "skill": "Lifesphere",
+        "emblem": "Tiki",
+        "effect": "If unit uses Wait without attacking or using items, restores 20 HP and heals status effects.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/d/d9/FE17_Lifesphere_Icon.png/revision/latest?cb=20230126100720",
+        "icon_name": "Lifesphere"
+    }, {
+        "skill": "Lifesphere+",
+        "emblem": "Tiki",
+        "effect": "If unit uses Wait without attacking or using items, restores 30 HP and heals status effects.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/6/64/FE17_Lifesphere%2B_Icon.png/revision/latest?cb=20230126101020",
+        "icon_name": "Lifesphere_1"
+    }, {
+        "skill": "Lifesphere++",
+        "emblem": "Tiki",
+        "effect": "If unit uses Wait without attacking or using items, restores 40 HP and heals status effects.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/f/f7/FE17_Lifesphere%2B%2B_Icon.png/revision/latest?cb=20230126102024",
+        "icon_name": "Lifesphere_2"
+    }, {
+        "skill": "Lightsphere",
+        "emblem": "Tiki",
+        "effect": "If unit initiates combat, halves chance of receiving critical hit from foe.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/6/67/FE17_Lightsphere_Icon.png/revision/latest?cb=20230126100823",
+        "icon_name": "Lightsphere"
+    }, {
+        "skill": "Gambit",
+        "emblem": "Edelgard, Dimitri, Claude",
+        "effect": "Effects change based on synced Emblem.\nFlame Gambit: Use when synced with Edelgard to attack a foe, then set the target foe\u2019s space and nearby spaces on fire.\nShield Gambit: Use when synced with Dimitri to negate damage from first attacks of ranged foes targeting unit in next enemy phase.\nPoison Gambit: Use when synced with Claude to attack a foe, then poison target and all foes adjacent to it after combat.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/e/ef/FE17_Gambit_Icon.png/revision/latest?cb=20230126104339",
+        "icon_name": "Gambit"
+    }, {
+        "skill": "Friendly Rivalry",
+        "emblem": "Edelgard, Dimitri, Claude",
+        "effect": "At start of player phase, the Emblem will randomly switch to Edelgard, Dimitri, or Claude.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/d/d7/FE17_Friendly_Rivalry_Icon.png/revision/latest?cb=20230126104414",
+        "icon_name": "Friendly_Rivalry"
+    }, {
+        "skill": "Lineage",
+        "emblem": "Edelgard, Dimitri, Claude",
+        "effect": "Increases unit\u2019s earned experience by 20%.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/e/ec/FE17_Lineage_Icon.png/revision/latest?cb=20230126104203",
+        "icon_name": "Lineage"
+    }, {
+        "skill": "Weapon Sync",
+        "emblem": "Edelgard, Dimitri, Claude",
+        "effect": "If unit initiates combat using same weapon type as the synced Emblem, grants Atk+5. If engaged, grants Atk+5 regardless of weapon type.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/9/97/FE17_Weapon_Sync_Icon.png/revision/latest?cb=20230126104310",
+        "icon_name": "Weapon_Sync"
+    }, {
+        "skill": "Weapon Sync+",
+        "emblem": "Edelgard, Dimitri, Claude",
+        "effect": "If unit initiates combat using same weapon type as the synced Emblem, grants Atk+7. If engaged, grants Atk+7 regardless of weapon type.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/9/9b/FE17_Weapon_Sync%2B_Icon.png/revision/latest?cb=20230126104238",
+        "icon_name": "Weapon_Sync_1"
+    }, {
+        "skill": "Quick Riposte",
+        "emblem": "Hector",
+        "effect": "If unit\u2019s HP is 80% or more and foe initiates combat, unit will always follow up (if weapon allows).",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/5/53/FE17_Quick_Riposte_Icon.png/revision/latest?cb=20230215184053",
+        "icon_name": "Quick_Riposte"
+    }, {
+        "skill": "Quick Riposte+",
+        "emblem": "Hector",
+        "effect": "If unit\u2019s HP is 60% or more and foe initiates combat, unit will always follow up (if weapon allows).",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/3/32/FE17_Quick_Riposte%2B_Icon.png/revision/latest?cb=20230215180101",
+        "icon_name": "Quick_Riposte_1"
+    }, {
+        "skill": "Adaptability",
+        "emblem": "Hector",
+        "effect": "When hit by a foe\u2019s attack, grants Def+2 for a physical attack or Res+2 for a magical attack after combat. Lasts until end of battle, or until activated again.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/d/dc/FE17_Adaptability_Icon.png/revision/latest?cb=20230215180923",
+        "icon_name": "Adaptability"
+    }, {
+        "skill": "Adaptability+",
+        "emblem": "Hector",
+        "effect": "When hit by a foe\u2019s attack, grants Def+3 for a physical attack or Res+3 for a magical attack after combat. Lasts until end of battle, or until activated again.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/3/30/FE17_Adaptability%2B_Icon.png/revision/latest?cb=20230215181109",
+        "icon_name": "Adaptability_1"
+    }, {
+        "skill": "Heavy Attack",
+        "emblem": "Hector",
+        "effect": "When making a physical attack, if an equipped weapon\u2019s Wt exceeds unit\u2019s Bld, adds excess as damage. (Max +5)",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/4/43/FE17_Heavy_Attack_Icon.png/revision/latest?cb=20230215180215",
+        "icon_name": "Heavy_Attack"
+    }, {
+        "skill": "Piercing Glare",
+        "emblem": "Hector",
+        "effect": "Use when HP is full to consume 20% of max HP and prevent foes from entering the 4 spaces diagonally adjacent to unit for 1 turn.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/0/01/FE17_Piercing_Glare_Icon.png/revision/latest?cb=20230215184115",
+        "icon_name": "Piercing_Glare"
+    }, {
+        "skill": "Assign Decoy",
+        "emblem": "Soren",
+        "effect": "Use to make one chosen ally more likely to be targeted by enemies for 1 turn. Effect is removed after ally is targeted by or otherwise damaged by foes 3 times.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/a/a3/FE17_Assign_Decoy_Icon.png/revision/latest?cb=20230215183658",
+        "icon_name": "Assign_Decoy"
+    }, {
+        "skill": "Anima Focus",
+        "emblem": "Soren",
+        "effect": "When using tomes, unit inflicts Def-3 with fire, Hit-20 with thunder, or Mov-2 with wind magic for 1 turn.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/7/75/FE17_Anima_Focus_Icon.png/revision/latest?cb=20230215183419",
+        "icon_name": "Anima_Focus"
+    }, {
+        "skill": "Keen Insight",
+        "emblem": "Soren",
+        "effect": "When unit deals Effective damage, deal +5 damage.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/5/56/FE17_Keen_Insight_Icon.png/revision/latest?cb=20230215183921",
+        "icon_name": "Keen_Insight"
+    }, {
+        "skill": "Keen Insight+",
+        "emblem": "Soren",
+        "effect": "When unit deals Effective damage, deal +7 damage.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/6/61/FE17_Keen_Insight%2B_Icon.png/revision/latest?cb=20230215183901",
+        "icon_name": "Keen_Insight_1"
+    }, {
+        "skill": "Block Recovery",
+        "emblem": "Soren",
+        "effect": "When attacking a broken foe with a tome, grants a chance the foe will remain broken. Chance increases with high Spd.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/6/66/FE17_Block_Recovery_Icon.png/revision/latest?cb=20230215181030",
+        "icon_name": "Block_Recovery"
+    }, {
+        "skill": "Decisive Strike",
+        "emblem": "Camilla",
+        "effect": "If unit initiates combat and lands a critical, deals 5 damage to foe after combat.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/6/65/FE17_Decisive_Strike_Icon.png/revision/latest?cb=20230215183558",
+        "icon_name": "Decisive_Strike"
+    }, {
+        "skill": "Decisive Strike+",
+        "emblem": "Camilla",
+        "effect": "If unit initiates combat and lands a critical, deals 10 damage to foe after combat.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/c/c0/FE17_Decisive_Strike%2B_Icon.png/revision/latest?cb=20230215180521",
+        "icon_name": "Decisive_Strike_1"
+    }, {
+        "skill": "Detoxify",
+        "emblem": "Camilla",
+        "effect": "Cures poison at start of turn.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/2/26/FE17_Detoxify_Icon.png/revision/latest?cb=20230215180716",
+        "icon_name": "Detoxify"
+    }, {
+        "skill": "Groundswell",
+        "emblem": "Camilla",
+        "effect": "After unit acts or waits in flames, miasma, or similar terrain effect, unit clears effect and recovers 10 HP.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/1/1e/FE17_Groundswell_Icon.png/revision/latest?cb=20230215180738",
+        "icon_name": "Groundswell"
+    }, {
+        "skill": "Surprise Attack",
+        "emblem": "Chrom, Robin",
+        "effect": "If unit initiates combat from terrain that provides an Avo bonus, foe cannot counterattack.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/d/d1/FE17_Surprise_Attack_Icon.png/revision/latest?cb=20230310233649",
+        "icon_name": "Surprise_Attack"
+    }, {
+        "skill": "Rally Spectrum",
+        "emblem": "Chrom, Robin",
+        "effect": "Use to grant adjacent allies +3 to all seven basic stats for 1 turn.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/c/c7/FE17_Rally_Spectrum_Icon.png/revision/latest?cb=20230310233709",
+        "icon_name": "Rally_Spectrum"
+    }, {
+        "skill": "Rally Spectrum+",
+        "emblem": "Chrom, Robin",
+        "effect": "Use to grant allies within 2 spaces +3 to all seven basic stats for 1 turn.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/5/55/FE17_Rally_Spectrum%2B_Icon.png/revision/latest?cb=20230310233730",
+        "icon_name": "Rally_Spectrum_1"
+    }, {
+        "skill": "Brute Force",
+        "emblem": "Chrom, Robin",
+        "effect": "While making a physical attack, critical hits deal increased damage.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/4/42/FE17_Brute_Force_Icon.png/revision/latest?cb=20230310233749",
+        "icon_name": "Brute_Force"
+    }, {
+        "skill": "Charm",
+        "emblem": "Chrom, Robin",
+        "effect": "If unit\u2019s attack triggers a chain attack, increases chain attack accuracy to 90%.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/7/70/FE17_Charm_Icon.png/revision/latest?cb=20230310233809",
+        "icon_name": "Charm"
+    }, {
+        "skill": "Reprisal",
+        "emblem": "Veronica",
+        "effect": "If unit's HP is not full, adds 30% of lost HP to Atk.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/1/11/FE17_Reprisal_Icon.png/revision/latest?cb=20230310233828",
+        "icon_name": "Reprisal"
+    }, {
+        "skill": "Reprisal+",
+        "emblem": "Veronica",
+        "effect": "If unit's HP is not full, adds 50% of lost HP to Atk.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/8/8e/FE17_Reprisal%2B_Icon.png/revision/latest?cb=20230310233848",
+        "icon_name": "Reprisal_1"
+    }, {
+        "skill": "Book of Worlds",
+        "emblem": "Veronica",
+        "effect": "Book of Worlds advances 1 stage (to max 5) for each consecutive round that unit uses Wait. Reverts to base stage if unit triggers the effect.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/c/ca/FE17_Book_of_Worlds_Icon.png/revision/latest?cb=20230310233909",
+        "icon_name": "Book_of_Worlds"
+    }, {
+        "skill": "Book I: Seal",
+        "emblem": "Veronica",
+        "effect": "If unit initiates combat, freezes foe after combat.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/7/70/FE17_Book_I_Seal_Icon.png/revision/latest?cb=20230310233928",
+        "icon_name": "Book_I_Seal"
+    }, {
+        "skill": "Book II: Flame",
+        "emblem": "Veronica",
+        "effect": "If unit initiates combat, freezes foe and sets foe's space on fire after combat.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/e/e1/FE17_Book_II_Flame_Icon.png/revision/latest?cb=20230310233944",
+        "icon_name": "Book_II_Flame"
+    }, {
+        "skill": "Book III: Death",
+        "emblem": "Veronica",
+        "effect": "If unit initiates combat, deals 10 damage, freezes foe, and sets foe's space on fire after combat.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/8/8f/FE17_Book_III_Death_Icon.png/revision/latest?cb=20230310234002",
+        "icon_name": "Book_III_Death"
+    }, {
+        "skill": "Book IV: Dream",
+        "emblem": "Veronica",
+        "effect": "If unit initiates combat, restore HP equal to damage dealt during combat, then deals 10 damage, freezes foe, and sets foe's space on fire after combat.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/f/fb/FE17_Book_IV_Dream_Icon.png/revision/latest?cb=20230310234021",
+        "icon_name": "Book_IV_Dream"
+    }, {
+        "skill": "Book V: Science",
+        "emblem": "Veronica",
+        "effect": "If unit initiates combat, restore HP to self and adjacent allies equal to damage dealt during combat, then deals 10 damage, freezes foe, and sets foe's space on fire after combat.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/5/59/FE17_Book_V_Science_Icon.png/revision/latest?cb=20230310234039",
+        "icon_name": "Book_V_Science"
+    }, {
+        "skill": "Level Boost",
+        "emblem": "Veronica",
+        "effect": "When unit defeats a foe of a higher level, grants Lvl+1 until the end of battle. (Max +3)",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/9/92/FE17_Level_Boost_Icon.png/revision/latest?cb=20230310234101",
+        "icon_name": "Level_Boost"
+    }, {
+        "skill": "SP Conversion",
+        "emblem": "Veronica",
+        "effect": "Grants +20 SP for each defeated foe. Triggers even without a ring or bracelet equipped.",
+        "type": "sync",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/b/b3/FE17_SP_Conversion_Icon.png/revision/latest?cb=20230310234124",
+        "icon_name": "SP_Conversion"
+    }],
+    "engage": [{
+        "skill": "Divine Speed",
+        "emblem": "Marth",
+        "effect": "Unit performs an extra attack at 50% damage in combat.",
+        "type": "engage",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/0/0d/FE17_Divine_Speed_Icon.png/revision/latest?cb=20230125041807",
+        "icon_name": "Divine_Speed"
+    }, {
+        "skill": "Echo",
+        "emblem": "Celica",
+        "effect": "Use to attack with magic at 50% damage. Use a second time to launch another 50% attack.",
+        "type": "engage",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/a/a6/FE17_Echo_Icon.png/revision/latest?cb=20230125062108",
+        "icon_name": "Echo"
+    }, {
+        "skill": "Gallop",
+        "emblem": "Sigurd",
+        "effect": "Grants Mov+5.",
+        "type": "engage",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/3/37/FE17_Gallop_Icon.png/revision/latest?cb=20230125063102",
+        "icon_name": "Gallop"
+    }, {
+        "skill": "Dark Gallop",
+        "emblem": "Dark Sigurd",
+        "effect": "Grants Mov+3.",
+        "type": "engage",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/3/37/FE17_Gallop_Icon.png/revision/latest?cb=20230125063102",
+        "icon_name": "Gallop"
+    }, {
+        "skill": "Adaptable",
+        "emblem": "Leif",
+        "effect": "If foe initiates combat, unit counters with the best weapon available (in terms of range, weapon advantage, effective bonus, etc.).",
+        "type": "engage",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/d/d6/FE17_Adaptable_Icon.png/revision/latest?cb=20230125060940",
+        "icon_name": "Adaptable"
+    }, {
+        "skill": "Rise Above",
+        "emblem": "Roy",
+        "effect": "Grants Lvl+5.",
+        "type": "engage",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/4/4d/FE17_Rise_Above_Icon.png/revision/latest?cb=20230125061341",
+        "icon_name": "Rise_Above"
+    }, {
+        "skill": "Sink Below",
+        "emblem": "Dark Roy",
+        "effect": "Grants Lvl+3.",
+        "type": "engage",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/4/4d/FE17_Rise_Above_Icon.png/revision/latest?cb=20230125061341",
+        "icon_name": "Rise_Above"
+    }, {
+        "skill": "Call Doubles",
+        "emblem": "Lyn",
+        "effect": "Creates four illusory doubles that can make chain attacks with unit.",
+        "type": "engage",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/8/8b/FE17_Call_Doubles_Icon.png/revision/latest?cb=20230125055632",
+        "icon_name": "Call_Doubles"
+    }, {
+        "skill": "Sacred Twins",
+        "emblem": "Eirika",
+        "effect": "While engaged with Eirika, changes Lunar Brace to Eclipse Brace and Gentility to Blue Skies for all allies.",
+        "type": "engage",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/2/25/FE17_Sacred_Twins_Icon.png/revision/latest?cb=20230125051546",
+        "icon_name": "Sacred_Twins"
+    }, {
+        "skill": "Laguz Friend",
+        "emblem": "Ike",
+        "effect": "Unit takes 50% less damage, but sets unit\u2019s Avo to 0.",
+        "type": "engage",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/8/89/FE17_Laguz_Friend_Icon.png/revision/latest?cb=20230126045058",
+        "icon_name": "Laguz_Friend"
+    }, {
+        "skill": "Augment",
+        "emblem": "Micaiah",
+        "effect": "Grants staff range +5 and area of effect +1.",
+        "type": "engage",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/2/22/FE17_Augment_Icon.png/revision/latest?cb=20230125061732",
+        "icon_name": "Augment"
+    }, {
+        "skill": "Dark Augment",
+        "emblem": "Dark Micaiah",
+        "effect": "Grants staff range +3 and area of effect +1.",
+        "type": "engage",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/2/22/FE17_Augment_Icon.png/revision/latest?cb=20230125061732",
+        "icon_name": "Augment"
+    }, {
+        "skill": "Bonded Shield",
+        "emblem": "Lucina",
+        "effect": "Use to prevent first attacks on adjacent allies until your next turn. Trigger %=80.",
+        "type": "engage",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/4/4f/FE17_Bonded_Shield_Icon.png/revision/latest?cb=20230125060532",
+        "icon_name": "Bonded_Shield"
+    }, {
+        "skill": "Dreadful Aura",
+        "emblem": "Corrin",
+        "effect": "If unit initiates combat, target foe and all foes within 1 space of it cannot move for 1 turn after combat.",
+        "type": "engage",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/3/3d/FE17_Dreadful_Aura_Icon.png/revision/latest?cb=20230125052130",
+        "icon_name": "Dreadful_Aura"
+    }, {
+        "skill": "Instruct",
+        "emblem": "Byleth",
+        "effect": "Use to grant allies within 2 spaces a stat bonus based on user's type. Bonus lasts for 1 turn.",
+        "type": "engage",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/0/0c/FE17_Instruct_Icon.png/revision/latest?cb=20230125053439",
+        "icon_name": "Instruct"
+    }, {
+        "skill": "Attuned",
+        "emblem": "Alear",
+        "effect": "If unit initiates combat and defeats foe, grants engage partner +4 to all seven basic stats while engaged.",
+        "type": "engage",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/e/ed/FE17_Attuned_Icon.png/revision/latest?cb=20230125043613",
+        "icon_name": "Attuned"
+    }, {
+        "skill": "Draconic Form",
+        "emblem": "Tiki",
+        "effect": "Unit transforms into and fights as a dragon while engaged. Grants +10 to max HP and +5 to Bld and all basic stats.",
+        "type": "engage",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/b/bd/FE17_Draconic_Form_Icon.png/revision/latest?cb=20230126100205",
+        "icon_name": "Draconic_Form"
+    }, {
+        "skill": "Combat Arts",
+        "emblem": "Edelgard, Dimitri, Claude",
+        "effect": "Enables use of Edelgard, Dimitri, or Claude\u2019s Combat Art. Spends some remaining engage turns.\nEdelgard Raging Storm: After combat, take another action. (Spend 3 turns.)\nDimitri Atrocity: Attack at double weapon\u2019s Mt. (Spend 1 turn.)\nClaude Fallen Star: Avoid foe\u2019s attacks during next combat. (Spend 1 turn.)",
+        "type": "engage",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/0/0d/FE17_Combat_Arts_Icon.png/revision/latest?cb=20230126104131",
+        "icon_name": "Combat_Arts"
+    }, {
+        "skill": "Impenetrable",
+        "emblem": "Hector",
+        "effect": "If foe initiates combat, grants Def/Res+30% during combat.",
+        "type": "engage",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/5/52/FE17_Impenetrable_Icon.png/revision/latest?cb=20230215183538",
+        "icon_name": "Impenetrable"
+    }, {
+        "skill": "Flare",
+        "emblem": "Soren",
+        "effect": "When attacking with tomes, inflicts Res-20% on foe, and unit recovers 50% of damage dealt.",
+        "type": "engage",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/2/21/FE17_Flare_Icon.png/revision/latest?cb=20230215180902",
+        "icon_name": "Flare"
+    }, {
+        "skill": "Soar",
+        "emblem": "Camilla",
+        "effect": "Grants Mov+2. Unit can cross terrain as if flying.",
+        "type": "engage",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/f/f8/FE17_Soar_Icon.png/revision/latest?cb=20230215180429",
+        "icon_name": "Soar"
+    }, {
+        "skill": "Other Half",
+        "emblem": "Chrom, Robin",
+        "effect": "If unit initiates combat, Robin chain attacks. Grants Mag+10 while engaged.",
+        "type": "engage",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/9/9c/FE17_Other_Half_Icon.png/revision/latest?cb=20230310233602",
+        "icon_name": "Other_Half"
+    }, {
+        "skill": "Contract",
+        "emblem": "Veronica",
+        "effect": "Use to grant another action to an adjacent ally who has already acted. (Ally cannot move.)",
+        "type": "engage",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/2/25/FE17_Contract_Icon.png/revision/latest?cb=20230310233622",
+        "icon_name": "Contract"
+    }],
+    "engage_attacks": [{
+        "skill": "Lodestar Rush",
+        "emblem": "Marth",
+        "effect": "Use to launch 7 consecutive sword attacks at 30% damage. Adjacent foe only.",
+        "type": "engage_attacks",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/d/db/FE17_Lodestar_Rush_Icon.png/revision/latest?cb=20230125041845",
+        "icon_name": "Lodestar_Rush"
+    }, {
+        "skill": "Warp Ragnarok",
+        "emblem": "Celica",
+        "effect": "Use to warp up to 10 spaces and make a powerful magic attack.",
+        "type": "engage_attacks",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/4/4f/FE17_Warp_Ragnarok_Icon.png/revision/latest?cb=20230125062037",
+        "icon_name": "Warp_Ragnarok"
+    }, {
+        "skill": "Dark Warp",
+        "emblem": "Dark Celica",
+        "effect": "Use to warp up to 5 spaces and make a powerful magic attack.",
+        "type": "engage_attacks",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/4/4f/FE17_Warp_Ragnarok_Icon.png/revision/latest?cb=20230125062037",
+        "icon_name": "Warp_Ragnarok"
+    }, {
+        "skill": "Ragnarok Warp",
+        "emblem": "Dark Celica",
+        "effect": "Use to make a powerful magic attack, then warp somewhere else on the map.",
+        "type": "engage_attacks",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/4/4f/FE17_Warp_Ragnarok_Icon.png/revision/latest?cb=20230125062037",
+        "icon_name": "Warp_Ragnarok"
+    }, {
+        "skill": "Override",
+        "emblem": "Sigurd",
+        "effect": "Use to attack and move through a line of adjacent foes. Sword/lance only.",
+        "type": "engage_attacks",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/b/ba/FE17_Override_Icon.png/revision/latest?cb=20230125063039",
+        "icon_name": "Override"
+    }, {
+        "skill": "Quadruple Hit",
+        "emblem": "Leif",
+        "effect": "Use to attack once each with sword, lance, axe, and bow.",
+        "type": "engage_attacks",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/7/76/FE17_Quadruple_Hit_Icon.png/revision/latest?cb=20230125060915",
+        "icon_name": "Quadruple_Hit"
+    }, {
+        "skill": "Blazing Lion",
+        "emblem": "Roy",
+        "effect": "Use to attack adjacent foe and an area 3 spaces wide. Target area and the 2 rows beyond it are set on fire. Sword only.",
+        "type": "engage_attacks",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/f/f5/FE17_Blazing_Lion_Icon.png/revision/latest?cb=20230125061311",
+        "icon_name": "Blazing_Lion"
+    }, {
+        "skill": "Astra Storm",
+        "emblem": "Lyn",
+        "effect": "Use to launch 5 bow attacks at 30% damage, up to range 10.",
+        "type": "engage_attacks",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/0/07/FE17_Astra_Storm_Icon.png/revision/latest?cb=20230125054737",
+        "icon_name": "Astra_Storm"
+    }, {
+        "skill": "Twin Strike",
+        "emblem": "Eirika",
+        "effect": "Use to make a sword attack followed by a lance attack from Ephraim on adjacent foe. Effective: Corrupted.",
+        "type": "engage_attacks",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/c/c2/FE17_Twin_Strike_Icon.png/revision/latest?cb=20230125044244",
+        "icon_name": "Twin_Strike"
+    }, {
+        "skill": "Great Aether",
+        "emblem": "Ike",
+        "effect": "Use to grant Def/Res+5, but unit can\u2019t counter for 1 turn. Next turn, attack a 2-space area, heal HP=30% of damage dealt. Sword/axe only.",
+        "type": "engage_attacks",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/0/0b/FE17_Great_Aether_Icon.png/revision/latest?cb=20230125054001",
+        "icon_name": "Great_Aether"
+    }, {
+        "skill": "Great Sacrifice",
+        "emblem": "Micaiah",
+        "effect": "Use to restore full HP to all allies, even those not under the player\u2019s control. After use, unit\u2019s HP=1.",
+        "type": "engage_attacks",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/c/c4/FE17_Great_Sacrifice_Icon.png/revision/latest?cb=20230125061701",
+        "icon_name": "Great_Sacrifice"
+    }, {
+        "skill": "All for One",
+        "emblem": "Lucina",
+        "effect": "Use to make a sword attack against an adjacent foe. All allies within 2 spaces chain attack.",
+        "type": "engage_attacks",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/3/3d/FE17_All_for_One_Icon.png/revision/latest?cb=20230125060500",
+        "icon_name": "All_for_One"
+    }, {
+        "skill": "Torrential Roar",
+        "emblem": "Corrin",
+        "effect": "Use to attack 3 spaces in a line, turning those spaces into water terrain.",
+        "type": "engage_attacks",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/8/84/FE17_Torrential_Roar_Icon.png/revision/latest?cb=20230125051643",
+        "icon_name": "Torrential_Roar"
+    }, {
+        "skill": "Goddess Dance",
+        "emblem": "Byleth",
+        "effect": "Use to grant another action to all adjacent allies.",
+        "type": "engage_attacks",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/3/32/FE17_Goddess_Dance_Icon.png/revision/latest?cb=20230125052617",
+        "icon_name": "Goddess_Dance"
+    }, {
+        "skill": "Diabolical Dance",
+        "emblem": "Dark Byleth",
+        "effect": "Use to grant another action to allies within 2 spaces.",
+        "type": "engage_attacks",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/3/32/FE17_Goddess_Dance_Icon.png/revision/latest?cb=20230125052617",
+        "icon_name": "Goddess_Dance"
+    }, {
+        "skill": "Dragon Blast",
+        "emblem": "Alear",
+        "effect": "Use to make two attacks against an adjacent foe with a sword and powerful magic beam.",
+        "type": "engage_attacks",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/3/3d/FE17_Dragon_Blast_Icon.png/revision/latest?cb=20230125043542",
+        "icon_name": "Dragon_Blast"
+    }, {
+        "skill": "Bond Blast",
+        "emblem": "Alear",
+        "effect": "Use to make a sword attack from the unit and engage partner followed by a magic beam attack against an adjacent foe.",
+        "type": "engage_attacks",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/6/61/FE17_Bond_Blast_Icon.png/revision/latest?cb=20230125043508",
+        "icon_name": "Bond_Blast"
+    }, {
+        "skill": "Divine Blessing",
+        "emblem": "Tiki",
+        "effect": "Use to grant 1 ally a Revival Stone.",
+        "type": "engage_attacks",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/2/20/FE17_Divine_Blessing_Icon.png/revision/latest?cb=20230126100329",
+        "icon_name": "Divine_Blessing"
+    }, {
+        "skill": "Divine Blessing+",
+        "emblem": "Tiki",
+        "effect": "Use to grant 1 ally a Revival Stone. If ally is not synced, fully restore HP. If ally is synced, +3 to engage meter. If ally is engaged, restore engage turns.",
+        "type": "engage_attacks",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/2/20/FE17_Divine_Blessing_Icon.png/revision/latest?cb=20230126100329",
+        "icon_name": "Divine_Blessing"
+    }, {
+        "skill": "Houses Unite",
+        "emblem": "Edelgard, Dimitri, Claude",
+        "effect": "Use to attack with Aymr, Areadbhar, and Failnaught at 50% damage.",
+        "type": "engage_attacks",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/f/f5/FE17_Houses_Unite_Icon.png/revision/latest?cb=20230126104059",
+        "icon_name": "Houses_Unite"
+    }, {
+        "skill": "Houses Unite+",
+        "emblem": "Edelgard, Dimitri, Claude",
+        "effect": "Use to attack with Aymr, Areadbhar, and Failnaught at 50% damage. After combat, take another action.",
+        "type": "engage_attacks",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/f/f5/FE17_Houses_Unite_Icon.png/revision/latest?cb=20230126104059",
+        "icon_name": "Houses_Unite"
+    }, {
+        "skill": "Storm's Eye",
+        "emblem": "Hector",
+        "effect": "Grants immunity to break. Foe cannot follow up. Unit follows up. Lasts 1 turn. Sword/axe only.",
+        "type": "engage_attacks",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/3/32/FE17_Storm%27s_Eye_Icon.png/revision/latest?cb=20230215180616",
+        "icon_name": "Storms_Eye"
+    }, {
+        "skill": "Storm\u2019s Eye+",
+        "emblem": "Hector",
+        "effect": "Grants immunity to break. Foe cannot follow up. Unit counters before foe\u2019s first attack and follows up. Lasts 1 turn. Sword/axe only.",
+        "type": "engage_attacks",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/3/32/FE17_Storm%27s_Eye_Icon.png/revision/latest?cb=20230215180616",
+        "icon_name": "Storms_Eye"
+    }, {
+        "skill": "Cataclysm",
+        "emblem": "Soren",
+        "effect": "Use to attack foes in an area with fire, thunder and wind magic at 40% damage. Wind is effective: Flying.",
+        "type": "engage_attacks",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/8/82/FE17_Cataclysm_Icon.png/revision/latest?cb=20230215181008",
+        "icon_name": "Cataclysm"
+    }, {
+        "skill": "Cataclysm+",
+        "emblem": "Soren",
+        "effect": "Use to attack foes in an area with fire, thunder and wind magic at 40% damage. Wind is effective: Flying.",
+        "type": "engage_attacks",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/8/82/FE17_Cataclysm_Icon.png/revision/latest?cb=20230215181008",
+        "icon_name": "Cataclysm"
+    }, {
+        "skill": "Dark Inferno",
+        "emblem": "Camilla",
+        "effect": "Use to deal damage to foes on certain spaces near unit and set those spaces on fire.",
+        "type": "engage_attacks",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/a/a6/FE17_Dark_Inferno_Icon.png/revision/latest?cb=20230215180555",
+        "icon_name": "Dark_Inferno"
+    }, {
+        "skill": "Dark Inferno+",
+        "emblem": "Camilla",
+        "effect": "Use to deal damage to foes on certain spaces near unit and set those spaces on fire.",
+        "type": "engage_attacks",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/a/a6/FE17_Dark_Inferno_Icon.png/revision/latest?cb=20230215180555",
+        "icon_name": "Dark_Inferno"
+    }, {
+        "skill": "Giga Levin Sword",
+        "emblem": "Chrom, Robin",
+        "effect": "Use to attack with a magic sword. Magic attack that uses physical attack power. Swords only.",
+        "type": "engage_attacks",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/a/aa/FE17_Giga_Levin_Sword_Icon.png/revision/latest?cb=20230310233454",
+        "icon_name": "Giga_Levin_Sword"
+    }, {
+        "skill": "Giga Levin Sword+",
+        "emblem": "Chrom, Robin",
+        "effect": "Use to attack with a magic sword. Magic attack that uses physical attack power. Swords only. Adjacent allies chain attack.",
+        "type": "engage_attacks",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/a/aa/FE17_Giga_Levin_Sword_Icon.png/revision/latest?cb=20230310233454",
+        "icon_name": "Giga_Levin_Sword"
+    }, {
+        "skill": "Summon Hero",
+        "emblem": "Veronica",
+        "effect": "Use to summon a random unit.",
+        "type": "engage_attacks",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/9/94/FE17_Summon_Hero_Icon.png/revision/latest?cb=20230310233518",
+        "icon_name": "Summon_Hero"
+    }],
+    "bond_ring": [{
+        "skill": "Sympathetic",
+        "bond_ring": "Caeda",
+        "effect": "If foe initiates combat and if unit's HP is 50% or less, unit takes 5 less damage.",
+        "type": "bond_ring",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/6/64/FE17_Sympathetic_Icon.png/revision/latest?cb=20230125043429",
+        "icon_name": "Sympathetic"
+    }, {
+        "skill": "Deadly Blade",
+        "bond_ring": "Navarre",
+        "effect": "If unit initiates combat with a sword, grants Crit+10 during combat.",
+        "type": "bond_ring",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/8/8e/FE17_Deadly_Blade_Icon.png/revision/latest?cb=20230125043401",
+        "icon_name": "Deadly_Blade"
+    }, {
+        "skill": "Windsweep",
+        "bond_ring": "Alm",
+        "effect": "If unit initiates combat with a sword, foe may not counterattack. Trigger %=Lck.",
+        "type": "bond_ring",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/0/05/FE17_Windsweep_Icon.png/revision/latest?cb=20230125043201",
+        "icon_name": "Windsweep"
+    }, {
+        "skill": "Great Thunder",
+        "bond_ring": "Mae",
+        "effect": "If unit uses Thunder, Elthunder, or Thoron, deals +20% damage.",
+        "type": "bond_ring",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/b/bc/FE17_Great_Thunder_Icon.png/revision/latest?cb=20230125043135",
+        "icon_name": "Great_Thunder"
+    }, {
+        "skill": "Renewal",
+        "bond_ring": "Deirdre",
+        "effect": "Unit recovers 5 HP each turn.",
+        "type": "bond_ring",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/4/45/FE17_Renewal_Icon.png/revision/latest?cb=20230125043244",
+        "icon_name": "Renewal"
+    }, {
+        "skill": "Battlewise",
+        "bond_ring": "Seliph",
+        "effect": "Grants a stacking Crit+1 each time unit initiates combat and defeats a foe. Bonus lasts for the rest of the battle. (Max +10)",
+        "type": "bond_ring",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/0/03/FE17_Battlewise_Icon.png/revision/latest?cb=20230125043312",
+        "icon_name": "Battlewise"
+    }, {
+        "skill": "Miracle",
+        "bond_ring": "Finn",
+        "effect": "Avoids foe's attack when unit would be defeated. Trigger %=Lck. (Max 50%)",
+        "type": "bond_ring",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/9/99/FE17_Miracle_Icon.png/revision/latest?cb=20230125042732",
+        "icon_name": "Miracle"
+    }, {
+        "skill": "Dire Thunder",
+        "bond_ring": "Olwen",
+        "effect": "When unit initiates combat with Thunder equipped, unit attacks twice. (Excludes Elthunder and Thoron.)",
+        "type": "bond_ring",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/4/45/FE17_Dire_Thunder_Icon.png/revision/latest?cb=20230125042701",
+        "icon_name": "Dire_Thunder"
+    }, {
+        "skill": "Raging Fire",
+        "bond_ring": "Lilina",
+        "effect": "If unit uses Fire, Elfire, or Bolganone, deals +20% damage.",
+        "type": "bond_ring",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/7/75/FE17_Raging_Fire_Icon.png/revision/latest?cb=20230125042833",
+        "icon_name": "Raging_Fire"
+    }, {
+        "skill": "Strong Arm",
+        "bond_ring": "Dieck",
+        "effect": "Grants Hit+20 while unit is equipped with a smash weapon.",
+        "type": "bond_ring",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/6/62/FE17_Strong_Arm_Icon.png/revision/latest?cb=20230125042803",
+        "icon_name": "Strong_Arm"
+    }, {
+        "skill": "Draw Back",
+        "bond_ring": "Eliwood",
+        "effect": "Use to move 1 space away from adjacent ally and pull the ally along.",
+        "type": "bond_ring",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/3/30/FE17_Draw_Back_Icon.png/revision/latest?cb=20230125042539",
+        "icon_name": "Draw_Back"
+    }, {
+        "skill": "Giga Excalibur",
+        "bond_ring": "Nino",
+        "effect": "If unit initiates combat with Excalibur, deals +20% damage.",
+        "type": "bond_ring",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/8/8c/FE17_Giga_Excalibur_Icon.png/revision/latest?cb=20230125042512",
+        "icon_name": "Giga_Excalibur"
+    }, {
+        "skill": "Sure Strike",
+        "bond_ring": "Innes",
+        "effect": "If unit initiates combat, attacks are guaranteed to hit. Trigger %=Dex",
+        "type": "bond_ring",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/e/eb/FE17_Sure_Strike_Icon.png/revision/latest?cb=20230125042103",
+        "icon_name": "Sure_Strike"
+    }, {
+        "skill": "Lethality",
+        "bond_ring": "Marisa",
+        "effect": "When landing a critical hit, instantly kills foe. Trigger %=30. (Excludes certain powerful foes.)",
+        "type": "bond_ring",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/e/e6/FE17_Lethality_Icon.png/revision/latest?cb=20230125042127",
+        "icon_name": "Lethality"
+    }, {
+        "skill": "Wind Adept",
+        "bond_ring": "Soren",
+        "effect": "If unit initiates combat with Wind equipped, unit may attack twice. Trigger %=Dex. (Excludes Elwind and Excalibur.)",
+        "type": "bond_ring",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/3/3f/FE17_Wind_Adept_Icon.png/revision/latest?cb=20230125042440",
+        "icon_name": "Wind_Adept"
+    }, {
+        "skill": "Shove",
+        "bond_ring": "Mia",
+        "effect": "Use to push an adjacent ally with less Bld 1 space away.",
+        "type": "bond_ring",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/e/eb/FE17_Shove_Icon.png/revision/latest?cb=20230125042415",
+        "icon_name": "Shove"
+    }, {
+        "skill": "Bane",
+        "bond_ring": "Sothe",
+        "effect": "May reduce foe's HP to 1. Trigger %=half of Dex. (Certain foes are immune to this effect.)",
+        "type": "bond_ring",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/f/fc/FE17_Bane_Icon.png/revision/latest?cb=20230125043011",
+        "icon_name": "Bane"
+    }, {
+        "skill": "Mercy",
+        "bond_ring": "Elincia",
+        "effect": "If dealing enough damage to defeat foe, instead leaves foe with 1 HP.",
+        "type": "bond_ring",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/4/40/FE17_Mercy_Icon.png/revision/latest?cb=20230125042926",
+        "icon_name": "Mercy"
+    }, {
+        "skill": "Rightful Ruler",
+        "bond_ring": "Chrom",
+        "effect": "Adds +5% to trigger rate for all skills with trigger rates.",
+        "type": "bond_ring",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/9/9c/FE17_Rightful_Ruler_Icon.png/revision/latest?cb=20230125042635",
+        "icon_name": "Rightful_Ruler"
+    }, {
+        "skill": "Healtouch",
+        "bond_ring": "Lissa",
+        "effect": "When unit heals an ally with a staff, restores +5 HP to target.",
+        "type": "bond_ring",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/c/c8/FE17_Healtouch_Icon.png/revision/latest?cb=20230125042607",
+        "icon_name": "Healtouch"
+    }, {
+        "skill": "Bushido",
+        "bond_ring": "Ryoma",
+        "effect": "If unit's level is higher than foe's, grants Crit+10 during combat, and unit deals +2 damage and takes 2 less damage.",
+        "type": "bond_ring",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/2/21/FE17_Bushido_Icon.png/revision/latest?cb=20230125042151",
+        "icon_name": "Bushido"
+    }, {
+        "skill": "Chivalry",
+        "bond_ring": "Xander",
+        "effect": "If unit initiates combat while foe's HP=100%, unit deals +2 damage and takes 2 less damage.",
+        "type": "bond_ring",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/f/f6/FE17_Chivalry_Icon.png/revision/latest?cb=20230125042214",
+        "icon_name": "Chivalry"
+    }, {
+        "skill": "Flickering Flower",
+        "bond_ring": "Edelgard",
+        "effect": "If unit initiates combat, freezes foe. Trigger % = total damage dealt.",
+        "type": "bond_ring",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/b/b4/FE17_Flickering_Flower_Icon.png/revision/latest?cb=20230125042351",
+        "icon_name": "Flickering_Flower"
+    }, {
+        "skill": "Paraselene",
+        "bond_ring": "Dimitri",
+        "effect": "Use to make an attack against an adjacent foe, then move 1 space away from that foe after combat.",
+        "type": "bond_ring",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/2/20/FE17_Paraselene_Icon.png/revision/latest?cb=20230125042325",
+        "icon_name": "Paraselene"
+    }, {
+        "skill": "Wind God",
+        "bond_ring": "Claude",
+        "effect": "If unit's HP=100%, grants range +1 with bows.",
+        "type": "bond_ring",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/3/32/FE17_Wind_God_Icon.png/revision/latest?cb=20230125042259",
+        "icon_name": "Wind_God"
+    }, {
+        "skill": "Spur Attack",
+        "bond_ring": "Alfonse",
+        "effect": "Grants Atk+2 to adjacent allies.",
+        "type": "bond_ring",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/c/cb/FE17_Spur_Attack_Icon.png/revision/latest?cb=20230125042038",
+        "icon_name": "Spur_Attack"
+    }, {
+        "skill": "Fortify Def",
+        "bond_ring": "Sharena",
+        "effect": "Grants Def+2 to adjacent allies for 1 turn at start of player phase.",
+        "type": "bond_ring",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/3/30/FE17_Fortify_Def_Icon.png/revision/latest?cb=20230125042004",
+        "icon_name": "Fortify_Def"
+    }, {
+        "skill": "Spur Res",
+        "bond_ring": "Anna",
+        "effect": "Grants Res+2 to adjacent allies.",
+        "type": "bond_ring",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/f/ff/FE17_Spur_Res_Icon.png/revision/latest?cb=20230125041940",
+        "icon_name": "Spur_Res"
+    }],
+    "enemy": [{
+        "skill": "Swordbreaker",
+        "effect": "If unit\u2019s HP is 50% or higher at start of combat and foe has a sword equipped, unit can follow up and foe cannot follow up.",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/5/50/FE17_Swordbreaker_Icon.png/revision/latest?cb=20230125075540",
+        "icon_name": "Swordbreaker"
+    }, {
+        "skill": "Lancebreaker",
+        "effect": "If unit\u2019s HP is 50% or higher at start of combat and foe has a lance equipped, unit can follow up and foe cannot follow up.",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/d/db/FE17_Lancebreaker_Icon.png/revision/latest?cb=20230125075520",
+        "icon_name": "Lancebreaker"
+    }, {
+        "skill": "Axebreaker",
+        "effect": "If unit\u2019s HP is 50% or higher at start of combat and foe has an axe equipped, unit can follow up and foe cannot follow up.",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/0/05/FE17_Axebreaker_Icon.png/revision/latest?cb=20230125075501",
+        "icon_name": "Axebreaker"
+    }, {
+        "skill": "Tomebreaker",
+        "effect": "If unit\u2019s HP is 50% or higher at start of combat and foe has a tome equipped, unit can follow up and foe cannot follow up.",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/3/36/FE17_Tomebreaker_Icon.png/revision/latest?cb=20230125075413",
+        "icon_name": "Tomebreaker"
+    }, {
+        "skill": "Bowbreaker",
+        "effect": "If unit\u2019s HP is 50% or higher at start of combat and foe has a bow equipped, unit can follow up and foe cannot follow up.",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/c/cd/FE17_Bowbreaker_Icon.png/revision/latest?cb=20230125075120",
+        "icon_name": "Bowbreaker"
+    }, {
+        "skill": "Knifebreaker",
+        "effect": "If unit\u2019s HP is 50% or higher at start of combat and foe has a knife equipped, unit can follow up and foe cannot follow up.",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/8/84/FE17_Knifebreaker_Icon.png/revision/latest?cb=20230125075347",
+        "icon_name": "Knifebreaker"
+    }, {
+        "skill": "Artbreaker",
+        "effect": "If unit\u2019s HP is 50% or higher at start of combat and foe has an art equipped, unit can follow up and foe cannot follow up.",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/4/4c/FE17_Artbreaker_Icon.png/revision/latest?cb=20230125075100",
+        "icon_name": "Artbreaker"
+    }, {
+        "skill": "Seal Strength",
+        "effect": "If unit initiates combat, inflicts Str-6 on foe after combat. (Penalty shrinks by 1 each turn.)",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/3/35/FE17_Seal_Strength_Icon.png/revision/latest?cb=20230125075041",
+        "icon_name": "Seal_Strength"
+    }, {
+        "skill": "Seal Magic",
+        "effect": "If unit initiates combat, inflicts Mag-6 on foe after combat. (Penalty shrinks by 1 each turn.)",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/5/59/FE17_Seal_Magic_Icon.png/revision/latest?cb=20230125075023",
+        "icon_name": "Seal_Magic"
+    }, {
+        "skill": "Seal Defense",
+        "effect": "If unit initiates combat, inflicts Def-6 on foe after combat. (Penalty shrinks by 1 each turn.)",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/c/c4/FE17_Seal_Defense_Icon.png/revision/latest?cb=20230125074607",
+        "icon_name": "Seal_Defense"
+    }, {
+        "skill": "Seal Speed",
+        "effect": "If unit initiates combat, inflicts Spd-6 on foe after combat. (Penalty shrinks by 1 each turn.)",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/a/a5/FE17_Seal_Speed_Icon.png/revision/latest?cb=20230125074545",
+        "icon_name": "Seal_Speed"
+    }, {
+        "skill": "Seal Resistance",
+        "effect": "If unit initiates combat, inflicts Res-6 on foe after combat. (Penalty shrinks by 1 each turn.)",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/5/54/FE17_Seal_Resistance_Icon.png/revision/latest?cb=20230125074522",
+        "icon_name": "Seal_Resistance"
+    }, {
+        "skill": "Darting Blow",
+        "effect": "When unit initiates combat, grants Spd+5 during combat.",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/3/3c/FE17_Darting_Blow_Icon.png/revision/latest?cb=20230125074148",
+        "icon_name": "Darting_Blow"
+    }, {
+        "skill": "Death Blow",
+        "effect": "When unit initiates combat, grants Crit+20 during combat.",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/b/b5/FE17_Death_Blow_Icon.png/revision/latest?cb=20230125074125",
+        "icon_name": "Death_Blow"
+    }, {
+        "skill": "Certain Blow",
+        "effect": "When unit initiates combat, grants Hit+40 during combat.",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/1/1f/FE17_Certain_Blow_Icon.png/revision/latest?cb=20230125074102",
+        "icon_name": "Certain_Blow"
+    }, {
+        "skill": "Duelist's Blow",
+        "effect": "When unit initiates combat, grants Avo+30 during combat.",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/9/9f/FE17_Duelist%27s_Blow_Icon.png/revision/latest?cb=20230125074206",
+        "icon_name": "Duelists_Blow"
+    }, {
+        "skill": "Armored Blow",
+        "effect": "When unit initiates combat, unit takes 10 less physical damage during combat.",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/2/2a/FE17_Armored_Blow_Icon.png/revision/latest?cb=20230125074047",
+        "icon_name": "Armored_Blow"
+    }, {
+        "skill": "Warding Blow",
+        "effect": "When unit initiates combat, unit takes 20 less magical damage during combat.",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/6/6d/FE17_Warding_Blow_Icon.png/revision/latest?cb=20230125074030",
+        "icon_name": "Warding_Blow"
+    }, {
+        "skill": "Fierce Stance",
+        "effect": "If foe initiates combat, grants Str+6 during combat.",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/3/38/FE17_Fierce_Stance_Icon.png/revision/latest?cb=20230125074502",
+        "icon_name": "Fierce_Stance"
+    }, {
+        "skill": "Steady Stance",
+        "effect": "If foe initiates combat, grants Def+6 during combat.",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/1/1c/FE17_Steady_Stance_Icon.png/revision/latest?cb=20230125074438",
+        "icon_name": "Steady_Stance"
+    }, {
+        "skill": "Darting Stance",
+        "effect": "If foe initiates combat, grants Spd+6 during combat.",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/c/ce/FE17_Darting_Stance_Icon.png/revision/latest?cb=20230125074417",
+        "icon_name": "Darting_Stance"
+    }, {
+        "skill": "Warding Stance",
+        "effect": "If foe initiates combat, grants Res+6 during combat.",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/8/82/FE17_Warding_Stance_Icon.png/revision/latest?cb=20230125074356",
+        "icon_name": "Warding_Stance"
+    }, {
+        "skill": "Poison Strike",
+        "effect": "If unit initiates combat, deals damage to foe equal to 20% of their max HP after combat.",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/d/d3/FE17_Poison_Strike_Icon.png/revision/latest?cb=20230125075618",
+        "icon_name": "Poison_Strike"
+    }, {
+        "skill": "Savage Blow",
+        "effect": "If unit initiates combat, deals damage to foes within 2 spaces equal to 20% of their max HP after combat.",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/7/7e/FE17_Savage_Blow_Icon.png/revision/latest?cb=20230125075559",
+        "icon_name": "Savage_Blow"
+    }, {
+        "skill": "Life and Death",
+        "effect": "Unit deals +10 damage and takes +10 damage during combat.",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/0/0d/FE17_Life_and_Death_Icon.png/revision/latest?cb=20230125074332",
+        "icon_name": "Life_and_Death"
+    }, {
+        "skill": "Self-Destruct",
+        "effect": "If unit\u2019s HP is 50% or less at the start of player phase, unit dies and deals 50% of its max HP to foes within 2 spaces.",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/3/3e/FE17_Self-Destruct_Icon.png/revision/latest?cb=20230125074010",
+        "icon_name": "Self_Destruct"
+    }, {
+        "skill": "Triangle Adept",
+        "effect": "When unit has weapon advantage, always follows up. When unit has disadvantage, foe always follows up.",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/e/ea/FE17_Triangle_Adept_Icon.png/revision/latest?cb=20230125074314",
+        "icon_name": "Triangle_Adept"
+    }, {
+        "skill": "Cornered Beast",
+        "effect": "If unit\u2019s HP is 50% or less at start of combat, grants Crit+30 during combat.",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/9/99/FE17_Cornered_Beast_Icon.png/revision/latest?cb=20230125074251",
+        "icon_name": "Cornered_Beast"
+    }, {
+        "skill": "Spirit Strike",
+        "effect": "When unit hits with an attack, inflicts -5 to foe\u2019s engage meter.",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/1/17/FE17_Spirit_Strike_Icon.png/revision/latest?cb=20230125073948",
+        "icon_name": "Spirit_Strike"
+    }, {
+        "skill": "Bond Breaker",
+        "effect": "Makes enemy chain attack accuracy always 30%. Reduces damage taken.",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/c/c0/FE17_Bond_Breaker_Icon.png/revision/latest?cb=20230125073411",
+        "icon_name": "Bond_Breaker"
+    }, {
+        "skill": "Bond Breaker+",
+        "effect": "Makes enemy chain attack accuracy always 10%. Reduces damage taken.",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/e/e5/FE17_Bond_Breaker%2B_Icon.png/revision/latest?cb=20230422093015",
+        "icon_name": "Bond_Breaker_1"
+    }, {
+        "skill": "Anchor",
+        "effect": "Unit cannot be moved by skills, smash weapons, etc.",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/c/cf/FE17_Anchor_Icon.png/revision/latest?cb=20230125073855",
+        "icon_name": "Anchor"
+    }, {
+        "skill": "Stalwart",
+        "effect": "Reduces damage from effectiveness.",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/9/93/FE17_Stalwart_Icon.png/revision/latest?cb=20230125073931",
+        "icon_name": "Stalwart"
+    }, {
+        "skill": "Unwavering",
+        "effect": "Negates damage from effectiveness.",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/6/6d/FE17_Unwavering_Icon.png/revision/latest?cb=20230125073912",
+        "icon_name": "Unwavering"
+    }, {
+        "skill": "Unbreakable",
+        "effect": "Prevents unit from being broken.",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/8/82/FE17_Unbreakable_Icon.png/revision/latest?cb=20230219235946",
+        "icon_name": "Unbreakable"
+    }, {
+        "skill": "Veteran",
+        "effect": "Prevents unit from being broken. Reduces damage from effectiveness.",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/2/29/FE17_Veteran_Icon.png/revision/latest?cb=20230125073836",
+        "icon_name": "Veteran"
+    }, {
+        "skill": "Veteran+",
+        "effect": "Prevents unit from being broken. Negates damage from effectiveness.",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/b/b9/FE17_Veteran%2B_Icon.png/revision/latest?cb=20230125073819",
+        "icon_name": "Veteran_1"
+    }, {
+        "skill": "Void Curse",
+        "effect": "Foes do not earn EXP fighting this unit.",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/f/f6/FE17_Void_Curse_Icon.png/revision/latest?cb=20230125073736",
+        "icon_name": "Void_Curse"
+    }, {
+        "skill": "Dark Barrier",
+        "effect": "A barrier created by Dark Emblems. Prevents 20% of damage to unit.",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/7/7e/FE17_Dark_Barrier_Icon.png/revision/latest?cb=20230125073556",
+        "icon_name": "Dark_Barrier"
+    }, {
+        "skill": "Dark Barrier+",
+        "effect": "A barrier created by Dark Emblems. Prevents 40% of damage to unit.",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/0/03/FE17_Dark_Barrier%2B_Icon.png/revision/latest?cb=20230125073529",
+        "icon_name": "Dark_Barrier_1"
+    }, {
+        "skill": "Dark Barrier++",
+        "effect": "A barrier created by Dark Emblems. Prevents 60% of damage to unit.",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/4/41/FE17_Dark_Barrier%2B%2B_Icon.png/revision/latest?cb=20230125073509",
+        "icon_name": "Dark_Barrier_2"
+    }, {
+        "skill": "Dark Barrier+++",
+        "effect": "A barrier created by Dark Emblems. Prevents 80% of damage to unit.",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/f/f7/FE17_Dark_Barrier%2B%2B%2B_Icon.png/revision/latest?cb=20230125073437",
+        "icon_name": "Dark_Barrier_3"
+    }, {
+        "skill": "Fell Barrier",
+        "effect": "A barrier created by Dark Emblems. Nullifies Effective: Fell Dragon and prevents 50% of damage to unit.",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/d/d8/FE17_Fell_Barrier_Icon.png/revision/latest?cb=20230125073712",
+        "icon_name": "Fell_Barrier"
+    }, {
+        "skill": "Fell Barrier+",
+        "effect": "A barrier created by Dark Emblems. Nullifies Effective: Fell Dragon and prevents 70% of damage to unit.",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/1/1f/FE17_Fell_Barrier%2B_Icon.png/revision/latest?cb=20230125073651",
+        "icon_name": "Fell_Barrier_1"
+    }, {
+        "skill": "Fell Barrier++",
+        "effect": "A barrier created by Dark Emblems. Nullifies Effective: Fell Dragon and prevents 85% of damage to unit.",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/4/40/FE17_Fell_Barrier%2B%2B_Icon.png/revision/latest?cb=20230125073634",
+        "icon_name": "Fell_Barrier_2"
+    }, {
+        "skill": "Fell Barrier+++",
+        "effect": "A barrier created by Dark Emblems. Nullifies Effective: Fell Dragon and prevents all damage to unit.",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/8/8a/FE17_Fell_Barrier%2B%2B%2B_Icon.png/revision/latest?cb=20230125073615",
+        "icon_name": "Fell_Barrier_3"
+    }, {
+        "skill": "Sigil Protection",
+        "effect": "Reduces damage taken and foe's critical hit chance by 50.",
+        "type": "enemy",
+        "icon_url": "https://static.wikia.nocookie.net/fireemblem/images/6/6a/FE17_Sigil_Protection_Icon.png/revision/latest?cb=20230422093334",
+        "icon_name": "Sigil_Protection"
+    }]
+}
