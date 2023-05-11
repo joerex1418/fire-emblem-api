@@ -27,31 +27,10 @@ def inject_dict_for_all_templates():
 def index():
     return render_template('index.html')
 
-@app.route("/game/engage")
-def game_engage():
-    character_base_stats = [c for c in engage.character_base_stats() if c["name"] == "Chloe"]
-    character_growth_rates = [c for c in engage.character_growth_rates() if c["name"] == "Chloe"]
-    character_other_data = [c for c in engage.character_other_data() if c["name"] == "Chloe"]
-    character_skills = [c for c in engage.character_skills() if c["character"] == "Chloe"]
-    ally_notebook = engage.ally_notebook("Chloe")
-    
-    console.print([c for c in character_skills if c["character"] == "Chloe"])
-    console.print([c for c in character_other_data if c["name"] == "Chloe"])
-    
-    data = {
-        "characters": engage.character_base_stats(),
-        "character_base_stats": character_base_stats,
-        "character_growth_rates": character_growth_rates,
-        "character_other_data": character_other_data,
-        "character_skills": character_skills,
-        "ally_notebook": ally_notebook,
-    }
-    
-    
-    return render_template('games/engage.html',
-                           title="Fire Emblem: Engage",
-                           **data)
-    
+@app.route("/engage/characters")
+def engage_charachters():
+    return render_template("engage/characters.html")
+
 @app.route("/api/engage")
 def api_engage_character():
     character_name = request.args.get("name").capitalize()

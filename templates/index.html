@@ -1,8 +1,21 @@
 {% extends 'base.html' %}
-{% block banner %}{% include 'snippets/banner.html' %}{% endblock banner %}
-
 {% block content %}
-
-
-
+<div id="content">
+    <div id="page-list">
+        <div class="game-links">
+            <h3>Fire Emblem: Engage</h3>
+            <a href="/engage/characters" class="btn">Characters</a>
+            <a href="/engage/weapons" class="btn">Weapons</a>
+            <a href="/engage/items-materials" class="btn">Items & Materials</a>
+            <a href="/engage/ally-notebook" class="btn">Ally Notebook</a>
+        </div>
+        <div class="game-links">
+            <h3>Fire Emblem: Three Houses</h3>
+            <a href="/three-houses/characters" class="btn">Characters</a>
+            <a href="/three-houses/weapons" class="btn">Weapons</a>
+            <a href="/three-houses/items-materials" class="btn">Items & Materials</a>
+            <a href="/three-houses/support" class="btn">Support</a>
+        </div>
+    </div>
+</div>
 {% endblock content %}

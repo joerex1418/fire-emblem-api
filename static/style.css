@@ -1,128 +1,117 @@
 body {
-  margin: 0;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  overflow: hidden; }
+  font-family: sans-serif;
+  background-color: #eeeeed;
+  margin: 0; }
 
-  a {
-    color: unset;
-    text-decoration: none; }
-    a:visited {
-      color: unset; }
-
-#banner {
-  display: flex;
-  height: 5rem;
-  color: #fff;
-  background-color: #840000;
-  align-items: center;
-  justify-content: center; }
-  #banner #app-title {
-    font-size: 2rem; }
-
-.nav-group {
-  cursor: pointer;
-  display: none;
-  justify-items: center; }
-
-  .nav {
-    color: #000;
-    font-size: 20px;
-    transition: color linear 100ms;
-    padding: 0.5rem 1rem;
-    margin-top: 3px;
-    margin-bottom: 3px;
-    justify-content: center;
-    justify-items: center; }
-    .nav:hover {
+  a.btn {
+    color: #0075dc;
+    text-decoration: none;
+    width: max-content; }
+    a.btn:visited, a.btn.btn:visited {
       color: #0075dc; }
+      a.btn:hover {
+        text-decoration: underline; }
 
-.btn-group {
-  display: flex;
-  position: absolute;
-  top: 5rem;
-  width: 100%;
-  justify-content: space-evenly; }
+.btn {
+  cursor: pointer;
+  user-select: none;
+  display: grid;
+  padding: 6px;
+  color: #171923;
+  border-radius: 5px;
+  transition: all linear 100ms; }
+  .btn#menu-btn {
+    color: #eeeeed;
+    background-color: #0075dc; }
+    .btn#menu-btn:hover {
+      background-color: #0062b8; }
 
-  .btn {
-    cursor: pointer;
-    user-select: none;
-    transition: all linear 100ms;
-    padding: 3px; }
-
-    #viewselect-btns {
-      height: 35px;
-      background-color: #e2e2e2;
-      align-items: center; }
-      #viewselect-btns .btn {
-        color: gray;
-        border-bottom: 2px solid #e2e2e2;
-        padding: 5px; }
-        #viewselect-btns .btn.selected, #viewselect-btns .btn:hover {
-          color: #840000;
-          border-bottom-color: #840000; }
-
-#base-content {
+div#menu-overlay {
+  color: #eeeeed;
+  background-color: rgba(23, 25, 35, 0.528);
   height: 100vh;
-  display: flex;
-  justify-content: center; }
-  #base-content #view {
-    position: absolute;
-    width: 100vw;
-    top: calc(5rem + 35px);
-    bottom: 0;
-    overflow: clip;
-    display: grid;
-    grid-template-columns: max-content auto;
-    align-items: center; }
-    #base-content #view #item-scroller {
-      overflow-y: auto;
-      padding: 0rem 0;
-      height: 98%;
-      width: 7rem;
-      transition: width linear 100ms; }
-      #base-content #view #item-scroller .btn {
-        color: #840000;
-        background-color: #fff;
-        border-radius: 0 5px 5px 0;
-        width: 80%;
-        padding: 8px; }
-        #base-content #view #item-scroller .btn.selected,
-        #base-content #view #item-scroller .btn:hover {
-          color: #fff;
-          background-color: #840000; }
-      #base-content #view #item-scroller.hidden {
-        width: 0rem; }
-    #base-content #view #item-viewer {
+  width: 100vw;
+  position: fixed;
+  top: 0vh;
+  transition: top ease-in-out 250ms;
+  z-index: 4; }
+  div#menu-overlay.hidden {
+    top: -100vh; }
+
+div.side-menu {
+  display: grid;
+  color: #eeeeed;
+  height: 100vh;
+  width: 40vw;
+  position: fixed;
+  top: 0vh;
+  right: 0vw;
+  z-index: 4;
+  transition: all ease-in-out 250ms;
+  background-color: rgba(23, 25, 35, 0.7);
+  backdrop-filter: blur(5px);
+  grid-template-rows: max-content auto; }
+  div.side-menu.hidden {
+    right: calc(-1 * 40vw); }
+    div.side-menu .close-btn {
       display: grid;
-      grid-template-columns: auto;
-      align-self: flex-start; }
-      #base-content #view #item-viewer #show-hide-btn {
-        cursor: pointer;
-        position: absolute;
-        user-select: none; }
-        #base-content #view #item-viewer #character-name {
-          grid-column: 1 / span 1;
-          grid-row: 1 / span 1;
-          justify-self: center;
-          font-size: 30px; }
-          #base-content #view #item-viewer #character-image {
-            grid-column: 1 / span 1;
-            grid-row: 2 / span 1;
-            justify-self: center; }
-            #base-content #view #item-viewer #character-image img {
-              height: 120px; }
-      #base-content #view #item-viewer #character-bio {
-        grid-column: 1 / span 1;
-        grid-row: 3 / span 1; }
-        #base-content #view #item-viewer #character-bio .bio-detail {
-          font-size: 14px;
-          display: grid;
-          grid-template-columns: 1fr 1fr; }
-          #base-content #view #item-viewer #character-bio .bio-detail div.bio-key {
-            font-weight: bold; }
-            #base-content #view #item-viewer #character-bio .bio-detail div.bio-val {
-              font-weight: unset; }
-              #base-content #view #item-viewer #character-bio .bio-detail div.bio-spread {
-                grid-column: 1 / span 2; }
-                #base-content #view #item-viewer #character-bio .bio-detail p {
-                  grid-column: 1 / span 2; }
+      cursor: pointer;
+      user-select: none;
+      width: 40px;
+      height: 40px;
+      margin-left: 1rem; }
+      div.side-menu .close-btn > svg {
+        fill: #eeeeed;
+        width: inherit;
+        height: inherit; }
+        div.side-menu#character-menu .character.btn {
+          width: 120px; }
+  div.side-menu .menu-list {
+    display: grid;
+    row-gap: 1rem;
+    align-content: start; }
+    div.side-menu .menu-list .btn {
+      cursor: pointer;
+      padding: 0.5rem;
+      color: #eeeeed;
+      justify-content: right;
+      justify-self: right;
+      font-size: 20px;
+      margin-right: 1rem; }
+      div.side-menu .menu-list .btn:hover, div.side-menu .menu-list .btn.selected {
+        background-color: #0075dc; }
+
+div#site-header {
+  color: #eeeeed;
+  display: grid;
+  grid-template-columns: max-content max-content auto;
+  background-color: #171923;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3rem;
+  padding: 1rem;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between; }
+  div#site-header #app-title {
+    font-size: 25px; }
+    div#site-header .btn {
+      height: max-content;
+      width: max-content; }
+      @media only screen and (max-width: 480px) {
+        div#site-header #app-title {
+          font-size: 22px;   }
+}
+
+div#content {
+  margin-top: calc(3rem + 2 * 1rem); }
+  div#content #page-list {
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center; }
+    div#content #page-list .game-links {
+      display: grid; }

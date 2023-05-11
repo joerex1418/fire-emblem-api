@@ -5,18 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- Load generated CSS files here -->
-    {% assets "style" %} 
+    {% assets "style" %}
     <link rel="stylesheet" type="text/css" href="{{ ASSET_URL }}">
     {% endassets %}
     
-    <title>{{ title|default("Untitled FE app") }}</title>
+    <title>{{ title|default("FE Companion") }}</title>
 </head>
 <body>
-    {% block banner %}{% endblock banner %}
-    <div id="base-content">
-        {% block content %}{% endblock content %}
-    </div>
+    <!-- <div id="menu-overlay" class="hidden"></div> -->
+    {% block content %}{% endblock content %}
     <!-- Load static JavaScript files here -->
     <script src="{{ url_for('static', filename='main.js') }}"></script>
 </body>

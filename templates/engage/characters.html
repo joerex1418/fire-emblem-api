@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block content %}
+<!-- CHARACTER MENU -->
+<div id="character-menu" class="side-menu hidden">
+    <div id="close-menu-btn" class="close-btn">{% include 'snippets/close_svg.html' %}</div>
+    <div class="menu-list">
+        <div class="character btn">Alear</div>
+        <div class="character btn">Alfred</div>
+        <div class="character btn">Lapis</div>
+        <div class="character btn">Citrinne</div>
+    </div>
+</div>
+
+<!-- HEADER -->
+<div id="site-header">
+    <div id="app-title">FE Companion</div>
+    <a href="/" class="btn">Home</a>
+   <div id="menu-btn" class="btn">Characters</div>
+</div>
+
+{% endblock content %}
