@@ -77,6 +77,6 @@ def api_engage_character():
     
 
 host = "10.0.1.250"
-host = "127.0.0.1"
+# host = "127.0.0.1"
 if __name__ == "__main__":
     app.run(host,port=5500,debug=True)

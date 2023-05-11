@@ -1,3 +1,6 @@
+from .api import get_character
+from .api import get_weapons
+
 from .database import items
 from .database import materials
 from .database import Weapons

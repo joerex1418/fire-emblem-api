@@ -34,8 +34,6 @@ def _retrieve_character_images():
                 urllib.request.urlretrieve(href,filepath)
 
 
-data = fetch._weapon_data_fandom()
-data = fetch._skills_data_fandom()
 
 # with root.joinpath("data","engage","files","weapons.json").open("w+") as fp:
 #     json.dump(data,fp,sort_keys=False,indent=2)
@@ -48,8 +46,8 @@ data = fetch._skills_data_fandom()
 #         filename = root.joinpath("data","engage","images","weapons",f"{icon_name}.png")
 #         urllib.request.urlretrieve(icon_url,filename)
 
-fandom_data = fetch._weapon_data_fandom()
-serenes_data = engage.get_weapons()
-console.print(fandom_data[0])
-print()
-console.print(serenes_data[0])
+# fandom_data = fetch._weapon_data_fandom()
+
+data = fire_emblem.engage.api.get_character
+
+
