@@ -32,7 +32,7 @@ def get_character(character_name:str) -> typed_rows._Character:
     image_files = [f"{name}.png"]
     if name == "Alear":
         image_files = ["Alear_Male.png","Alear_Female.png"]
-    
+        
     data = {
         "name": true_name,
         "class": initial_class,
@@ -40,6 +40,10 @@ def get_character(character_name:str) -> typed_rows._Character:
         "proficiency": other["proficiency"],
         "sp": other["sp"],
         "age": other["age"],
+        "likes": ally_notebook_entry["c_rank"]["likes"],
+        "dislikes": ally_notebook_entry["c_rank"]["dislikes"],
+        "hobbies": ally_notebook_entry["b_rank"]["hobbies"],
+        "talents": ally_notebook_entry["b_rank"]["talents"],
         "birthday": other["birthday"],
         "gender": other["gender"],
         "bio": bio,

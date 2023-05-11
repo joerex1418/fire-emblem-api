@@ -66,6 +66,7 @@ def api_engage_character():
         "growth_rate": growth_rates[0],
         "skills": skills[0],
         "other": other[0],
+        "likes": "",
         "image_path": url_for('static',filename=f'images/characters/engage/{character_name}.jpg'),
     }
     console.print_json(data=data)
