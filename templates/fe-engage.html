@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div id="site-header">
+    <a href="/" class="btn">Home</a>
+   <div id="menu-btn" class="btn">Characters</div>
+</div>
+
+<div id="menu" class="side-menu hidden">
+    <div id="close-menu-btn" class="close-btn">{% include 'snippets/close_svg.html' %}</div>
+    <div id="menu-selector-wrapper">
+        <div id="menu-selector" style="display: none;">
+            <div class="menu-option selected">Characters</div>
+            <div class="menu-option">Weapons</div>
+            <div class="menu-option">Items & Materials</div>
+        </div>
+        <div id="current-menu-btn" class="btn">Characters</div>
+    </div>
+    <!-- CHARACTERS -->
+    <div id="character-menu-list" class="menu-list">
+        <div class="character btn" data-name="Alear">Alear</div>
+        <div class="character btn" data-name="Alfred">Alfred</div>
+        <div class="character btn" data-name="Citrinne">
+            <img src="{{url_for('static',filename='images/engage/characters/Citrinne.png')}}" alt="" style="height: 20px;">
+            <div>Citrinne</div>
+        </div>
+        <div class="character btn selected" data-name="Diamant">
+            <img src="{{url_for('static',filename='images/engage/characters/Diamant.png')}}" alt="" style="height: 20px;">
+            <div>Diamant</div>
+        </div>
+        <div class="character btn" data-name="Lapis">
+            <img src="{{url_for('static',filename='images/engage/characters/Lapis.png')}}" alt="" style="height: 20px;">
+            <div>Lapis</div>
+        </div>
+    </div>
+</div>
+<style>
+    .prof-image > img {
+        filter: invert();
+    }
+</style>
+<div id="content">
+    <div id="container-character-data">
+        {% include 'engage/character_container_data.html' %}
+    </div>
+</div>
+{% endblock content %}

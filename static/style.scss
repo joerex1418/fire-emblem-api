@@ -9,13 +9,16 @@ $app-purple: rgb(137, 95, 255);
 $bgdark: #840000;
 $offwhite: #fefff2;
 
+$transparent: rgba(255, 255, 255, 0);
 $color_light: #eeeeed;
 $color_primary: #0075dc;
 $color_primary-dark: #0062b8;
 $color_secondary1: #7ebdd3;
 $color_secondary2: #485b82;
+$color_secondary2-dark: #39496a;
 $color_dark: #171923;
-$color_dark-transparent: rgba(23, 25, 35, 0.7);
+$color_dark-transparent: rgba(23, 25, 35, 0.749);
+
 
 // desktop -> 768px --- Example: @media only screen and (min-width: 768px)
 // tablet  -> 600px --- Example: @media only screen and (min-width: 600px)
@@ -25,7 +28,8 @@ $banner-height: 5rem;
 $viewselect-height: 35px;
 
 body {
-    font-family: sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    // font-family: sans-serif;
     background-color: $color_light;
     margin: 0;
 }
@@ -46,7 +50,7 @@ a.btn {
     cursor: pointer;
     user-select: none;
     display: grid;
-    padding: 6px;
+    padding: 8px;
     color: $color_dark;
     border-radius: 5px;
     transition: all linear 100ms;
@@ -64,48 +68,77 @@ $banner-height: 3rem;
 $banner-padding: 1rem;
 $sidemenu-margin: 1rem;
 $sidemenu-width: 40vw;
+$sidemenu-width-mobile: 50vw;
+$sidemenu-width-large: 30vw;
 
-div#menu-overlay {
-    color: $color_light;
-    background-color: rgba(23, 25, 35, 0.528);
-    height: 100vh; width: 100vw;
-    position: fixed;
-    top: 0vh;
-    transition: top ease-in-out 250ms;
-    z-index: 4;
-    &.hidden {
-        top: -100vh;
-    }
-}
+
 div.side-menu {
     display: grid;
     color: $color_light;
-    height: 100vh; width: $sidemenu-width;
     position: fixed;
-    top: 0vh; right: 0vw;
+    width: $sidemenu-width;
+    right: 0vw;
+    top: 0vh; 
+    bottom: 0vh;
     z-index: 4;
     transition: all ease-in-out 250ms;
-    background-color: $color_dark-transparent;
-    backdrop-filter: blur(5px);
-    grid-template-rows: max-content auto;
-
-    &.hidden { right: calc(-1 * #{$sidemenu-width}); }
+    // background-color: $color_dark-transparent;
+    background-color: $color_dark;
+    box-shadow: -4.984375px 0.03125px 14px -3px rgba(0, 0, 0, 0.47);
+    grid-template-rows: max-content max-content auto;
+    @media only screen and (min-width: 768px) {
+        width: $sidemenu-width-large; 
+    }
+    @media only screen and (max-width: 480px) { 
+        width: $sidemenu-width-mobile; 
+    }
+    
+    &.hidden { 
+        right: calc(-1 * #{$sidemenu-width} - 5vw);
+        @media only screen and (min-width: 768px) {
+            right: calc(-1 * #{$sidemenu-width-large} - 5vw);
+        }
+        @media only screen and (max-width: 480px) {
+            right: calc(-1 * #{$sidemenu-width-mobile} - 5vw);
+        }
+    }
 
     .close-btn {
-        display: grid;
         cursor: pointer;
+        display: grid;
         user-select: none;
         width: 40px; height: 40px;
-        margin-left: $sidemenu-margin;
+        margin: $sidemenu-margin;
     }
-    .close-btn > svg { 
+    .close-btn > svg {
         fill: $color_light;
         width: inherit; height: inherit; 
     }
     
-    &#character-menu {
-        .character.btn {
-            width: 120px;
+    #menu-selector-wrapper {
+        position: relative;
+        #menu-selector {
+            position: absolute;
+            top: 0;
+            background-color: $color_secondary2-dark;
+        }
+        
+        #current-menu-btn {
+            color: $color_light;
+            background-color: $color_secondary2;
+            text-align: center;
+            margin: 0.5rem;
+            font-size: 20px;
+            &:hover { background-color: $color_secondary2-dark; }
+        }
+    }
+
+    @media only screen and (max-width: 480px) {
+        #current-menu-btn {
+            font-size: 18px;
+        }
+        .menu-list > .btn {
+            font-size: 16px;
         }
     }
     
@@ -119,7 +152,7 @@ div.side-menu {
             color: $color_light;
             justify-content: right;
             justify-self: right;
-            font-size: 20px;
+            font-size: 18px;
             margin-right: $sidemenu-margin; 
             &:hover, &.selected {
                 background-color: $color_primary;
@@ -130,10 +163,11 @@ div.side-menu {
 }
 
 div#site-header {
-    color: $color_light;
+    color: $color_dark;
     display: grid;
-    grid-template-columns: max-content max-content auto;
-    background-color: $color_dark;
+    // grid-template-columns: max-content max-content;
+    grid-auto-flow: column;
+    background: $transparent;
     position: fixed;
     top: 0; left: 0; right: 0;
     height: $banner-height;
@@ -143,25 +177,28 @@ div#site-header {
     align-items: center;
     justify-content: space-between;
 
-    #app-title {
-        font-size: 25px;
-    }
-
     .btn {
         height: max-content;
         width: max-content;
-    }
-
-
-    @media only screen and (max-width: 480px) {
-        #app-title {
-            font-size: 22px;
-        }
     }
 }
 
 div#content {
     margin-top: calc(#{$banner-height} + 2 * #{$banner-padding}); // to compensate for fixed banner
+
+    margin-left: 10rem; margin-right: 10rem;
+
+    @media only screen and (max-width: 1000px) {
+        margin-left: 5rem; margin-right: 5rem;
+    }
+    @media only screen and (max-width: 600px) {
+        margin-left: 4rem; margin-right: 4rem;
+    }
+    @media only screen and (max-width: 480px) {
+        margin-left: 1rem; margin-right: 1rem;
+    }
+
+
     #page-list {
         display: grid;
         grid-template-rows: auto auto;
@@ -172,6 +209,154 @@ div#content {
         .game-links {
             display: grid;
         }
+    }
+
+}
+
+// Character
+#container-character-data {
+    display: grid;
+    row-gap: 1rem;
+
+
+    .character-section {
+        display: grid;
+        column-gap: 5px;
+
+        @media only screen and (max-width: 480px) { font-size: 14px; }
+
+        .label { font-weight: bold; }
+
+        &#image-name-bio {
+            column-gap: 2rem;
+            #image { grid-row: 1 / span 1; grid-column: 1 / span 1; }
+            #name { grid-row: 2 / span 1; grid-column: 1 / span 1; }
+            #bio { grid-row: 1 / span 1; grid-column: 2 / span 1; }
+            
+            @media only screen and (max-width: 480px) {
+                #image { grid-row: 1 / span 1; grid-column: 1 / span 1; }
+                #name { grid-row: 2 / span 1; grid-column: 1 / span 1; }
+                #bio { grid-row: 3 / span 1; grid-column: 1 / span 1; }
+            }
+
+        }
+
+        &#image {
+            display: grid;
+            grid-auto-flow: column; 
+            column-gap: 1rem;
+            height: 200px;
+            justify-self: center;
+            justify-content: center;
+            @media only screen and (max-width: 480px) {
+                height: 120px;
+            }
+            
+            img {
+                height: inherit;
+                border-radius: 3rem;
+            }
+        }
+
+        &#name {
+            justify-content: center;
+            font-size: 30px;
+            font-weight: bold;
+            @media only screen and (max-width: 480px) {
+                font-size: 20px;
+            }
+        }
+
+        &#bio {
+            align-content: center;
+            .value { margin: 0.5rem; }
+            
+            @media only screen and (max-width: 1000px) { 
+                 font-size: 14px;
+            }
+        }
+
+        &#class-level-proficiency {
+            font-size: 20px;
+            justify-content: space-around;
+            column-gap: 1rem;
+
+            @media only screen and (max-width: 1000px) {
+                font-size: 14px;
+            }
+
+            .character-section { 
+                column-gap: 5px;
+                grid-template-columns: 100px max-content; 
+                @media only screen and (max-width: 480px) {
+                    grid-template-columns: 65px max-content;
+                }
+            }
+
+            #proficiency { grid-row: 1 / span 2; grid-column: 1 / span 1; }
+            #level { grid-row: 1 / span 1; grid-column: 2 / span 1; }
+            #class { grid-row: 2 / span 1; grid-column: 2 / span 1; }
+            #gender { grid-row: 1 / span 1; grid-column: 3 / span 1; }
+            #birthday { grid-row: 2 / span 1; grid-column: 3 / span 1; }
+        }
+
+        &#proficiency {
+            display: flex;
+            grid-template-columns: max-content max-content;
+            justify-content: center;
+            .prof-image {
+                align-self: center;
+                // img { filter: invert(); } IN <style> block within HTML
+            }
+        }
+
+        .character-section > .label { color: $color_primary; text-align: center; }
+
+        &#stats-data {
+            font-size: 20px;
+            grid-template-columns: auto auto;
+            justify-content: space-around;
+
+            .stats-wrapper {
+                display: grid;
+                grid-template-columns: 75px auto;
+                @media only screen and (max-width: 1000px) {
+                    grid-template-columns: 55px auto;
+                }
+            }
+
+            @media only screen and (max-width: 1000px) { 
+                font-size: 14px;
+                column-gap: 10px;
+           }
+
+           #growth-rates .value { font-style: italic; }
+        }
+
+        &#support-data {
+            #likes, #dislikes {
+                justify-content: center;
+                justify-items: center;
+            }
+    
+            #likes-wrapper, #dislikes-wrapper {
+                display: grid;
+                grid-template-columns: auto;
+                align-content: baseline;
+                row-gap: 5px;
+                @media only screen and (max-width: 480px) {
+                    justify-items: center;
+                }
+            }
+
+            #likes { grid-row: 1 / span 1; grid-column: 1 / span 1; }
+            #dislikes { grid-row: 1 / span 1; grid-column: 2 / span 1; }
+            #hobbies { grid-row: 2 / span 1; grid-column: 1 / span 1; }
+            #interests { grid-row: 2 / span 1; grid-column: 2 / span 1; }
+
+        }
+
+
     }
 }
 

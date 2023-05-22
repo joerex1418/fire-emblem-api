@@ -1,5 +1,6 @@
 from .api import get_character
 from .api import get_weapons
+from .api import proficiency
 
 from .database import items
 from .database import materials

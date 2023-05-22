@@ -1,0 +1,104 @@
+
+<div id="image-name-bio" class="character-section">
+    <div id="image" class="character-section">
+        {% for image_file in character_data["image_files"] %}
+        <img src="{{ image_file }}" alt="">
+        {% endfor %}
+    </div>
+    
+    <div id="name" class="character-section">
+        {{ character_data["name"] }}
+    </div>
+
+    <div id="bio" class="character-section">
+        <div class="value">{{ character_data["bio"] }}</div>
+        <div class="value">{{ character_data["personality"] }}</div>
+    </div>
+
+</div>
+
+<div id="class-level-proficiency" class="character-section">
+    <div id="proficiency" class="character-section">
+        {% for filepath in character_data['proficiency_images'] %}
+        <div class="prof-image">
+            <img src="{{filepath}}" alt="">
+        </div>
+        {% endfor %}
+    </div>
+
+    <div id="level" class="character-section">
+        <div class="label">Level:</div>
+        <div class="value">{{ character_data["level"] }}</div>
+    </div>
+
+    <div id="class" class="character-section">
+        <div class="label">Class:</div>
+        <div class="value">{{ character_data["class"] }}</div>
+    </div>
+    
+    <div id="birthday" class="character-section">
+        <div class="label">Birthday:</div>
+        <div class="value">{{ character_data["birthday"] }}</div>
+    </div>
+
+
+    <div id="gender" class="character-section">
+        <div class="label">Gender:</div>
+        <div class="value">{{ character_data["gender"] }}</div>
+    </div>
+
+</div>
+
+<div id="stats-data" class="character-section">
+    
+    <div id="base-stats" class="character-section list">
+        <div class="label">Base Stats</div>
+        <div class="stats-wrapper">
+            {% for key,value in character_data["base_stats"].items() %}
+                <div class="label">{{ key.capitalize() }}</div>
+                <div class="value">{{ value }}</div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div id="growth-rates" class="character-section list">
+        <div class="label">Growth Rates</div>
+        <div class="stats-wrapper">
+            {% for key,value in character_data["growth_rates"].items() %}
+                <div class="label">{{ key.capitalize() }}</div>
+                {% if value != None %}
+                <div class="value">{{ value }}</div>
+                {% else %}
+                <div class="value">-</div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+
+</div>
+
+{% if character_data["name"] != "Alear" %}
+
+<div id="support-data" class="character-section">
+
+    <div id="likes" class="character-section list">
+        <div class="label">Likes</div>
+        <div id="likes-wrapper">
+            {% for item in character_data['likes'] %}
+            <div>{{ item.capitalize() }}</div>
+            {% endfor %}
+        </div>
+    </div>
+    
+    <div id="dislikes" class="character-section list">
+        <div class="label">Dislikes</div>
+        <div id="dislikes-wrapper">
+            {% for item in character_data['dislikes'] %}
+            <div>{{ item.capitalize() }}</div>
+            {% endfor %}
+        </div>
+    </div>
+
+</div>
+    
+{% endif %}

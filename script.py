@@ -48,6 +48,7 @@ def _retrieve_character_images():
 
 # fandom_data = fetch._weapon_data_fandom()
 
-data = fire_emblem.engage.api.get_character
+data = fire_emblem.engage.api.get_character("Diamant")
+console.print_json(data=data)
 
 

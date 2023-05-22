@@ -18,7 +18,7 @@ assets.register('style',scss)
 
 @app.context_processor
 def inject_dict_for_all_templates():
-    content = dict(enumerate=enumerate,range=range)
+    content = dict(enumerate=enumerate,range=range,print=print)
     content["console"] = console
     content["CHARACTER_NAME_MAP"] = engage.CHARACTER_NAME_MAP
     return content
@@ -27,35 +27,29 @@ def inject_dict_for_all_templates():
 def index():
     return render_template('index.html')
 
+@app.route("/engage")
+def fe_engage():
+    character_data = engage.api.get_character("Lapis")
+    character_data["image_files"] = [url_for('static',filename=f'images/engage/characters/{image_file}') for image_file in character_data["image_files"]]
+    character_data["proficiency_images"] = [url_for('static',filename=f'images/engage/icons/{p}.webp') for p in character_data["proficiency_list"]]
+    # console.print(character_data)
+    return render_template("fe-engage.html",character_data=character_data,engage=engage)
+
 @app.route("/engage/characters")
-def engage_charachters():
+def engage_characters():
     return render_template("engage/characters.html")
 
-@app.route("/api/engage")
+@app.route("/api/engage/character")
 def api_engage_character():
-    character_name = request.args.get("name").capitalize()
-    
-    base_stats = [d for d in engage.character_base_stats() if d["name"] == character_name]
-    growth_rates = [d for d in engage.character_growth_rates() if d["name"] == character_name]
-    skills = [d for d in engage.character_skills() if d["character"] == character_name]
-    other = [d for d in engage.character_other_data() if d["name"] == character_name]
-    
-    data = {
-        "base": base_stats[0],
-        "growth_rate": growth_rates[0],
-        "skills": skills[0],
-        "other": other[0],
-        "likes": "",
-        "image_path": url_for('static',filename=f'images/characters/engage/{character_name}.jpg'),
-    }
-    console.print_json(data=data)
-    
-    character_html = render_template("games/engage_character.html",data=data)
-    data["html"] = character_html
-    return jsonify(data)
+    name = request.args.get("name")
+    character_data = engage.api.get_character(name)
+    character_data["image_files"] = [url_for('static',filename=f'images/engage/characters/{image_file}') for image_file in character_data["image_files"]]
+    character_data["proficiency_images"] = [url_for('static',filename=f'images/engage/icons/{p}.webp') for p in character_data["proficiency_list"]]
+    character_data["html"] = render_template("engage/character_container_data.html",character_data=character_data,engage=engage)
+    return jsonify(character_data)
     
 
 host = "10.0.1.250"
-# host = "127.0.0.1"
+host = "127.0.0.1"
 if __name__ == "__main__":
     app.run(host,port=5500,debug=True)

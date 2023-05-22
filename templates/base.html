@@ -12,7 +12,6 @@
     <title>{{ title|default("FE Companion") }}</title>
 </head>
 <body>
-    <!-- <div id="menu-overlay" class="hidden"></div> -->
     {% block content %}{% endblock content %}
     <!-- Load static JavaScript files here -->
     <script src="{{ url_for('static', filename='main.js') }}"></script>
